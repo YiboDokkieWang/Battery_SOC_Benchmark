@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="面向不同电池健康状态的 SOC 估计算法交互式对比平台。" />
+    <title>Battery·LAB · SOC Estimation Studio</title>
+    <link rel="icon" type="image/svg+xml" href="./battery-cell-logo.svg?v=20261024-1" />
+    <link rel="shortcut icon" href="./battery-cell-logo.svg?v=20261024-1" />
+    <link rel="stylesheet" href="./styles.css?v=20261029-research-benchmark" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="回到顶部">
+        <img class="brand-logo" src="./battery-cell-logo.svg?v=20261024-1" alt="" aria-hidden="true" />
+        <span><strong>Battery·LAB</strong><small>SOC ESTIMATION STUDIO</small></span>
+      </a>
+      <div class="topbar-tagline" data-i18n="tagline">看见算法如何估计电池荷电状态</div>
+      <button class="language-toggle" id="languageToggle" type="button" aria-label="Switch language"><strong>中</strong><i></i><span>EN</span></button>
+    </header>
+
+    <main id="top" class="console-main">
+      <section class="method" id="method">
+        <div class="method-copy">
+          <h2 data-i18n="chooseMethod">选择一种 SOC 估计方法</h2>
+          <div class="algorithm-picker"><select id="algorithmCategory" aria-label="算法类别"></select><select id="algorithmSelect" aria-label="具体 SOC 估计算法"></select></div>
+          <p id="algorithmDescription"></p>
+        </div>
+        <div class="equation-card" id="equationCard">
+          <span id="formulaLabelOne" data-i18n="stateUpdate">状态更新</span><p id="formulaOne"></p>
+          <span id="formulaLabelTwo" data-i18n="measurementCorrection">测量校正</span><p id="formulaTwo"></p>
+        </div>
+      </section>
+
+      <section class="workspace" id="experiment">
+        <div class="lab-layout">
+          <aside class="control-panel" id="controlPanel" aria-label="SOC 算法参数设置">
+            <div class="panel-head"><h3 data-i18n="settings">参数配置</h3></div>
+            <fieldset class="battery-state-fields">
+              <div class="distribution-field chemistry-field"><span class="field-label" id="chemistryLabel"><b data-i18n="batteryType">锂电池类型</b><button class="inline-info-button" id="batteryInfoButton" type="button" aria-label="查看电池类型和数据来源" aria-haspopup="dialog" aria-controls="batteryInfoModal">?</button></span><select id="chemistrySelect" aria-labelledby="chemistryLabel"><option value="lfp" data-i18n="chemLfp">磷酸铁锂（LFP）</option><option value="nca" data-i18n="chemNca">镍钴铝（NCA）</option><option value="nmc" data-i18n="chemNmc">镍锰钴（NMC）</option><option value="ncoLco" data-i18n="chemNcoLco">NCO/LCO 混合体系</option></select></div>
+              <div class="distribution-field dataset-field"><span id="datasetLabel" data-i18n="ocvSource">数据源</span><select id="datasetSelect" aria-labelledby="datasetLabel"></select></div>
+              <label class="parameter soh-parameter"><span><b data-i18n="sohLabel">电池健康状态 (SOH)</b><output for="sohSlider" id="sohValue">100.0%</output></span><span class="range-number-row"><span class="soh-range-stack"><input id="sohSlider" type="range" min="60" max="100" step="5" value="100" /><span class="soh-ticks" aria-hidden="true"><span>60</span><span>65</span><span>70</span><span>75</span><span>80</span><span>85</span><span>90</span><span>95</span><span>100</span></span></span><span class="number-entry has-unit"><input id="sohNumber" type="number" min="60" max="100" step="5" value="100" inputmode="decimal" aria-label="SOH数值输入" /><small>%</small></span></span></label>
+            </fieldset>
+            <fieldset class="profile-fields">
+              <label class="distribution-field profile-field"><span data-i18n="profile">测试工况</span><select id="profileSelect"><option value="ccCharge" data-i18n="profileCharge">恒流充电</option><option value="ccDischarge" data-i18n="profileDischarge" selected>恒流放电</option><option value="hppc" data-i18n="profileHppc">HPPC 脉冲工况</option><option value="udds" data-i18n="profileUdds">UDDS 城市循环</option><option value="dst" data-i18n="profileDst">DST 动态应力测试</option></select></label>
+            </fieldset>
+            <section class="parameter-section" aria-labelledby="modelParameterTitle"><h4 id="modelParameterTitle" data-i18n="cellModel">电芯与运行参数</h4><div class="parameter-list boost-parameters" id="modelParameters"></div></section>
+            <section class="parameter-section algorithm-parameter-section" aria-labelledby="algorithmParameterTitle"><h4 id="algorithmParameterTitle" data-i18n="algorithmParams">SOC 估计算法参数</h4><div class="parameter-list algorithm-parameters" id="algorithmParameters"></div></section>
+            <div class="parameter-actions">
+              <button class="parameter-help-button" id="parameterHelpButton" type="button" aria-haspopup="dialog" aria-controls="parameterHelpModal"><span aria-hidden="true">?</span><span>SOC Estimation Algorithm Parameter Guide</span></button>
+              <button class="parameter-reset-button" id="resetAlgorithmButton" type="button"><span aria-hidden="true">↺</span><span data-i18n="reset">参数初始化</span></button>
+            </div>
+            <button class="button run-button" id="runButton" type="button"><span class="play-icon">▶</span><span id="runButtonLabel">运行 SOC 估计</span></button>
+            <button class="text-button" id="downloadButton" type="button" disabled><span data-i18n="downloadCsv">↓ 下载运行数据 CSV</span></button>
+          </aside>
+
+          <div class="visualization-area">
+            <div class="metrics" aria-live="polite">
+              <article><span data-i18n="maxError">误差最大值</span><strong id="metricMaxError">— <small>%</small></strong></article>
+              <article><span data-i18n="rmse">误差 RMS 值</span><strong id="metricRmse">— <small>%</small></strong></article>
+              <article><span data-i18n="meanError">误差平均值</span><strong id="metricMeanError">— <small>%</small></strong></article>
+              <article class="accent"><span data-i18n="mse">误差 M² 值</span><strong id="metricMse">— <small>%²</small></strong></article>
+            </div>
+            <article class="chart-card chart-current"><div class="chart-head"><div><span class="chart-number">A</span><h3 data-i18n="figureA">单体电芯 SOC 测试系统</h3></div><div class="legend"><span><i class="curve-current-line"></i><span data-i18n="powerSensing">功率与传感路径</span></span></div></div><div class="canvas-wrap system-diagram-wrap"><canvas id="systemChart" aria-label="由电芯、控制板、电流传感器和电压传感器组成的SOC测试系统"></canvas></div></article>
+            <article class="chart-card chart-primary"><div class="chart-head"><div><span class="chart-number">B</span><h3 data-i18n="figureB">SOC-OCV曲线</h3></div><div class="legend"><span><i class="curve-current-line"></i><b id="selectedSohLegend">SOH 100%</b></span><span><i class="curve-muted-line"></i><span data-i18n="otherCurves">其他 SOH</span></span></div></div><div class="canvas-wrap"><canvas id="ocvChart" aria-label="不同SOH下的SOC-OCV曲线"></canvas></div></article>
+            <article class="chart-card chart-secondary"><div class="chart-head"><div><span class="chart-number">C</span><h3 data-i18n="figureC">电池工作电流波形</h3></div><div class="particle-legend"><span><i class="current-line"></i>Battery Current</span></div></div><div class="canvas-wrap convergence-wrap"><canvas id="socChart" aria-label="电池电流随时间变化曲线"></canvas></div></article>
+            <article class="chart-card chart-output"><div class="chart-head"><div><span class="chart-number">D</span><h3 data-i18n="figureD">SOC 估计结果与误差</h3></div><div class="output-model-note"><span><i class="truth-line"></i><span data-i18n="truth">真实 SOC</span></span><span><i class="estimate-line"></i><span data-i18n="estimate">估计 SOC</span></span><span><i class="error-line"></i><span data-i18n="estimateError">估计误差</span></span></div></div><div class="canvas-wrap output-wrap"><canvas id="errorChart" aria-label="真实SOC、估计SOC与估计误差随时间变化曲线"></canvas></div></article>
+            <div class="playback" aria-label="动画播放控制"><select id="speed" aria-label="播放速度"><option value="1">1×</option><option value="16">16×</option><option value="32" selected>32×</option><option value="128">128×</option></select><button id="previousButton" aria-label="上一个时间步">←</button><button id="playButton" class="play-toggle" aria-label="播放或暂停">▶</button><button id="nextButton" aria-label="下一个时间步">→</button><input id="timeline" type="range" min="0" max="14400" step="1" value="0" aria-label="运行时间进度" /></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer><span data-i18n="footerText">单体电芯测试台 · 实测多 SOH OCV · 浏览器交互仿真</span></footer>
+    <div class="parameter-help-modal" id="batteryInfoModal" role="dialog" aria-modal="true" aria-labelledby="batteryInfoTitle" hidden><div class="parameter-help-dialog battery-info-dialog" role="document"><header class="parameter-help-header"><div><h2 id="batteryInfoTitle" data-i18n="batteryInfoTitle">锂电池类型与公开数据来源</h2></div><button class="parameter-help-close" id="batteryInfoClose" type="button" aria-label="关闭电池信息">×</button></header><div class="battery-info-grid" id="batteryInfoGrid"></div></div></div>
+    <div class="parameter-help-modal" id="parameterHelpModal" role="dialog" aria-modal="true" aria-labelledby="parameterHelpTitle" hidden><div class="parameter-help-dialog" role="document"><header class="parameter-help-header"><div><h2 id="parameterHelpTitle">SOC Estimation Algorithm Parameter Guide</h2><p id="parameterHelpSubtitle"></p></div><button class="parameter-help-close" id="parameterHelpClose" type="button" aria-label="关闭参数解释">×</button></header><div class="parameter-help-list" id="parameterHelpList"></div><p class="parameter-help-disclaimer" id="parameterHelpDisclaimer" data-i18n="guideDisclaimer">参数影响是面向本教学模型的一般性说明；实际最优值取决于电芯化学体系、温度、传感器噪声、采样率与辨识模型。</p><section class="parameter-help-references"><h3 data-i18n="references">参考文献与公开数据</h3><ol id="parameterHelpReferenceList"></ol></section></div></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <script src="./app.js?v=20261030-waveform-idle" defer></script>
+  </body>
+</html>

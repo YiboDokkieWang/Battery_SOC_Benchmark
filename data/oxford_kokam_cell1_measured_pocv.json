@@ -1,0 +1,7710 @@
+{
+  "title": "Measured multi-SOH pseudo-OCV curves for Oxford Kokam SLPB533459H4 Cell1",
+  "chemistry": "NCO/LCO blended layered-oxide cathode / graphite",
+  "cell": "Kokam SLPB533459H4, 0.74 Ah pouch cell · Cell1",
+  "temperatureC": 40,
+  "dataDoi": "https://doi.org/10.5287/bodleian:KO2kdmYGg",
+  "license": "ODC Open Database License (ODbL) 1.0",
+  "protocol": "C/18.5 (40 mA) pseudo-OCV charge and discharge characterization every 100 Artemis drive cycles.",
+  "processing": "SOH is the measured 1C discharge capacity relative to Cell1 cycle 0. At each measured checkpoint, SOC is normalized by that checkpoint pseudo-OCV capacity and pOCV is the pointwise mean of measured charge and discharge voltage. No SOH degradation equation is used.",
+  "initialCapacityAh": 0.739111,
+  "supportedSohMin": 75,
+  "targets": [
+    100,
+    95,
+    90,
+    85,
+    80,
+    75
+  ],
+  "curves": [
+    {
+      "targetSoh": 100,
+      "measuredSoh": 100,
+      "cycle": 0,
+      "dischargeCapacityAh": 0.739111,
+      "pocvDischargeCapacityAh": 0.73982,
+      "pocvChargeCapacityAh": 0.744988,
+      "points": [
+        {
+          "soc": 0,
+          "ocv": 2.700654,
+          "dischargeVoltage": 2.70006,
+          "chargeVoltage": 2.701248
+        },
+        {
+          "soc": 0.005,
+          "ocv": 2.926198,
+          "dischargeVoltage": 2.904693,
+          "chargeVoltage": 2.947704
+        },
+        {
+          "soc": 0.01,
+          "ocv": 3.022362,
+          "dischargeVoltage": 3.003458,
+          "chargeVoltage": 3.041265
+        },
+        {
+          "soc": 0.015,
+          "ocv": 3.090596,
+          "dischargeVoltage": 3.073639,
+          "chargeVoltage": 3.107553
+        },
+        {
+          "soc": 0.02,
+          "ocv": 3.144202,
+          "dischargeVoltage": 3.128926,
+          "chargeVoltage": 3.159479
+        },
+        {
+          "soc": 0.025,
+          "ocv": 3.188796,
+          "dischargeVoltage": 3.17469,
+          "chargeVoltage": 3.202902
+        },
+        {
+          "soc": 0.03,
+          "ocv": 3.227374,
+          "dischargeVoltage": 3.214064,
+          "chargeVoltage": 3.240685
+        },
+        {
+          "soc": 0.035,
+          "ocv": 3.261361,
+          "dischargeVoltage": 3.248998,
+          "chargeVoltage": 3.273724
+        },
+        {
+          "soc": 0.04,
+          "ocv": 3.29171,
+          "dischargeVoltage": 3.279985,
+          "chargeVoltage": 3.303435
+        },
+        {
+          "soc": 0.045,
+          "ocv": 3.319214,
+          "dischargeVoltage": 3.308104,
+          "chargeVoltage": 3.330324
+        },
+        {
+          "soc": 0.05,
+          "ocv": 3.344564,
+          "dischargeVoltage": 3.334088,
+          "chargeVoltage": 3.35504
+        },
+        {
+          "soc": 0.055,
+          "ocv": 3.367875,
+          "dischargeVoltage": 3.357882,
+          "chargeVoltage": 3.377867
+        },
+        {
+          "soc": 0.06,
+          "ocv": 3.389235,
+          "dischargeVoltage": 3.379592,
+          "chargeVoltage": 3.398878
+        },
+        {
+          "soc": 0.065,
+          "ocv": 3.409314,
+          "dischargeVoltage": 3.399859,
+          "chargeVoltage": 3.418769
+        },
+        {
+          "soc": 0.07,
+          "ocv": 3.427382,
+          "dischargeVoltage": 3.418179,
+          "chargeVoltage": 3.436586
+        },
+        {
+          "soc": 0.075,
+          "ocv": 3.44423,
+          "dischargeVoltage": 3.434893,
+          "chargeVoltage": 3.453566
+        },
+        {
+          "soc": 0.08,
+          "ocv": 3.45864,
+          "dischargeVoltage": 3.448403,
+          "chargeVoltage": 3.468878
+        },
+        {
+          "soc": 0.085,
+          "ocv": 3.470465,
+          "dischargeVoltage": 3.458625,
+          "chargeVoltage": 3.482305
+        },
+        {
+          "soc": 0.09,
+          "ocv": 3.479577,
+          "dischargeVoltage": 3.466453,
+          "chargeVoltage": 3.492702
+        },
+        {
+          "soc": 0.095,
+          "ocv": 3.486587,
+          "dischargeVoltage": 3.473057,
+          "chargeVoltage": 3.500117
+        },
+        {
+          "soc": 0.1,
+          "ocv": 3.492443,
+          "dischargeVoltage": 3.478974,
+          "chargeVoltage": 3.505911
+        },
+        {
+          "soc": 0.105,
+          "ocv": 3.497703,
+          "dischargeVoltage": 3.484328,
+          "chargeVoltage": 3.511078
+        },
+        {
+          "soc": 0.11,
+          "ocv": 3.502863,
+          "dischargeVoltage": 3.489434,
+          "chargeVoltage": 3.516293
+        },
+        {
+          "soc": 0.115,
+          "ocv": 3.507741,
+          "dischargeVoltage": 3.494435,
+          "chargeVoltage": 3.521048
+        },
+        {
+          "soc": 0.12,
+          "ocv": 3.512612,
+          "dischargeVoltage": 3.499042,
+          "chargeVoltage": 3.526182
+        },
+        {
+          "soc": 0.125,
+          "ocv": 3.517434,
+          "dischargeVoltage": 3.503944,
+          "chargeVoltage": 3.530923
+        },
+        {
+          "soc": 0.13,
+          "ocv": 3.522461,
+          "dischargeVoltage": 3.5088,
+          "chargeVoltage": 3.536121
+        },
+        {
+          "soc": 0.135,
+          "ocv": 3.527363,
+          "dischargeVoltage": 3.513335,
+          "chargeVoltage": 3.54139
+        },
+        {
+          "soc": 0.14,
+          "ocv": 3.532772,
+          "dischargeVoltage": 3.518727,
+          "chargeVoltage": 3.546817
+        },
+        {
+          "soc": 0.145,
+          "ocv": 3.538195,
+          "dischargeVoltage": 3.524172,
+          "chargeVoltage": 3.552217
+        },
+        {
+          "soc": 0.15,
+          "ocv": 3.543974,
+          "dischargeVoltage": 3.529861,
+          "chargeVoltage": 3.558087
+        },
+        {
+          "soc": 0.155,
+          "ocv": 3.550318,
+          "dischargeVoltage": 3.536484,
+          "chargeVoltage": 3.564153
+        },
+        {
+          "soc": 0.16,
+          "ocv": 3.556662,
+          "dischargeVoltage": 3.54301,
+          "chargeVoltage": 3.570315
+        },
+        {
+          "soc": 0.165,
+          "ocv": 3.563516,
+          "dischargeVoltage": 3.55026,
+          "chargeVoltage": 3.576772
+        },
+        {
+          "soc": 0.17,
+          "ocv": 3.570457,
+          "dischargeVoltage": 3.557238,
+          "chargeVoltage": 3.583676
+        },
+        {
+          "soc": 0.175,
+          "ocv": 3.57736,
+          "dischargeVoltage": 3.563934,
+          "chargeVoltage": 3.590786
+        },
+        {
+          "soc": 0.18,
+          "ocv": 3.584096,
+          "dischargeVoltage": 3.570444,
+          "chargeVoltage": 3.597747
+        },
+        {
+          "soc": 0.185,
+          "ocv": 3.590951,
+          "dischargeVoltage": 3.577025,
+          "chargeVoltage": 3.604878
+        },
+        {
+          "soc": 0.19,
+          "ocv": 3.597969,
+          "dischargeVoltage": 3.583311,
+          "chargeVoltage": 3.612627
+        },
+        {
+          "soc": 0.195,
+          "ocv": 3.604968,
+          "dischargeVoltage": 3.589886,
+          "chargeVoltage": 3.62005
+        },
+        {
+          "soc": 0.2,
+          "ocv": 3.612323,
+          "dischargeVoltage": 3.596637,
+          "chargeVoltage": 3.628009
+        },
+        {
+          "soc": 0.205,
+          "ocv": 3.619439,
+          "dischargeVoltage": 3.603169,
+          "chargeVoltage": 3.635709
+        },
+        {
+          "soc": 0.21,
+          "ocv": 3.626823,
+          "dischargeVoltage": 3.609977,
+          "chargeVoltage": 3.64367
+        },
+        {
+          "soc": 0.215,
+          "ocv": 3.634468,
+          "dischargeVoltage": 3.617105,
+          "chargeVoltage": 3.651831
+        },
+        {
+          "soc": 0.22,
+          "ocv": 3.641749,
+          "dischargeVoltage": 3.623957,
+          "chargeVoltage": 3.65954
+        },
+        {
+          "soc": 0.225,
+          "ocv": 3.64917,
+          "dischargeVoltage": 3.631182,
+          "chargeVoltage": 3.667157
+        },
+        {
+          "soc": 0.23,
+          "ocv": 3.656592,
+          "dischargeVoltage": 3.638454,
+          "chargeVoltage": 3.67473
+        },
+        {
+          "soc": 0.235,
+          "ocv": 3.663821,
+          "dischargeVoltage": 3.64545,
+          "chargeVoltage": 3.682192
+        },
+        {
+          "soc": 0.24,
+          "ocv": 3.670814,
+          "dischargeVoltage": 3.652271,
+          "chargeVoltage": 3.689357
+        },
+        {
+          "soc": 0.245,
+          "ocv": 3.677538,
+          "dischargeVoltage": 3.658936,
+          "chargeVoltage": 3.696139
+        },
+        {
+          "soc": 0.25,
+          "ocv": 3.68412,
+          "dischargeVoltage": 3.665344,
+          "chargeVoltage": 3.702896
+        },
+        {
+          "soc": 0.255,
+          "ocv": 3.690261,
+          "dischargeVoltage": 3.67145,
+          "chargeVoltage": 3.709073
+        },
+        {
+          "soc": 0.26,
+          "ocv": 3.695974,
+          "dischargeVoltage": 3.677093,
+          "chargeVoltage": 3.714854
+        },
+        {
+          "soc": 0.265,
+          "ocv": 3.701192,
+          "dischargeVoltage": 3.682222,
+          "chargeVoltage": 3.720163
+        },
+        {
+          "soc": 0.27,
+          "ocv": 3.706299,
+          "dischargeVoltage": 3.687271,
+          "chargeVoltage": 3.725326
+        },
+        {
+          "soc": 0.275,
+          "ocv": 3.711372,
+          "dischargeVoltage": 3.692213,
+          "chargeVoltage": 3.730531
+        },
+        {
+          "soc": 0.28,
+          "ocv": 3.716322,
+          "dischargeVoltage": 3.696929,
+          "chargeVoltage": 3.735715
+        },
+        {
+          "soc": 0.285,
+          "ocv": 3.721232,
+          "dischargeVoltage": 3.701469,
+          "chargeVoltage": 3.740995
+        },
+        {
+          "soc": 0.29,
+          "ocv": 3.726184,
+          "dischargeVoltage": 3.706139,
+          "chargeVoltage": 3.746228
+        },
+        {
+          "soc": 0.295,
+          "ocv": 3.73095,
+          "dischargeVoltage": 3.710729,
+          "chargeVoltage": 3.751171
+        },
+        {
+          "soc": 0.3,
+          "ocv": 3.73543,
+          "dischargeVoltage": 3.715036,
+          "chargeVoltage": 3.755823
+        },
+        {
+          "soc": 0.305,
+          "ocv": 3.739247,
+          "dischargeVoltage": 3.718792,
+          "chargeVoltage": 3.759702
+        },
+        {
+          "soc": 0.31,
+          "ocv": 3.742826,
+          "dischargeVoltage": 3.722421,
+          "chargeVoltage": 3.763231
+        },
+        {
+          "soc": 0.315,
+          "ocv": 3.745483,
+          "dischargeVoltage": 3.725255,
+          "chargeVoltage": 3.765711
+        },
+        {
+          "soc": 0.32,
+          "ocv": 3.748163,
+          "dischargeVoltage": 3.727953,
+          "chargeVoltage": 3.768373
+        },
+        {
+          "soc": 0.325,
+          "ocv": 3.75039,
+          "dischargeVoltage": 3.730491,
+          "chargeVoltage": 3.770289
+        },
+        {
+          "soc": 0.33,
+          "ocv": 3.752116,
+          "dischargeVoltage": 3.732331,
+          "chargeVoltage": 3.771901
+        },
+        {
+          "soc": 0.335,
+          "ocv": 3.75394,
+          "dischargeVoltage": 3.734622,
+          "chargeVoltage": 3.773257
+        },
+        {
+          "soc": 0.34,
+          "ocv": 3.75558,
+          "dischargeVoltage": 3.736552,
+          "chargeVoltage": 3.774608
+        },
+        {
+          "soc": 0.345,
+          "ocv": 3.757227,
+          "dischargeVoltage": 3.738417,
+          "chargeVoltage": 3.776037
+        },
+        {
+          "soc": 0.35,
+          "ocv": 3.758723,
+          "dischargeVoltage": 3.740372,
+          "chargeVoltage": 3.777074
+        },
+        {
+          "soc": 0.355,
+          "ocv": 3.760336,
+          "dischargeVoltage": 3.742411,
+          "chargeVoltage": 3.77826
+        },
+        {
+          "soc": 0.36,
+          "ocv": 3.761905,
+          "dischargeVoltage": 3.744253,
+          "chargeVoltage": 3.779556
+        },
+        {
+          "soc": 0.365,
+          "ocv": 3.763351,
+          "dischargeVoltage": 3.746156,
+          "chargeVoltage": 3.780547
+        },
+        {
+          "soc": 0.37,
+          "ocv": 3.764864,
+          "dischargeVoltage": 3.748124,
+          "chargeVoltage": 3.781603
+        },
+        {
+          "soc": 0.375,
+          "ocv": 3.766277,
+          "dischargeVoltage": 3.750118,
+          "chargeVoltage": 3.782435
+        },
+        {
+          "soc": 0.38,
+          "ocv": 3.767695,
+          "dischargeVoltage": 3.752221,
+          "chargeVoltage": 3.78317
+        },
+        {
+          "soc": 0.385,
+          "ocv": 3.76945,
+          "dischargeVoltage": 3.754765,
+          "chargeVoltage": 3.784135
+        },
+        {
+          "soc": 0.39,
+          "ocv": 3.770841,
+          "dischargeVoltage": 3.757096,
+          "chargeVoltage": 3.784587
+        },
+        {
+          "soc": 0.395,
+          "ocv": 3.772375,
+          "dischargeVoltage": 3.759613,
+          "chargeVoltage": 3.785137
+        },
+        {
+          "soc": 0.4,
+          "ocv": 3.773582,
+          "dischargeVoltage": 3.761837,
+          "chargeVoltage": 3.785327
+        },
+        {
+          "soc": 0.405,
+          "ocv": 3.77472,
+          "dischargeVoltage": 3.76343,
+          "chargeVoltage": 3.78601
+        },
+        {
+          "soc": 0.41,
+          "ocv": 3.775504,
+          "dischargeVoltage": 3.764788,
+          "chargeVoltage": 3.786219
+        },
+        {
+          "soc": 0.415,
+          "ocv": 3.776246,
+          "dischargeVoltage": 3.765728,
+          "chargeVoltage": 3.786763
+        },
+        {
+          "soc": 0.42,
+          "ocv": 3.776621,
+          "dischargeVoltage": 3.76612,
+          "chargeVoltage": 3.787122
+        },
+        {
+          "soc": 0.425,
+          "ocv": 3.77727,
+          "dischargeVoltage": 3.766976,
+          "chargeVoltage": 3.787563
+        },
+        {
+          "soc": 0.43,
+          "ocv": 3.777838,
+          "dischargeVoltage": 3.767671,
+          "chargeVoltage": 3.788006
+        },
+        {
+          "soc": 0.435,
+          "ocv": 3.778328,
+          "dischargeVoltage": 3.76816,
+          "chargeVoltage": 3.788497
+        },
+        {
+          "soc": 0.44,
+          "ocv": 3.778801,
+          "dischargeVoltage": 3.768847,
+          "chargeVoltage": 3.788755
+        },
+        {
+          "soc": 0.445,
+          "ocv": 3.779529,
+          "dischargeVoltage": 3.769509,
+          "chargeVoltage": 3.789549
+        },
+        {
+          "soc": 0.45,
+          "ocv": 3.780138,
+          "dischargeVoltage": 3.770115,
+          "chargeVoltage": 3.79016
+        },
+        {
+          "soc": 0.455,
+          "ocv": 3.780628,
+          "dischargeVoltage": 3.770573,
+          "chargeVoltage": 3.790682
+        },
+        {
+          "soc": 0.46,
+          "ocv": 3.781535,
+          "dischargeVoltage": 3.771491,
+          "chargeVoltage": 3.791579
+        },
+        {
+          "soc": 0.465,
+          "ocv": 3.782309,
+          "dischargeVoltage": 3.772319,
+          "chargeVoltage": 3.792299
+        },
+        {
+          "soc": 0.47,
+          "ocv": 3.78337,
+          "dischargeVoltage": 3.773494,
+          "chargeVoltage": 3.793245
+        },
+        {
+          "soc": 0.475,
+          "ocv": 3.78434,
+          "dischargeVoltage": 3.774449,
+          "chargeVoltage": 3.79423
+        },
+        {
+          "soc": 0.48,
+          "ocv": 3.785358,
+          "dischargeVoltage": 3.775509,
+          "chargeVoltage": 3.795207
+        },
+        {
+          "soc": 0.485,
+          "ocv": 3.786526,
+          "dischargeVoltage": 3.776937,
+          "chargeVoltage": 3.796115
+        },
+        {
+          "soc": 0.49,
+          "ocv": 3.787849,
+          "dischargeVoltage": 3.778253,
+          "chargeVoltage": 3.797445
+        },
+        {
+          "soc": 0.495,
+          "ocv": 3.789014,
+          "dischargeVoltage": 3.779513,
+          "chargeVoltage": 3.798515
+        },
+        {
+          "soc": 0.5,
+          "ocv": 3.790621,
+          "dischargeVoltage": 3.781069,
+          "chargeVoltage": 3.800173
+        },
+        {
+          "soc": 0.505,
+          "ocv": 3.79186,
+          "dischargeVoltage": 3.782592,
+          "chargeVoltage": 3.801128
+        },
+        {
+          "soc": 0.51,
+          "ocv": 3.793486,
+          "dischargeVoltage": 3.784201,
+          "chargeVoltage": 3.802771
+        },
+        {
+          "soc": 0.515,
+          "ocv": 3.794952,
+          "dischargeVoltage": 3.785769,
+          "chargeVoltage": 3.804135
+        },
+        {
+          "soc": 0.52,
+          "ocv": 3.796526,
+          "dischargeVoltage": 3.787312,
+          "chargeVoltage": 3.80574
+        },
+        {
+          "soc": 0.525,
+          "ocv": 3.79826,
+          "dischargeVoltage": 3.789134,
+          "chargeVoltage": 3.807386
+        },
+        {
+          "soc": 0.53,
+          "ocv": 3.800182,
+          "dischargeVoltage": 3.791129,
+          "chargeVoltage": 3.809235
+        },
+        {
+          "soc": 0.535,
+          "ocv": 3.801899,
+          "dischargeVoltage": 3.792766,
+          "chargeVoltage": 3.811033
+        },
+        {
+          "soc": 0.54,
+          "ocv": 3.803792,
+          "dischargeVoltage": 3.794667,
+          "chargeVoltage": 3.812917
+        },
+        {
+          "soc": 0.545,
+          "ocv": 3.805772,
+          "dischargeVoltage": 3.796597,
+          "chargeVoltage": 3.814947
+        },
+        {
+          "soc": 0.55,
+          "ocv": 3.807784,
+          "dischargeVoltage": 3.798672,
+          "chargeVoltage": 3.816897
+        },
+        {
+          "soc": 0.555,
+          "ocv": 3.809795,
+          "dischargeVoltage": 3.800685,
+          "chargeVoltage": 3.818906
+        },
+        {
+          "soc": 0.56,
+          "ocv": 3.811972,
+          "dischargeVoltage": 3.802828,
+          "chargeVoltage": 3.821115
+        },
+        {
+          "soc": 0.565,
+          "ocv": 3.814023,
+          "dischargeVoltage": 3.804816,
+          "chargeVoltage": 3.823231
+        },
+        {
+          "soc": 0.57,
+          "ocv": 3.81624,
+          "dischargeVoltage": 3.806947,
+          "chargeVoltage": 3.825533
+        },
+        {
+          "soc": 0.575,
+          "ocv": 3.818321,
+          "dischargeVoltage": 3.80897,
+          "chargeVoltage": 3.827672
+        },
+        {
+          "soc": 0.58,
+          "ocv": 3.820774,
+          "dischargeVoltage": 3.811529,
+          "chargeVoltage": 3.830018
+        },
+        {
+          "soc": 0.585,
+          "ocv": 3.822994,
+          "dischargeVoltage": 3.813552,
+          "chargeVoltage": 3.832437
+        },
+        {
+          "soc": 0.59,
+          "ocv": 3.825437,
+          "dischargeVoltage": 3.815994,
+          "chargeVoltage": 3.834881
+        },
+        {
+          "soc": 0.595,
+          "ocv": 3.827803,
+          "dischargeVoltage": 3.81845,
+          "chargeVoltage": 3.837157
+        },
+        {
+          "soc": 0.6,
+          "ocv": 3.830254,
+          "dischargeVoltage": 3.820894,
+          "chargeVoltage": 3.839615
+        },
+        {
+          "soc": 0.605,
+          "ocv": 3.83274,
+          "dischargeVoltage": 3.823076,
+          "chargeVoltage": 3.842403
+        },
+        {
+          "soc": 0.61,
+          "ocv": 3.835347,
+          "dischargeVoltage": 3.82575,
+          "chargeVoltage": 3.844945
+        },
+        {
+          "soc": 0.615,
+          "ocv": 3.837876,
+          "dischargeVoltage": 3.82815,
+          "chargeVoltage": 3.847602
+        },
+        {
+          "soc": 0.62,
+          "ocv": 3.840501,
+          "dischargeVoltage": 3.830961,
+          "chargeVoltage": 3.850041
+        },
+        {
+          "soc": 0.625,
+          "ocv": 3.84312,
+          "dischargeVoltage": 3.83345,
+          "chargeVoltage": 3.852789
+        },
+        {
+          "soc": 0.63,
+          "ocv": 3.845918,
+          "dischargeVoltage": 3.836236,
+          "chargeVoltage": 3.855599
+        },
+        {
+          "soc": 0.635,
+          "ocv": 3.848589,
+          "dischargeVoltage": 3.838823,
+          "chargeVoltage": 3.858356
+        },
+        {
+          "soc": 0.64,
+          "ocv": 3.851317,
+          "dischargeVoltage": 3.841397,
+          "chargeVoltage": 3.861238
+        },
+        {
+          "soc": 0.645,
+          "ocv": 3.854241,
+          "dischargeVoltage": 3.844269,
+          "chargeVoltage": 3.864213
+        },
+        {
+          "soc": 0.65,
+          "ocv": 3.856961,
+          "dischargeVoltage": 3.846936,
+          "chargeVoltage": 3.866985
+        },
+        {
+          "soc": 0.655,
+          "ocv": 3.859969,
+          "dischargeVoltage": 3.849897,
+          "chargeVoltage": 3.870041
+        },
+        {
+          "soc": 0.66,
+          "ocv": 3.862844,
+          "dischargeVoltage": 3.852809,
+          "chargeVoltage": 3.872879
+        },
+        {
+          "soc": 0.665,
+          "ocv": 3.865911,
+          "dischargeVoltage": 3.855734,
+          "chargeVoltage": 3.876088
+        },
+        {
+          "soc": 0.67,
+          "ocv": 3.868854,
+          "dischargeVoltage": 3.858702,
+          "chargeVoltage": 3.879006
+        },
+        {
+          "soc": 0.675,
+          "ocv": 3.871917,
+          "dischargeVoltage": 3.861638,
+          "chargeVoltage": 3.882196
+        },
+        {
+          "soc": 0.68,
+          "ocv": 3.875003,
+          "dischargeVoltage": 3.864652,
+          "chargeVoltage": 3.885353
+        },
+        {
+          "soc": 0.685,
+          "ocv": 3.878192,
+          "dischargeVoltage": 3.867647,
+          "chargeVoltage": 3.888738
+        },
+        {
+          "soc": 0.69,
+          "ocv": 3.881377,
+          "dischargeVoltage": 3.870816,
+          "chargeVoltage": 3.891937
+        },
+        {
+          "soc": 0.695,
+          "ocv": 3.884723,
+          "dischargeVoltage": 3.874054,
+          "chargeVoltage": 3.895391
+        },
+        {
+          "soc": 0.7,
+          "ocv": 3.888056,
+          "dischargeVoltage": 3.877351,
+          "chargeVoltage": 3.898762
+        },
+        {
+          "soc": 0.705,
+          "ocv": 3.891399,
+          "dischargeVoltage": 3.880522,
+          "chargeVoltage": 3.902276
+        },
+        {
+          "soc": 0.71,
+          "ocv": 3.894793,
+          "dischargeVoltage": 3.883903,
+          "chargeVoltage": 3.905684
+        },
+        {
+          "soc": 0.715,
+          "ocv": 3.898318,
+          "dischargeVoltage": 3.887166,
+          "chargeVoltage": 3.909471
+        },
+        {
+          "soc": 0.72,
+          "ocv": 3.902016,
+          "dischargeVoltage": 3.890955,
+          "chargeVoltage": 3.913077
+        },
+        {
+          "soc": 0.725,
+          "ocv": 3.905615,
+          "dischargeVoltage": 3.894401,
+          "chargeVoltage": 3.916829
+        },
+        {
+          "soc": 0.73,
+          "ocv": 3.909415,
+          "dischargeVoltage": 3.898028,
+          "chargeVoltage": 3.920802
+        },
+        {
+          "soc": 0.735,
+          "ocv": 3.913103,
+          "dischargeVoltage": 3.901715,
+          "chargeVoltage": 3.924491
+        },
+        {
+          "soc": 0.74,
+          "ocv": 3.917048,
+          "dischargeVoltage": 3.90548,
+          "chargeVoltage": 3.928615
+        },
+        {
+          "soc": 0.745,
+          "ocv": 3.920997,
+          "dischargeVoltage": 3.909342,
+          "chargeVoltage": 3.932653
+        },
+        {
+          "soc": 0.75,
+          "ocv": 3.925007,
+          "dischargeVoltage": 3.913153,
+          "chargeVoltage": 3.936862
+        },
+        {
+          "soc": 0.755,
+          "ocv": 3.929388,
+          "dischargeVoltage": 3.917495,
+          "chargeVoltage": 3.941282
+        },
+        {
+          "soc": 0.76,
+          "ocv": 3.933701,
+          "dischargeVoltage": 3.921736,
+          "chargeVoltage": 3.945665
+        },
+        {
+          "soc": 0.765,
+          "ocv": 3.938127,
+          "dischargeVoltage": 3.926101,
+          "chargeVoltage": 3.950153
+        },
+        {
+          "soc": 0.77,
+          "ocv": 3.942792,
+          "dischargeVoltage": 3.930478,
+          "chargeVoltage": 3.955105
+        },
+        {
+          "soc": 0.775,
+          "ocv": 3.947712,
+          "dischargeVoltage": 3.935456,
+          "chargeVoltage": 3.959967
+        },
+        {
+          "soc": 0.78,
+          "ocv": 3.952736,
+          "dischargeVoltage": 3.940392,
+          "chargeVoltage": 3.965081
+        },
+        {
+          "soc": 0.785,
+          "ocv": 3.95816,
+          "dischargeVoltage": 3.945863,
+          "chargeVoltage": 3.970457
+        },
+        {
+          "soc": 0.79,
+          "ocv": 3.963904,
+          "dischargeVoltage": 3.951742,
+          "chargeVoltage": 3.976065
+        },
+        {
+          "soc": 0.795,
+          "ocv": 3.969955,
+          "dischargeVoltage": 3.958125,
+          "chargeVoltage": 3.981785
+        },
+        {
+          "soc": 0.8,
+          "ocv": 3.976061,
+          "dischargeVoltage": 3.964506,
+          "chargeVoltage": 3.987616
+        },
+        {
+          "soc": 0.805,
+          "ocv": 3.98227,
+          "dischargeVoltage": 3.971328,
+          "chargeVoltage": 3.993212
+        },
+        {
+          "soc": 0.81,
+          "ocv": 3.988526,
+          "dischargeVoltage": 3.978038,
+          "chargeVoltage": 3.999014
+        },
+        {
+          "soc": 0.815,
+          "ocv": 3.994386,
+          "dischargeVoltage": 3.984368,
+          "chargeVoltage": 4.004404
+        },
+        {
+          "soc": 0.82,
+          "ocv": 4.000172,
+          "dischargeVoltage": 3.990487,
+          "chargeVoltage": 4.009857
+        },
+        {
+          "soc": 0.825,
+          "ocv": 4.005586,
+          "dischargeVoltage": 3.995982,
+          "chargeVoltage": 4.015189
+        },
+        {
+          "soc": 0.83,
+          "ocv": 4.010913,
+          "dischargeVoltage": 4.001609,
+          "chargeVoltage": 4.020218
+        },
+        {
+          "soc": 0.835,
+          "ocv": 4.016113,
+          "dischargeVoltage": 4.006836,
+          "chargeVoltage": 4.02539
+        },
+        {
+          "soc": 0.84,
+          "ocv": 4.021438,
+          "dischargeVoltage": 4.012234,
+          "chargeVoltage": 4.030643
+        },
+        {
+          "soc": 0.845,
+          "ocv": 4.026499,
+          "dischargeVoltage": 4.017382,
+          "chargeVoltage": 4.035615
+        },
+        {
+          "soc": 0.85,
+          "ocv": 4.031878,
+          "dischargeVoltage": 4.022722,
+          "chargeVoltage": 4.041034
+        },
+        {
+          "soc": 0.855,
+          "ocv": 4.037284,
+          "dischargeVoltage": 4.028382,
+          "chargeVoltage": 4.046185
+        },
+        {
+          "soc": 0.86,
+          "ocv": 4.042539,
+          "dischargeVoltage": 4.033685,
+          "chargeVoltage": 4.051393
+        },
+        {
+          "soc": 0.865,
+          "ocv": 4.047615,
+          "dischargeVoltage": 4.038836,
+          "chargeVoltage": 4.056393
+        },
+        {
+          "soc": 0.87,
+          "ocv": 4.052781,
+          "dischargeVoltage": 4.044355,
+          "chargeVoltage": 4.061208
+        },
+        {
+          "soc": 0.875,
+          "ocv": 4.057711,
+          "dischargeVoltage": 4.049342,
+          "chargeVoltage": 4.066079
+        },
+        {
+          "soc": 0.88,
+          "ocv": 4.06245,
+          "dischargeVoltage": 4.054318,
+          "chargeVoltage": 4.070581
+        },
+        {
+          "soc": 0.885,
+          "ocv": 4.066927,
+          "dischargeVoltage": 4.058708,
+          "chargeVoltage": 4.075146
+        },
+        {
+          "soc": 0.89,
+          "ocv": 4.071478,
+          "dischargeVoltage": 4.063443,
+          "chargeVoltage": 4.079512
+        },
+        {
+          "soc": 0.895,
+          "ocv": 4.076168,
+          "dischargeVoltage": 4.068232,
+          "chargeVoltage": 4.084104
+        },
+        {
+          "soc": 0.9,
+          "ocv": 4.080947,
+          "dischargeVoltage": 4.073253,
+          "chargeVoltage": 4.088641
+        },
+        {
+          "soc": 0.905,
+          "ocv": 4.085558,
+          "dischargeVoltage": 4.077982,
+          "chargeVoltage": 4.093134
+        },
+        {
+          "soc": 0.91,
+          "ocv": 4.090707,
+          "dischargeVoltage": 4.083121,
+          "chargeVoltage": 4.098292
+        },
+        {
+          "soc": 0.915,
+          "ocv": 4.09544,
+          "dischargeVoltage": 4.088021,
+          "chargeVoltage": 4.102858
+        },
+        {
+          "soc": 0.92,
+          "ocv": 4.100327,
+          "dischargeVoltage": 4.092868,
+          "chargeVoltage": 4.107787
+        },
+        {
+          "soc": 0.925,
+          "ocv": 4.105393,
+          "dischargeVoltage": 4.098193,
+          "chargeVoltage": 4.112593
+        },
+        {
+          "soc": 0.93,
+          "ocv": 4.110429,
+          "dischargeVoltage": 4.103204,
+          "chargeVoltage": 4.117653
+        },
+        {
+          "soc": 0.935,
+          "ocv": 4.115477,
+          "dischargeVoltage": 4.108222,
+          "chargeVoltage": 4.122733
+        },
+        {
+          "soc": 0.94,
+          "ocv": 4.120716,
+          "dischargeVoltage": 4.11363,
+          "chargeVoltage": 4.127801
+        },
+        {
+          "soc": 0.945,
+          "ocv": 4.126043,
+          "dischargeVoltage": 4.118757,
+          "chargeVoltage": 4.133328
+        },
+        {
+          "soc": 0.95,
+          "ocv": 4.131636,
+          "dischargeVoltage": 4.124386,
+          "chargeVoltage": 4.138886
+        },
+        {
+          "soc": 0.955,
+          "ocv": 4.137236,
+          "dischargeVoltage": 4.130035,
+          "chargeVoltage": 4.144437
+        },
+        {
+          "soc": 0.96,
+          "ocv": 4.142972,
+          "dischargeVoltage": 4.135735,
+          "chargeVoltage": 4.150209
+        },
+        {
+          "soc": 0.965,
+          "ocv": 4.148775,
+          "dischargeVoltage": 4.141723,
+          "chargeVoltage": 4.155827
+        },
+        {
+          "soc": 0.97,
+          "ocv": 4.154807,
+          "dischargeVoltage": 4.147826,
+          "chargeVoltage": 4.161788
+        },
+        {
+          "soc": 0.975,
+          "ocv": 4.160723,
+          "dischargeVoltage": 4.153784,
+          "chargeVoltage": 4.167662
+        },
+        {
+          "soc": 0.98,
+          "ocv": 4.167164,
+          "dischargeVoltage": 4.160237,
+          "chargeVoltage": 4.174092
+        },
+        {
+          "soc": 0.985,
+          "ocv": 4.173499,
+          "dischargeVoltage": 4.166695,
+          "chargeVoltage": 4.180302
+        },
+        {
+          "soc": 0.99,
+          "ocv": 4.179896,
+          "dischargeVoltage": 4.173091,
+          "chargeVoltage": 4.186701
+        },
+        {
+          "soc": 0.995,
+          "ocv": 4.186679,
+          "dischargeVoltage": 4.179881,
+          "chargeVoltage": 4.193477
+        },
+        {
+          "soc": 1,
+          "ocv": 4.194403,
+          "dischargeVoltage": 4.188949,
+          "chargeVoltage": 4.199857
+        }
+      ]
+    },
+    {
+      "targetSoh": 95,
+      "measuredSoh": 95.052712,
+      "cycle": 900,
+      "dischargeCapacityAh": 0.702545,
+      "pocvDischargeCapacityAh": 0.707476,
+      "pocvChargeCapacityAh": 0.70982,
+      "points": [
+        {
+          "soc": 0,
+          "ocv": 2.701067,
+          "dischargeVoltage": 2.699924,
+          "chargeVoltage": 2.702209
+        },
+        {
+          "soc": 0.005,
+          "ocv": 2.938143,
+          "dischargeVoltage": 2.915273,
+          "chargeVoltage": 2.961014
+        },
+        {
+          "soc": 0.01,
+          "ocv": 3.036083,
+          "dischargeVoltage": 3.017121,
+          "chargeVoltage": 3.055044
+        },
+        {
+          "soc": 0.015,
+          "ocv": 3.103964,
+          "dischargeVoltage": 3.087104,
+          "chargeVoltage": 3.120824
+        },
+        {
+          "soc": 0.02,
+          "ocv": 3.157331,
+          "dischargeVoltage": 3.141993,
+          "chargeVoltage": 3.172668
+        },
+        {
+          "soc": 0.025,
+          "ocv": 3.201799,
+          "dischargeVoltage": 3.187671,
+          "chargeVoltage": 3.215928
+        },
+        {
+          "soc": 0.03,
+          "ocv": 3.239882,
+          "dischargeVoltage": 3.226728,
+          "chargeVoltage": 3.253035
+        },
+        {
+          "soc": 0.035,
+          "ocv": 3.273334,
+          "dischargeVoltage": 3.26076,
+          "chargeVoltage": 3.285908
+        },
+        {
+          "soc": 0.04,
+          "ocv": 3.303391,
+          "dischargeVoltage": 3.291359,
+          "chargeVoltage": 3.315422
+        },
+        {
+          "soc": 0.045,
+          "ocv": 3.330649,
+          "dischargeVoltage": 3.318891,
+          "chargeVoltage": 3.342408
+        },
+        {
+          "soc": 0.05,
+          "ocv": 3.355425,
+          "dischargeVoltage": 3.344076,
+          "chargeVoltage": 3.366774
+        },
+        {
+          "soc": 0.055,
+          "ocv": 3.37846,
+          "dischargeVoltage": 3.367295,
+          "chargeVoltage": 3.389625
+        },
+        {
+          "soc": 0.06,
+          "ocv": 3.39948,
+          "dischargeVoltage": 3.388555,
+          "chargeVoltage": 3.410406
+        },
+        {
+          "soc": 0.065,
+          "ocv": 3.419126,
+          "dischargeVoltage": 3.408346,
+          "chargeVoltage": 3.429906
+        },
+        {
+          "soc": 0.07,
+          "ocv": 3.437222,
+          "dischargeVoltage": 3.426367,
+          "chargeVoltage": 3.448076
+        },
+        {
+          "soc": 0.075,
+          "ocv": 3.453355,
+          "dischargeVoltage": 3.442171,
+          "chargeVoltage": 3.464539
+        },
+        {
+          "soc": 0.08,
+          "ocv": 3.46764,
+          "dischargeVoltage": 3.455509,
+          "chargeVoltage": 3.47977
+        },
+        {
+          "soc": 0.085,
+          "ocv": 3.479823,
+          "dischargeVoltage": 3.466653,
+          "chargeVoltage": 3.492994
+        },
+        {
+          "soc": 0.09,
+          "ocv": 3.489837,
+          "dischargeVoltage": 3.475988,
+          "chargeVoltage": 3.503685
+        },
+        {
+          "soc": 0.095,
+          "ocv": 3.498537,
+          "dischargeVoltage": 3.484051,
+          "chargeVoltage": 3.513023
+        },
+        {
+          "soc": 0.1,
+          "ocv": 3.50583,
+          "dischargeVoltage": 3.491105,
+          "chargeVoltage": 3.520556
+        },
+        {
+          "soc": 0.105,
+          "ocv": 3.512511,
+          "dischargeVoltage": 3.497855,
+          "chargeVoltage": 3.527168
+        },
+        {
+          "soc": 0.11,
+          "ocv": 3.51876,
+          "dischargeVoltage": 3.504075,
+          "chargeVoltage": 3.533444
+        },
+        {
+          "soc": 0.115,
+          "ocv": 3.524724,
+          "dischargeVoltage": 3.509879,
+          "chargeVoltage": 3.539569
+        },
+        {
+          "soc": 0.12,
+          "ocv": 3.530479,
+          "dischargeVoltage": 3.515669,
+          "chargeVoltage": 3.54529
+        },
+        {
+          "soc": 0.125,
+          "ocv": 3.536441,
+          "dischargeVoltage": 3.5214,
+          "chargeVoltage": 3.551481
+        },
+        {
+          "soc": 0.13,
+          "ocv": 3.542215,
+          "dischargeVoltage": 3.527221,
+          "chargeVoltage": 3.55721
+        },
+        {
+          "soc": 0.135,
+          "ocv": 3.548104,
+          "dischargeVoltage": 3.53308,
+          "chargeVoltage": 3.563129
+        },
+        {
+          "soc": 0.14,
+          "ocv": 3.554039,
+          "dischargeVoltage": 3.53878,
+          "chargeVoltage": 3.569297
+        },
+        {
+          "soc": 0.145,
+          "ocv": 3.56016,
+          "dischargeVoltage": 3.544996,
+          "chargeVoltage": 3.575324
+        },
+        {
+          "soc": 0.15,
+          "ocv": 3.566432,
+          "dischargeVoltage": 3.551075,
+          "chargeVoltage": 3.581789
+        },
+        {
+          "soc": 0.155,
+          "ocv": 3.573001,
+          "dischargeVoltage": 3.55755,
+          "chargeVoltage": 3.588452
+        },
+        {
+          "soc": 0.16,
+          "ocv": 3.579498,
+          "dischargeVoltage": 3.563966,
+          "chargeVoltage": 3.59503
+        },
+        {
+          "soc": 0.165,
+          "ocv": 3.586123,
+          "dischargeVoltage": 3.570532,
+          "chargeVoltage": 3.601714
+        },
+        {
+          "soc": 0.17,
+          "ocv": 3.592846,
+          "dischargeVoltage": 3.57709,
+          "chargeVoltage": 3.608603
+        },
+        {
+          "soc": 0.175,
+          "ocv": 3.59976,
+          "dischargeVoltage": 3.584003,
+          "chargeVoltage": 3.615516
+        },
+        {
+          "soc": 0.18,
+          "ocv": 3.606754,
+          "dischargeVoltage": 3.590918,
+          "chargeVoltage": 3.622591
+        },
+        {
+          "soc": 0.185,
+          "ocv": 3.613785,
+          "dischargeVoltage": 3.597451,
+          "chargeVoltage": 3.630119
+        },
+        {
+          "soc": 0.19,
+          "ocv": 3.620979,
+          "dischargeVoltage": 3.604413,
+          "chargeVoltage": 3.637545
+        },
+        {
+          "soc": 0.195,
+          "ocv": 3.628197,
+          "dischargeVoltage": 3.611617,
+          "chargeVoltage": 3.644777
+        },
+        {
+          "soc": 0.2,
+          "ocv": 3.635349,
+          "dischargeVoltage": 3.618314,
+          "chargeVoltage": 3.652385
+        },
+        {
+          "soc": 0.205,
+          "ocv": 3.642379,
+          "dischargeVoltage": 3.625029,
+          "chargeVoltage": 3.659728
+        },
+        {
+          "soc": 0.21,
+          "ocv": 3.649456,
+          "dischargeVoltage": 3.631877,
+          "chargeVoltage": 3.667035
+        },
+        {
+          "soc": 0.215,
+          "ocv": 3.656456,
+          "dischargeVoltage": 3.638536,
+          "chargeVoltage": 3.674377
+        },
+        {
+          "soc": 0.22,
+          "ocv": 3.663325,
+          "dischargeVoltage": 3.645194,
+          "chargeVoltage": 3.681456
+        },
+        {
+          "soc": 0.225,
+          "ocv": 3.66988,
+          "dischargeVoltage": 3.651597,
+          "chargeVoltage": 3.688163
+        },
+        {
+          "soc": 0.23,
+          "ocv": 3.67605,
+          "dischargeVoltage": 3.657518,
+          "chargeVoltage": 3.694582
+        },
+        {
+          "soc": 0.235,
+          "ocv": 3.682193,
+          "dischargeVoltage": 3.663403,
+          "chargeVoltage": 3.700982
+        },
+        {
+          "soc": 0.24,
+          "ocv": 3.688074,
+          "dischargeVoltage": 3.669217,
+          "chargeVoltage": 3.706932
+        },
+        {
+          "soc": 0.245,
+          "ocv": 3.693554,
+          "dischargeVoltage": 3.674641,
+          "chargeVoltage": 3.712467
+        },
+        {
+          "soc": 0.25,
+          "ocv": 3.699004,
+          "dischargeVoltage": 3.679958,
+          "chargeVoltage": 3.718049
+        },
+        {
+          "soc": 0.255,
+          "ocv": 3.704086,
+          "dischargeVoltage": 3.684823,
+          "chargeVoltage": 3.72335
+        },
+        {
+          "soc": 0.26,
+          "ocv": 3.709116,
+          "dischargeVoltage": 3.689975,
+          "chargeVoltage": 3.728257
+        },
+        {
+          "soc": 0.265,
+          "ocv": 3.713956,
+          "dischargeVoltage": 3.694619,
+          "chargeVoltage": 3.733293
+        },
+        {
+          "soc": 0.27,
+          "ocv": 3.71854,
+          "dischargeVoltage": 3.699151,
+          "chargeVoltage": 3.737929
+        },
+        {
+          "soc": 0.275,
+          "ocv": 3.722607,
+          "dischargeVoltage": 3.703226,
+          "chargeVoltage": 3.741988
+        },
+        {
+          "soc": 0.28,
+          "ocv": 3.726379,
+          "dischargeVoltage": 3.70708,
+          "chargeVoltage": 3.745678
+        },
+        {
+          "soc": 0.285,
+          "ocv": 3.729733,
+          "dischargeVoltage": 3.710456,
+          "chargeVoltage": 3.74901
+        },
+        {
+          "soc": 0.29,
+          "ocv": 3.732671,
+          "dischargeVoltage": 3.713394,
+          "chargeVoltage": 3.751948
+        },
+        {
+          "soc": 0.295,
+          "ocv": 3.735406,
+          "dischargeVoltage": 3.716009,
+          "chargeVoltage": 3.754802
+        },
+        {
+          "soc": 0.3,
+          "ocv": 3.737584,
+          "dischargeVoltage": 3.717981,
+          "chargeVoltage": 3.757186
+        },
+        {
+          "soc": 0.305,
+          "ocv": 3.739878,
+          "dischargeVoltage": 3.720042,
+          "chargeVoltage": 3.759715
+        },
+        {
+          "soc": 0.31,
+          "ocv": 3.741868,
+          "dischargeVoltage": 3.721894,
+          "chargeVoltage": 3.761843
+        },
+        {
+          "soc": 0.315,
+          "ocv": 3.743684,
+          "dischargeVoltage": 3.723672,
+          "chargeVoltage": 3.763697
+        },
+        {
+          "soc": 0.32,
+          "ocv": 3.745326,
+          "dischargeVoltage": 3.725019,
+          "chargeVoltage": 3.765632
+        },
+        {
+          "soc": 0.325,
+          "ocv": 3.746691,
+          "dischargeVoltage": 3.7264,
+          "chargeVoltage": 3.766982
+        },
+        {
+          "soc": 0.33,
+          "ocv": 3.748298,
+          "dischargeVoltage": 3.72796,
+          "chargeVoltage": 3.768635
+        },
+        {
+          "soc": 0.335,
+          "ocv": 3.749559,
+          "dischargeVoltage": 3.729205,
+          "chargeVoltage": 3.769913
+        },
+        {
+          "soc": 0.34,
+          "ocv": 3.751024,
+          "dischargeVoltage": 3.730714,
+          "chargeVoltage": 3.771334
+        },
+        {
+          "soc": 0.345,
+          "ocv": 3.752354,
+          "dischargeVoltage": 3.73226,
+          "chargeVoltage": 3.772448
+        },
+        {
+          "soc": 0.35,
+          "ocv": 3.753783,
+          "dischargeVoltage": 3.73381,
+          "chargeVoltage": 3.773755
+        },
+        {
+          "soc": 0.355,
+          "ocv": 3.755333,
+          "dischargeVoltage": 3.735866,
+          "chargeVoltage": 3.7748
+        },
+        {
+          "soc": 0.36,
+          "ocv": 3.756851,
+          "dischargeVoltage": 3.737571,
+          "chargeVoltage": 3.776131
+        },
+        {
+          "soc": 0.365,
+          "ocv": 3.758249,
+          "dischargeVoltage": 3.739275,
+          "chargeVoltage": 3.777224
+        },
+        {
+          "soc": 0.37,
+          "ocv": 3.759766,
+          "dischargeVoltage": 3.741221,
+          "chargeVoltage": 3.778312
+        },
+        {
+          "soc": 0.375,
+          "ocv": 3.761494,
+          "dischargeVoltage": 3.743247,
+          "chargeVoltage": 3.779742
+        },
+        {
+          "soc": 0.38,
+          "ocv": 3.76315,
+          "dischargeVoltage": 3.745349,
+          "chargeVoltage": 3.78095
+        },
+        {
+          "soc": 0.385,
+          "ocv": 3.764875,
+          "dischargeVoltage": 3.747413,
+          "chargeVoltage": 3.782337
+        },
+        {
+          "soc": 0.39,
+          "ocv": 3.766435,
+          "dischargeVoltage": 3.749431,
+          "chargeVoltage": 3.783439
+        },
+        {
+          "soc": 0.395,
+          "ocv": 3.768147,
+          "dischargeVoltage": 3.751784,
+          "chargeVoltage": 3.784509
+        },
+        {
+          "soc": 0.4,
+          "ocv": 3.769639,
+          "dischargeVoltage": 3.75393,
+          "chargeVoltage": 3.785347
+        },
+        {
+          "soc": 0.405,
+          "ocv": 3.771275,
+          "dischargeVoltage": 3.756541,
+          "chargeVoltage": 3.786009
+        },
+        {
+          "soc": 0.41,
+          "ocv": 3.77303,
+          "dischargeVoltage": 3.759161,
+          "chargeVoltage": 3.786898
+        },
+        {
+          "soc": 0.415,
+          "ocv": 3.774336,
+          "dischargeVoltage": 3.761212,
+          "chargeVoltage": 3.78746
+        },
+        {
+          "soc": 0.42,
+          "ocv": 3.775465,
+          "dischargeVoltage": 3.762823,
+          "chargeVoltage": 3.788106
+        },
+        {
+          "soc": 0.425,
+          "ocv": 3.776483,
+          "dischargeVoltage": 3.764268,
+          "chargeVoltage": 3.788699
+        },
+        {
+          "soc": 0.43,
+          "ocv": 3.777377,
+          "dischargeVoltage": 3.765519,
+          "chargeVoltage": 3.789236
+        },
+        {
+          "soc": 0.435,
+          "ocv": 3.778251,
+          "dischargeVoltage": 3.766509,
+          "chargeVoltage": 3.789994
+        },
+        {
+          "soc": 0.44,
+          "ocv": 3.77911,
+          "dischargeVoltage": 3.767426,
+          "chargeVoltage": 3.790793
+        },
+        {
+          "soc": 0.445,
+          "ocv": 3.780168,
+          "dischargeVoltage": 3.768629,
+          "chargeVoltage": 3.791706
+        },
+        {
+          "soc": 0.45,
+          "ocv": 3.781337,
+          "dischargeVoltage": 3.770037,
+          "chargeVoltage": 3.792637
+        },
+        {
+          "soc": 0.455,
+          "ocv": 3.782395,
+          "dischargeVoltage": 3.77131,
+          "chargeVoltage": 3.793479
+        },
+        {
+          "soc": 0.46,
+          "ocv": 3.783732,
+          "dischargeVoltage": 3.772735,
+          "chargeVoltage": 3.794729
+        },
+        {
+          "soc": 0.465,
+          "ocv": 3.784931,
+          "dischargeVoltage": 3.774168,
+          "chargeVoltage": 3.795694
+        },
+        {
+          "soc": 0.47,
+          "ocv": 3.786198,
+          "dischargeVoltage": 3.775505,
+          "chargeVoltage": 3.796891
+        },
+        {
+          "soc": 0.475,
+          "ocv": 3.787746,
+          "dischargeVoltage": 3.777239,
+          "chargeVoltage": 3.798252
+        },
+        {
+          "soc": 0.48,
+          "ocv": 3.789117,
+          "dischargeVoltage": 3.778727,
+          "chargeVoltage": 3.799507
+        },
+        {
+          "soc": 0.485,
+          "ocv": 3.79073,
+          "dischargeVoltage": 3.780374,
+          "chargeVoltage": 3.801087
+        },
+        {
+          "soc": 0.49,
+          "ocv": 3.792138,
+          "dischargeVoltage": 3.781886,
+          "chargeVoltage": 3.802391
+        },
+        {
+          "soc": 0.495,
+          "ocv": 3.793758,
+          "dischargeVoltage": 3.783836,
+          "chargeVoltage": 3.80368
+        },
+        {
+          "soc": 0.5,
+          "ocv": 3.795516,
+          "dischargeVoltage": 3.785574,
+          "chargeVoltage": 3.805458
+        },
+        {
+          "soc": 0.505,
+          "ocv": 3.797048,
+          "dischargeVoltage": 3.787202,
+          "chargeVoltage": 3.806894
+        },
+        {
+          "soc": 0.51,
+          "ocv": 3.798813,
+          "dischargeVoltage": 3.789057,
+          "chargeVoltage": 3.80857
+        },
+        {
+          "soc": 0.515,
+          "ocv": 3.800676,
+          "dischargeVoltage": 3.791015,
+          "chargeVoltage": 3.810337
+        },
+        {
+          "soc": 0.52,
+          "ocv": 3.802517,
+          "dischargeVoltage": 3.792865,
+          "chargeVoltage": 3.81217
+        },
+        {
+          "soc": 0.525,
+          "ocv": 3.804462,
+          "dischargeVoltage": 3.794954,
+          "chargeVoltage": 3.813969
+        },
+        {
+          "soc": 0.53,
+          "ocv": 3.806377,
+          "dischargeVoltage": 3.796862,
+          "chargeVoltage": 3.815891
+        },
+        {
+          "soc": 0.535,
+          "ocv": 3.80838,
+          "dischargeVoltage": 3.798766,
+          "chargeVoltage": 3.817993
+        },
+        {
+          "soc": 0.54,
+          "ocv": 3.810468,
+          "dischargeVoltage": 3.801011,
+          "chargeVoltage": 3.819925
+        },
+        {
+          "soc": 0.545,
+          "ocv": 3.812604,
+          "dischargeVoltage": 3.803187,
+          "chargeVoltage": 3.822021
+        },
+        {
+          "soc": 0.55,
+          "ocv": 3.814472,
+          "dischargeVoltage": 3.805068,
+          "chargeVoltage": 3.823876
+        },
+        {
+          "soc": 0.555,
+          "ocv": 3.816908,
+          "dischargeVoltage": 3.807444,
+          "chargeVoltage": 3.826373
+        },
+        {
+          "soc": 0.56,
+          "ocv": 3.819038,
+          "dischargeVoltage": 3.809727,
+          "chargeVoltage": 3.828349
+        },
+        {
+          "soc": 0.565,
+          "ocv": 3.821337,
+          "dischargeVoltage": 3.811851,
+          "chargeVoltage": 3.830823
+        },
+        {
+          "soc": 0.57,
+          "ocv": 3.823542,
+          "dischargeVoltage": 3.814118,
+          "chargeVoltage": 3.832965
+        },
+        {
+          "soc": 0.575,
+          "ocv": 3.825908,
+          "dischargeVoltage": 3.816474,
+          "chargeVoltage": 3.835342
+        },
+        {
+          "soc": 0.58,
+          "ocv": 3.828147,
+          "dischargeVoltage": 3.818691,
+          "chargeVoltage": 3.837602
+        },
+        {
+          "soc": 0.585,
+          "ocv": 3.83067,
+          "dischargeVoltage": 3.821315,
+          "chargeVoltage": 3.840025
+        },
+        {
+          "soc": 0.59,
+          "ocv": 3.833079,
+          "dischargeVoltage": 3.823666,
+          "chargeVoltage": 3.842491
+        },
+        {
+          "soc": 0.595,
+          "ocv": 3.835476,
+          "dischargeVoltage": 3.825858,
+          "chargeVoltage": 3.845094
+        },
+        {
+          "soc": 0.6,
+          "ocv": 3.837985,
+          "dischargeVoltage": 3.828483,
+          "chargeVoltage": 3.847488
+        },
+        {
+          "soc": 0.605,
+          "ocv": 3.840527,
+          "dischargeVoltage": 3.830971,
+          "chargeVoltage": 3.850084
+        },
+        {
+          "soc": 0.61,
+          "ocv": 3.843111,
+          "dischargeVoltage": 3.833594,
+          "chargeVoltage": 3.852628
+        },
+        {
+          "soc": 0.615,
+          "ocv": 3.845759,
+          "dischargeVoltage": 3.836244,
+          "chargeVoltage": 3.855274
+        },
+        {
+          "soc": 0.62,
+          "ocv": 3.848304,
+          "dischargeVoltage": 3.838789,
+          "chargeVoltage": 3.857819
+        },
+        {
+          "soc": 0.625,
+          "ocv": 3.85092,
+          "dischargeVoltage": 3.841325,
+          "chargeVoltage": 3.860514
+        },
+        {
+          "soc": 0.63,
+          "ocv": 3.853607,
+          "dischargeVoltage": 3.843859,
+          "chargeVoltage": 3.863355
+        },
+        {
+          "soc": 0.635,
+          "ocv": 3.856517,
+          "dischargeVoltage": 3.846912,
+          "chargeVoltage": 3.866122
+        },
+        {
+          "soc": 0.64,
+          "ocv": 3.859106,
+          "dischargeVoltage": 3.849463,
+          "chargeVoltage": 3.868748
+        },
+        {
+          "soc": 0.645,
+          "ocv": 3.861849,
+          "dischargeVoltage": 3.852168,
+          "chargeVoltage": 3.87153
+        },
+        {
+          "soc": 0.65,
+          "ocv": 3.864715,
+          "dischargeVoltage": 3.855096,
+          "chargeVoltage": 3.874334
+        },
+        {
+          "soc": 0.655,
+          "ocv": 3.86784,
+          "dischargeVoltage": 3.858042,
+          "chargeVoltage": 3.877637
+        },
+        {
+          "soc": 0.66,
+          "ocv": 3.870532,
+          "dischargeVoltage": 3.860742,
+          "chargeVoltage": 3.880323
+        },
+        {
+          "soc": 0.665,
+          "ocv": 3.873537,
+          "dischargeVoltage": 3.863692,
+          "chargeVoltage": 3.883381
+        },
+        {
+          "soc": 0.67,
+          "ocv": 3.876681,
+          "dischargeVoltage": 3.86675,
+          "chargeVoltage": 3.886611
+        },
+        {
+          "soc": 0.675,
+          "ocv": 3.879644,
+          "dischargeVoltage": 3.86968,
+          "chargeVoltage": 3.889607
+        },
+        {
+          "soc": 0.68,
+          "ocv": 3.882806,
+          "dischargeVoltage": 3.872767,
+          "chargeVoltage": 3.892844
+        },
+        {
+          "soc": 0.685,
+          "ocv": 3.8858,
+          "dischargeVoltage": 3.875781,
+          "chargeVoltage": 3.89582
+        },
+        {
+          "soc": 0.69,
+          "ocv": 3.889038,
+          "dischargeVoltage": 3.878949,
+          "chargeVoltage": 3.899128
+        },
+        {
+          "soc": 0.695,
+          "ocv": 3.892366,
+          "dischargeVoltage": 3.882147,
+          "chargeVoltage": 3.902586
+        },
+        {
+          "soc": 0.7,
+          "ocv": 3.89553,
+          "dischargeVoltage": 3.885319,
+          "chargeVoltage": 3.905741
+        },
+        {
+          "soc": 0.705,
+          "ocv": 3.898878,
+          "dischargeVoltage": 3.888596,
+          "chargeVoltage": 3.90916
+        },
+        {
+          "soc": 0.71,
+          "ocv": 3.902213,
+          "dischargeVoltage": 3.891992,
+          "chargeVoltage": 3.912434
+        },
+        {
+          "soc": 0.715,
+          "ocv": 3.905513,
+          "dischargeVoltage": 3.895159,
+          "chargeVoltage": 3.915866
+        },
+        {
+          "soc": 0.72,
+          "ocv": 3.909045,
+          "dischargeVoltage": 3.898558,
+          "chargeVoltage": 3.919531
+        },
+        {
+          "soc": 0.725,
+          "ocv": 3.91279,
+          "dischargeVoltage": 3.902257,
+          "chargeVoltage": 3.923323
+        },
+        {
+          "soc": 0.73,
+          "ocv": 3.91637,
+          "dischargeVoltage": 3.905927,
+          "chargeVoltage": 3.926814
+        },
+        {
+          "soc": 0.735,
+          "ocv": 3.920029,
+          "dischargeVoltage": 3.909421,
+          "chargeVoltage": 3.930637
+        },
+        {
+          "soc": 0.74,
+          "ocv": 3.9238,
+          "dischargeVoltage": 3.91311,
+          "chargeVoltage": 3.934489
+        },
+        {
+          "soc": 0.745,
+          "ocv": 3.927674,
+          "dischargeVoltage": 3.91682,
+          "chargeVoltage": 3.938528
+        },
+        {
+          "soc": 0.75,
+          "ocv": 3.931486,
+          "dischargeVoltage": 3.920669,
+          "chargeVoltage": 3.942303
+        },
+        {
+          "soc": 0.755,
+          "ocv": 3.935407,
+          "dischargeVoltage": 3.924404,
+          "chargeVoltage": 3.94641
+        },
+        {
+          "soc": 0.76,
+          "ocv": 3.939568,
+          "dischargeVoltage": 3.928629,
+          "chargeVoltage": 3.950507
+        },
+        {
+          "soc": 0.765,
+          "ocv": 3.943514,
+          "dischargeVoltage": 3.932411,
+          "chargeVoltage": 3.954618
+        },
+        {
+          "soc": 0.77,
+          "ocv": 3.947729,
+          "dischargeVoltage": 3.936599,
+          "chargeVoltage": 3.958859
+        },
+        {
+          "soc": 0.775,
+          "ocv": 3.952042,
+          "dischargeVoltage": 3.940801,
+          "chargeVoltage": 3.963283
+        },
+        {
+          "soc": 0.78,
+          "ocv": 3.956541,
+          "dischargeVoltage": 3.945263,
+          "chargeVoltage": 3.96782
+        },
+        {
+          "soc": 0.785,
+          "ocv": 3.961007,
+          "dischargeVoltage": 3.949644,
+          "chargeVoltage": 3.972369
+        },
+        {
+          "soc": 0.79,
+          "ocv": 3.965491,
+          "dischargeVoltage": 3.953914,
+          "chargeVoltage": 3.977069
+        },
+        {
+          "soc": 0.795,
+          "ocv": 3.970165,
+          "dischargeVoltage": 3.958688,
+          "chargeVoltage": 3.981642
+        },
+        {
+          "soc": 0.8,
+          "ocv": 3.974965,
+          "dischargeVoltage": 3.963506,
+          "chargeVoltage": 3.986424
+        },
+        {
+          "soc": 0.805,
+          "ocv": 3.979955,
+          "dischargeVoltage": 3.968618,
+          "chargeVoltage": 3.991292
+        },
+        {
+          "soc": 0.81,
+          "ocv": 3.985079,
+          "dischargeVoltage": 3.973797,
+          "chargeVoltage": 3.996361
+        },
+        {
+          "soc": 0.815,
+          "ocv": 3.990596,
+          "dischargeVoltage": 3.979307,
+          "chargeVoltage": 4.001885
+        },
+        {
+          "soc": 0.82,
+          "ocv": 3.996238,
+          "dischargeVoltage": 3.985181,
+          "chargeVoltage": 4.007294
+        },
+        {
+          "soc": 0.825,
+          "ocv": 4.002254,
+          "dischargeVoltage": 3.991391,
+          "chargeVoltage": 4.013118
+        },
+        {
+          "soc": 0.83,
+          "ocv": 4.008297,
+          "dischargeVoltage": 3.99776,
+          "chargeVoltage": 4.018834
+        },
+        {
+          "soc": 0.835,
+          "ocv": 4.014474,
+          "dischargeVoltage": 4.004137,
+          "chargeVoltage": 4.024811
+        },
+        {
+          "soc": 0.84,
+          "ocv": 4.020604,
+          "dischargeVoltage": 4.010678,
+          "chargeVoltage": 4.03053
+        },
+        {
+          "soc": 0.845,
+          "ocv": 4.026754,
+          "dischargeVoltage": 4.017191,
+          "chargeVoltage": 4.036316
+        },
+        {
+          "soc": 0.85,
+          "ocv": 4.033002,
+          "dischargeVoltage": 4.023668,
+          "chargeVoltage": 4.042336
+        },
+        {
+          "soc": 0.855,
+          "ocv": 4.039028,
+          "dischargeVoltage": 4.030044,
+          "chargeVoltage": 4.048012
+        },
+        {
+          "soc": 0.86,
+          "ocv": 4.044765,
+          "dischargeVoltage": 4.035832,
+          "chargeVoltage": 4.053699
+        },
+        {
+          "soc": 0.865,
+          "ocv": 4.050456,
+          "dischargeVoltage": 4.041747,
+          "chargeVoltage": 4.059165
+        },
+        {
+          "soc": 0.87,
+          "ocv": 4.055624,
+          "dischargeVoltage": 4.047141,
+          "chargeVoltage": 4.064107
+        },
+        {
+          "soc": 0.875,
+          "ocv": 4.060515,
+          "dischargeVoltage": 4.052043,
+          "chargeVoltage": 4.068988
+        },
+        {
+          "soc": 0.88,
+          "ocv": 4.065649,
+          "dischargeVoltage": 4.05742,
+          "chargeVoltage": 4.073879
+        },
+        {
+          "soc": 0.885,
+          "ocv": 4.07044,
+          "dischargeVoltage": 4.062216,
+          "chargeVoltage": 4.078664
+        },
+        {
+          "soc": 0.89,
+          "ocv": 4.075098,
+          "dischargeVoltage": 4.067144,
+          "chargeVoltage": 4.083053
+        },
+        {
+          "soc": 0.895,
+          "ocv": 4.079832,
+          "dischargeVoltage": 4.072168,
+          "chargeVoltage": 4.087495
+        },
+        {
+          "soc": 0.9,
+          "ocv": 4.084577,
+          "dischargeVoltage": 4.077218,
+          "chargeVoltage": 4.091937
+        },
+        {
+          "soc": 0.905,
+          "ocv": 4.089361,
+          "dischargeVoltage": 4.081991,
+          "chargeVoltage": 4.09673
+        },
+        {
+          "soc": 0.91,
+          "ocv": 4.094136,
+          "dischargeVoltage": 4.086767,
+          "chargeVoltage": 4.101505
+        },
+        {
+          "soc": 0.915,
+          "ocv": 4.098964,
+          "dischargeVoltage": 4.091895,
+          "chargeVoltage": 4.106032
+        },
+        {
+          "soc": 0.92,
+          "ocv": 4.103741,
+          "dischargeVoltage": 4.096666,
+          "chargeVoltage": 4.110816
+        },
+        {
+          "soc": 0.925,
+          "ocv": 4.108662,
+          "dischargeVoltage": 4.101664,
+          "chargeVoltage": 4.11566
+        },
+        {
+          "soc": 0.93,
+          "ocv": 4.113606,
+          "dischargeVoltage": 4.106732,
+          "chargeVoltage": 4.12048
+        },
+        {
+          "soc": 0.935,
+          "ocv": 4.118775,
+          "dischargeVoltage": 4.112121,
+          "chargeVoltage": 4.125429
+        },
+        {
+          "soc": 0.94,
+          "ocv": 4.123861,
+          "dischargeVoltage": 4.117161,
+          "chargeVoltage": 4.130561
+        },
+        {
+          "soc": 0.945,
+          "ocv": 4.129091,
+          "dischargeVoltage": 4.122525,
+          "chargeVoltage": 4.135657
+        },
+        {
+          "soc": 0.95,
+          "ocv": 4.134439,
+          "dischargeVoltage": 4.127949,
+          "chargeVoltage": 4.14093
+        },
+        {
+          "soc": 0.955,
+          "ocv": 4.139994,
+          "dischargeVoltage": 4.133637,
+          "chargeVoltage": 4.146352
+        },
+        {
+          "soc": 0.96,
+          "ocv": 4.145706,
+          "dischargeVoltage": 4.139325,
+          "chargeVoltage": 4.152087
+        },
+        {
+          "soc": 0.965,
+          "ocv": 4.151381,
+          "dischargeVoltage": 4.145171,
+          "chargeVoltage": 4.157591
+        },
+        {
+          "soc": 0.97,
+          "ocv": 4.157324,
+          "dischargeVoltage": 4.151153,
+          "chargeVoltage": 4.163494
+        },
+        {
+          "soc": 0.975,
+          "ocv": 4.163164,
+          "dischargeVoltage": 4.157122,
+          "chargeVoltage": 4.169206
+        },
+        {
+          "soc": 0.98,
+          "ocv": 4.169238,
+          "dischargeVoltage": 4.163423,
+          "chargeVoltage": 4.175053
+        },
+        {
+          "soc": 0.985,
+          "ocv": 4.175461,
+          "dischargeVoltage": 4.169604,
+          "chargeVoltage": 4.181318
+        },
+        {
+          "soc": 0.99,
+          "ocv": 4.181685,
+          "dischargeVoltage": 4.176118,
+          "chargeVoltage": 4.187253
+        },
+        {
+          "soc": 0.995,
+          "ocv": 4.188164,
+          "dischargeVoltage": 4.182624,
+          "chargeVoltage": 4.193704
+        },
+        {
+          "soc": 1,
+          "ocv": 4.19563,
+          "dischargeVoltage": 4.1915,
+          "chargeVoltage": 4.19976
+        }
+      ]
+    },
+    {
+      "targetSoh": 90,
+      "measuredSoh": 89.831256,
+      "cycle": 2200,
+      "dischargeCapacityAh": 0.663953,
+      "pocvDischargeCapacityAh": 0.668777,
+      "pocvChargeCapacityAh": 0.670723,
+      "points": [
+        {
+          "soc": 0,
+          "ocv": 2.700988,
+          "dischargeVoltage": 2.699865,
+          "chargeVoltage": 2.702111
+        },
+        {
+          "soc": 0.005,
+          "ocv": 2.953511,
+          "dischargeVoltage": 2.928766,
+          "chargeVoltage": 2.978256
+        },
+        {
+          "soc": 0.01,
+          "ocv": 3.054059,
+          "dischargeVoltage": 3.034328,
+          "chargeVoltage": 3.07379
+        },
+        {
+          "soc": 0.015,
+          "ocv": 3.122658,
+          "dischargeVoltage": 3.105311,
+          "chargeVoltage": 3.140004
+        },
+        {
+          "soc": 0.02,
+          "ocv": 3.176119,
+          "dischargeVoltage": 3.160499,
+          "chargeVoltage": 3.19174
+        },
+        {
+          "soc": 0.025,
+          "ocv": 3.220338,
+          "dischargeVoltage": 3.206023,
+          "chargeVoltage": 3.234653
+        },
+        {
+          "soc": 0.03,
+          "ocv": 3.258329,
+          "dischargeVoltage": 3.244923,
+          "chargeVoltage": 3.271735
+        },
+        {
+          "soc": 0.035,
+          "ocv": 3.291842,
+          "dischargeVoltage": 3.279235,
+          "chargeVoltage": 3.304449
+        },
+        {
+          "soc": 0.04,
+          "ocv": 3.321741,
+          "dischargeVoltage": 3.309668,
+          "chargeVoltage": 3.333815
+        },
+        {
+          "soc": 0.045,
+          "ocv": 3.348746,
+          "dischargeVoltage": 3.337231,
+          "chargeVoltage": 3.360261
+        },
+        {
+          "soc": 0.05,
+          "ocv": 3.373508,
+          "dischargeVoltage": 3.362339,
+          "chargeVoltage": 3.384676
+        },
+        {
+          "soc": 0.055,
+          "ocv": 3.396574,
+          "dischargeVoltage": 3.385751,
+          "chargeVoltage": 3.407397
+        },
+        {
+          "soc": 0.06,
+          "ocv": 3.417979,
+          "dischargeVoltage": 3.40744,
+          "chargeVoltage": 3.428518
+        },
+        {
+          "soc": 0.065,
+          "ocv": 3.437806,
+          "dischargeVoltage": 3.427387,
+          "chargeVoltage": 3.448226
+        },
+        {
+          "soc": 0.07,
+          "ocv": 3.45618,
+          "dischargeVoltage": 3.44589,
+          "chargeVoltage": 3.466471
+        },
+        {
+          "soc": 0.075,
+          "ocv": 3.472903,
+          "dischargeVoltage": 3.462162,
+          "chargeVoltage": 3.483643
+        },
+        {
+          "soc": 0.08,
+          "ocv": 3.487974,
+          "dischargeVoltage": 3.476082,
+          "chargeVoltage": 3.499866
+        },
+        {
+          "soc": 0.085,
+          "ocv": 3.501246,
+          "dischargeVoltage": 3.488211,
+          "chargeVoltage": 3.514281
+        },
+        {
+          "soc": 0.09,
+          "ocv": 3.512086,
+          "dischargeVoltage": 3.497926,
+          "chargeVoltage": 3.526246
+        },
+        {
+          "soc": 0.095,
+          "ocv": 3.521595,
+          "dischargeVoltage": 3.506742,
+          "chargeVoltage": 3.536447
+        },
+        {
+          "soc": 0.1,
+          "ocv": 3.529968,
+          "dischargeVoltage": 3.514724,
+          "chargeVoltage": 3.545211
+        },
+        {
+          "soc": 0.105,
+          "ocv": 3.537463,
+          "dischargeVoltage": 3.521946,
+          "chargeVoltage": 3.552979
+        },
+        {
+          "soc": 0.11,
+          "ocv": 3.544691,
+          "dischargeVoltage": 3.528943,
+          "chargeVoltage": 3.560439
+        },
+        {
+          "soc": 0.115,
+          "ocv": 3.55157,
+          "dischargeVoltage": 3.535711,
+          "chargeVoltage": 3.567429
+        },
+        {
+          "soc": 0.12,
+          "ocv": 3.558297,
+          "dischargeVoltage": 3.542095,
+          "chargeVoltage": 3.574499
+        },
+        {
+          "soc": 0.125,
+          "ocv": 3.565114,
+          "dischargeVoltage": 3.54897,
+          "chargeVoltage": 3.581258
+        },
+        {
+          "soc": 0.13,
+          "ocv": 3.571809,
+          "dischargeVoltage": 3.555567,
+          "chargeVoltage": 3.588052
+        },
+        {
+          "soc": 0.135,
+          "ocv": 3.578582,
+          "dischargeVoltage": 3.561958,
+          "chargeVoltage": 3.595205
+        },
+        {
+          "soc": 0.14,
+          "ocv": 3.585395,
+          "dischargeVoltage": 3.568697,
+          "chargeVoltage": 3.602093
+        },
+        {
+          "soc": 0.145,
+          "ocv": 3.59188,
+          "dischargeVoltage": 3.575001,
+          "chargeVoltage": 3.60876
+        },
+        {
+          "soc": 0.15,
+          "ocv": 3.598923,
+          "dischargeVoltage": 3.581931,
+          "chargeVoltage": 3.615916
+        },
+        {
+          "soc": 0.155,
+          "ocv": 3.605712,
+          "dischargeVoltage": 3.588837,
+          "chargeVoltage": 3.622587
+        },
+        {
+          "soc": 0.16,
+          "ocv": 3.612401,
+          "dischargeVoltage": 3.59542,
+          "chargeVoltage": 3.629382
+        },
+        {
+          "soc": 0.165,
+          "ocv": 3.619341,
+          "dischargeVoltage": 3.602286,
+          "chargeVoltage": 3.636396
+        },
+        {
+          "soc": 0.17,
+          "ocv": 3.626102,
+          "dischargeVoltage": 3.609065,
+          "chargeVoltage": 3.643138
+        },
+        {
+          "soc": 0.175,
+          "ocv": 3.632925,
+          "dischargeVoltage": 3.615721,
+          "chargeVoltage": 3.650129
+        },
+        {
+          "soc": 0.18,
+          "ocv": 3.639518,
+          "dischargeVoltage": 3.622423,
+          "chargeVoltage": 3.656612
+        },
+        {
+          "soc": 0.185,
+          "ocv": 3.645915,
+          "dischargeVoltage": 3.62873,
+          "chargeVoltage": 3.6631
+        },
+        {
+          "soc": 0.19,
+          "ocv": 3.65227,
+          "dischargeVoltage": 3.635192,
+          "chargeVoltage": 3.669349
+        },
+        {
+          "soc": 0.195,
+          "ocv": 3.65857,
+          "dischargeVoltage": 3.641387,
+          "chargeVoltage": 3.675753
+        },
+        {
+          "soc": 0.2,
+          "ocv": 3.664495,
+          "dischargeVoltage": 3.647188,
+          "chargeVoltage": 3.681802
+        },
+        {
+          "soc": 0.205,
+          "ocv": 3.670391,
+          "dischargeVoltage": 3.652973,
+          "chargeVoltage": 3.687809
+        },
+        {
+          "soc": 0.21,
+          "ocv": 3.67596,
+          "dischargeVoltage": 3.658427,
+          "chargeVoltage": 3.693494
+        },
+        {
+          "soc": 0.215,
+          "ocv": 3.681304,
+          "dischargeVoltage": 3.663722,
+          "chargeVoltage": 3.698885
+        },
+        {
+          "soc": 0.22,
+          "ocv": 3.68659,
+          "dischargeVoltage": 3.66873,
+          "chargeVoltage": 3.704449
+        },
+        {
+          "soc": 0.225,
+          "ocv": 3.691538,
+          "dischargeVoltage": 3.67369,
+          "chargeVoltage": 3.709387
+        },
+        {
+          "soc": 0.23,
+          "ocv": 3.696291,
+          "dischargeVoltage": 3.678494,
+          "chargeVoltage": 3.714088
+        },
+        {
+          "soc": 0.235,
+          "ocv": 3.700983,
+          "dischargeVoltage": 3.683068,
+          "chargeVoltage": 3.718898
+        },
+        {
+          "soc": 0.24,
+          "ocv": 3.705199,
+          "dischargeVoltage": 3.687179,
+          "chargeVoltage": 3.723219
+        },
+        {
+          "soc": 0.245,
+          "ocv": 3.70899,
+          "dischargeVoltage": 3.690836,
+          "chargeVoltage": 3.727145
+        },
+        {
+          "soc": 0.25,
+          "ocv": 3.712809,
+          "dischargeVoltage": 3.694399,
+          "chargeVoltage": 3.73122
+        },
+        {
+          "soc": 0.255,
+          "ocv": 3.716205,
+          "dischargeVoltage": 3.697724,
+          "chargeVoltage": 3.734685
+        },
+        {
+          "soc": 0.26,
+          "ocv": 3.719355,
+          "dischargeVoltage": 3.7006,
+          "chargeVoltage": 3.738111
+        },
+        {
+          "soc": 0.265,
+          "ocv": 3.722268,
+          "dischargeVoltage": 3.703576,
+          "chargeVoltage": 3.740961
+        },
+        {
+          "soc": 0.27,
+          "ocv": 3.724974,
+          "dischargeVoltage": 3.706244,
+          "chargeVoltage": 3.743703
+        },
+        {
+          "soc": 0.275,
+          "ocv": 3.727402,
+          "dischargeVoltage": 3.708839,
+          "chargeVoltage": 3.745966
+        },
+        {
+          "soc": 0.28,
+          "ocv": 3.729547,
+          "dischargeVoltage": 3.710821,
+          "chargeVoltage": 3.748272
+        },
+        {
+          "soc": 0.285,
+          "ocv": 3.73147,
+          "dischargeVoltage": 3.71273,
+          "chargeVoltage": 3.75021
+        },
+        {
+          "soc": 0.29,
+          "ocv": 3.73341,
+          "dischargeVoltage": 3.714634,
+          "chargeVoltage": 3.752186
+        },
+        {
+          "soc": 0.295,
+          "ocv": 3.73516,
+          "dischargeVoltage": 3.716221,
+          "chargeVoltage": 3.754098
+        },
+        {
+          "soc": 0.3,
+          "ocv": 3.736794,
+          "dischargeVoltage": 3.717561,
+          "chargeVoltage": 3.756027
+        },
+        {
+          "soc": 0.305,
+          "ocv": 3.738403,
+          "dischargeVoltage": 3.719064,
+          "chargeVoltage": 3.757742
+        },
+        {
+          "soc": 0.31,
+          "ocv": 3.739742,
+          "dischargeVoltage": 3.719888,
+          "chargeVoltage": 3.759597
+        },
+        {
+          "soc": 0.315,
+          "ocv": 3.741348,
+          "dischargeVoltage": 3.721485,
+          "chargeVoltage": 3.761211
+        },
+        {
+          "soc": 0.32,
+          "ocv": 3.742811,
+          "dischargeVoltage": 3.722505,
+          "chargeVoltage": 3.763117
+        },
+        {
+          "soc": 0.325,
+          "ocv": 3.744065,
+          "dischargeVoltage": 3.723711,
+          "chargeVoltage": 3.764418
+        },
+        {
+          "soc": 0.33,
+          "ocv": 3.745405,
+          "dischargeVoltage": 3.724625,
+          "chargeVoltage": 3.766186
+        },
+        {
+          "soc": 0.335,
+          "ocv": 3.746758,
+          "dischargeVoltage": 3.725894,
+          "chargeVoltage": 3.767623
+        },
+        {
+          "soc": 0.34,
+          "ocv": 3.748209,
+          "dischargeVoltage": 3.727046,
+          "chargeVoltage": 3.769373
+        },
+        {
+          "soc": 0.345,
+          "ocv": 3.749334,
+          "dischargeVoltage": 3.728077,
+          "chargeVoltage": 3.770592
+        },
+        {
+          "soc": 0.35,
+          "ocv": 3.750636,
+          "dischargeVoltage": 3.72948,
+          "chargeVoltage": 3.771792
+        },
+        {
+          "soc": 0.355,
+          "ocv": 3.752079,
+          "dischargeVoltage": 3.730795,
+          "chargeVoltage": 3.773363
+        },
+        {
+          "soc": 0.36,
+          "ocv": 3.75349,
+          "dischargeVoltage": 3.732432,
+          "chargeVoltage": 3.774547
+        },
+        {
+          "soc": 0.365,
+          "ocv": 3.754922,
+          "dischargeVoltage": 3.73404,
+          "chargeVoltage": 3.775804
+        },
+        {
+          "soc": 0.37,
+          "ocv": 3.756504,
+          "dischargeVoltage": 3.73584,
+          "chargeVoltage": 3.777169
+        },
+        {
+          "soc": 0.375,
+          "ocv": 3.757904,
+          "dischargeVoltage": 3.737351,
+          "chargeVoltage": 3.778457
+        },
+        {
+          "soc": 0.38,
+          "ocv": 3.759728,
+          "dischargeVoltage": 3.739411,
+          "chargeVoltage": 3.780046
+        },
+        {
+          "soc": 0.385,
+          "ocv": 3.761318,
+          "dischargeVoltage": 3.741302,
+          "chargeVoltage": 3.781334
+        },
+        {
+          "soc": 0.39,
+          "ocv": 3.763101,
+          "dischargeVoltage": 3.743347,
+          "chargeVoltage": 3.782855
+        },
+        {
+          "soc": 0.395,
+          "ocv": 3.764903,
+          "dischargeVoltage": 3.745637,
+          "chargeVoltage": 3.784169
+        },
+        {
+          "soc": 0.4,
+          "ocv": 3.766698,
+          "dischargeVoltage": 3.747682,
+          "chargeVoltage": 3.785714
+        },
+        {
+          "soc": 0.405,
+          "ocv": 3.768724,
+          "dischargeVoltage": 3.750042,
+          "chargeVoltage": 3.787406
+        },
+        {
+          "soc": 0.41,
+          "ocv": 3.770645,
+          "dischargeVoltage": 3.752674,
+          "chargeVoltage": 3.788617
+        },
+        {
+          "soc": 0.415,
+          "ocv": 3.772675,
+          "dischargeVoltage": 3.755387,
+          "chargeVoltage": 3.789963
+        },
+        {
+          "soc": 0.42,
+          "ocv": 3.774576,
+          "dischargeVoltage": 3.757982,
+          "chargeVoltage": 3.791169
+        },
+        {
+          "soc": 0.425,
+          "ocv": 3.776423,
+          "dischargeVoltage": 3.760726,
+          "chargeVoltage": 3.79212
+        },
+        {
+          "soc": 0.43,
+          "ocv": 3.77813,
+          "dischargeVoltage": 3.763038,
+          "chargeVoltage": 3.793221
+        },
+        {
+          "soc": 0.435,
+          "ocv": 3.779973,
+          "dischargeVoltage": 3.765398,
+          "chargeVoltage": 3.794548
+        },
+        {
+          "soc": 0.44,
+          "ocv": 3.781709,
+          "dischargeVoltage": 3.767781,
+          "chargeVoltage": 3.795638
+        },
+        {
+          "soc": 0.445,
+          "ocv": 3.783504,
+          "dischargeVoltage": 3.769882,
+          "chargeVoltage": 3.797126
+        },
+        {
+          "soc": 0.45,
+          "ocv": 3.785148,
+          "dischargeVoltage": 3.771931,
+          "chargeVoltage": 3.798365
+        },
+        {
+          "soc": 0.455,
+          "ocv": 3.787012,
+          "dischargeVoltage": 3.774183,
+          "chargeVoltage": 3.799842
+        },
+        {
+          "soc": 0.46,
+          "ocv": 3.788493,
+          "dischargeVoltage": 3.775902,
+          "chargeVoltage": 3.801084
+        },
+        {
+          "soc": 0.465,
+          "ocv": 3.790352,
+          "dischargeVoltage": 3.777947,
+          "chargeVoltage": 3.802756
+        },
+        {
+          "soc": 0.47,
+          "ocv": 3.79198,
+          "dischargeVoltage": 3.779903,
+          "chargeVoltage": 3.804056
+        },
+        {
+          "soc": 0.475,
+          "ocv": 3.793791,
+          "dischargeVoltage": 3.781945,
+          "chargeVoltage": 3.805636
+        },
+        {
+          "soc": 0.48,
+          "ocv": 3.795634,
+          "dischargeVoltage": 3.78388,
+          "chargeVoltage": 3.807389
+        },
+        {
+          "soc": 0.485,
+          "ocv": 3.797263,
+          "dischargeVoltage": 3.785807,
+          "chargeVoltage": 3.808719
+        },
+        {
+          "soc": 0.49,
+          "ocv": 3.799208,
+          "dischargeVoltage": 3.787826,
+          "chargeVoltage": 3.81059
+        },
+        {
+          "soc": 0.495,
+          "ocv": 3.801271,
+          "dischargeVoltage": 3.790033,
+          "chargeVoltage": 3.81251
+        },
+        {
+          "soc": 0.5,
+          "ocv": 3.803283,
+          "dischargeVoltage": 3.792127,
+          "chargeVoltage": 3.81444
+        },
+        {
+          "soc": 0.505,
+          "ocv": 3.805115,
+          "dischargeVoltage": 3.794131,
+          "chargeVoltage": 3.816099
+        },
+        {
+          "soc": 0.51,
+          "ocv": 3.807186,
+          "dischargeVoltage": 3.796365,
+          "chargeVoltage": 3.818007
+        },
+        {
+          "soc": 0.515,
+          "ocv": 3.809105,
+          "dischargeVoltage": 3.798206,
+          "chargeVoltage": 3.820005
+        },
+        {
+          "soc": 0.52,
+          "ocv": 3.811051,
+          "dischargeVoltage": 3.800382,
+          "chargeVoltage": 3.82172
+        },
+        {
+          "soc": 0.525,
+          "ocv": 3.813104,
+          "dischargeVoltage": 3.802498,
+          "chargeVoltage": 3.823711
+        },
+        {
+          "soc": 0.53,
+          "ocv": 3.815436,
+          "dischargeVoltage": 3.804897,
+          "chargeVoltage": 3.825975
+        },
+        {
+          "soc": 0.535,
+          "ocv": 3.817448,
+          "dischargeVoltage": 3.806925,
+          "chargeVoltage": 3.827971
+        },
+        {
+          "soc": 0.54,
+          "ocv": 3.819614,
+          "dischargeVoltage": 3.809217,
+          "chargeVoltage": 3.830011
+        },
+        {
+          "soc": 0.545,
+          "ocv": 3.821934,
+          "dischargeVoltage": 3.811456,
+          "chargeVoltage": 3.832412
+        },
+        {
+          "soc": 0.55,
+          "ocv": 3.824053,
+          "dischargeVoltage": 3.813542,
+          "chargeVoltage": 3.834564
+        },
+        {
+          "soc": 0.555,
+          "ocv": 3.826359,
+          "dischargeVoltage": 3.815874,
+          "chargeVoltage": 3.836844
+        },
+        {
+          "soc": 0.56,
+          "ocv": 3.828672,
+          "dischargeVoltage": 3.818296,
+          "chargeVoltage": 3.839047
+        },
+        {
+          "soc": 0.565,
+          "ocv": 3.830883,
+          "dischargeVoltage": 3.820422,
+          "chargeVoltage": 3.841343
+        },
+        {
+          "soc": 0.57,
+          "ocv": 3.833254,
+          "dischargeVoltage": 3.822823,
+          "chargeVoltage": 3.843686
+        },
+        {
+          "soc": 0.575,
+          "ocv": 3.835663,
+          "dischargeVoltage": 3.825285,
+          "chargeVoltage": 3.846042
+        },
+        {
+          "soc": 0.58,
+          "ocv": 3.837999,
+          "dischargeVoltage": 3.827536,
+          "chargeVoltage": 3.848462
+        },
+        {
+          "soc": 0.585,
+          "ocv": 3.840467,
+          "dischargeVoltage": 3.830087,
+          "chargeVoltage": 3.850847
+        },
+        {
+          "soc": 0.59,
+          "ocv": 3.842708,
+          "dischargeVoltage": 3.832249,
+          "chargeVoltage": 3.853167
+        },
+        {
+          "soc": 0.595,
+          "ocv": 3.845453,
+          "dischargeVoltage": 3.835017,
+          "chargeVoltage": 3.855889
+        },
+        {
+          "soc": 0.6,
+          "ocv": 3.847703,
+          "dischargeVoltage": 3.837323,
+          "chargeVoltage": 3.858083
+        },
+        {
+          "soc": 0.605,
+          "ocv": 3.850343,
+          "dischargeVoltage": 3.839857,
+          "chargeVoltage": 3.860829
+        },
+        {
+          "soc": 0.61,
+          "ocv": 3.852894,
+          "dischargeVoltage": 3.842493,
+          "chargeVoltage": 3.863296
+        },
+        {
+          "soc": 0.615,
+          "ocv": 3.855466,
+          "dischargeVoltage": 3.845019,
+          "chargeVoltage": 3.865912
+        },
+        {
+          "soc": 0.62,
+          "ocv": 3.858176,
+          "dischargeVoltage": 3.847667,
+          "chargeVoltage": 3.868684
+        },
+        {
+          "soc": 0.625,
+          "ocv": 3.860885,
+          "dischargeVoltage": 3.850517,
+          "chargeVoltage": 3.871254
+        },
+        {
+          "soc": 0.63,
+          "ocv": 3.863605,
+          "dischargeVoltage": 3.852903,
+          "chargeVoltage": 3.874307
+        },
+        {
+          "soc": 0.635,
+          "ocv": 3.866301,
+          "dischargeVoltage": 3.855774,
+          "chargeVoltage": 3.876829
+        },
+        {
+          "soc": 0.64,
+          "ocv": 3.868919,
+          "dischargeVoltage": 3.858354,
+          "chargeVoltage": 3.879483
+        },
+        {
+          "soc": 0.645,
+          "ocv": 3.871885,
+          "dischargeVoltage": 3.861312,
+          "chargeVoltage": 3.882459
+        },
+        {
+          "soc": 0.65,
+          "ocv": 3.874644,
+          "dischargeVoltage": 3.863892,
+          "chargeVoltage": 3.885396
+        },
+        {
+          "soc": 0.655,
+          "ocv": 3.877414,
+          "dischargeVoltage": 3.866811,
+          "chargeVoltage": 3.888017
+        },
+        {
+          "soc": 0.66,
+          "ocv": 3.880334,
+          "dischargeVoltage": 3.869747,
+          "chargeVoltage": 3.89092
+        },
+        {
+          "soc": 0.665,
+          "ocv": 3.883241,
+          "dischargeVoltage": 3.872554,
+          "chargeVoltage": 3.893928
+        },
+        {
+          "soc": 0.67,
+          "ocv": 3.886219,
+          "dischargeVoltage": 3.875371,
+          "chargeVoltage": 3.897067
+        },
+        {
+          "soc": 0.675,
+          "ocv": 3.889257,
+          "dischargeVoltage": 3.878486,
+          "chargeVoltage": 3.900028
+        },
+        {
+          "soc": 0.68,
+          "ocv": 3.892324,
+          "dischargeVoltage": 3.881326,
+          "chargeVoltage": 3.903323
+        },
+        {
+          "soc": 0.685,
+          "ocv": 3.895312,
+          "dischargeVoltage": 3.884448,
+          "chargeVoltage": 3.906175
+        },
+        {
+          "soc": 0.69,
+          "ocv": 3.898499,
+          "dischargeVoltage": 3.88754,
+          "chargeVoltage": 3.909458
+        },
+        {
+          "soc": 0.695,
+          "ocv": 3.901756,
+          "dischargeVoltage": 3.890908,
+          "chargeVoltage": 3.912604
+        },
+        {
+          "soc": 0.7,
+          "ocv": 3.904974,
+          "dischargeVoltage": 3.893892,
+          "chargeVoltage": 3.916056
+        },
+        {
+          "soc": 0.705,
+          "ocv": 3.908385,
+          "dischargeVoltage": 3.897419,
+          "chargeVoltage": 3.91935
+        },
+        {
+          "soc": 0.71,
+          "ocv": 3.911624,
+          "dischargeVoltage": 3.900503,
+          "chargeVoltage": 3.922745
+        },
+        {
+          "soc": 0.715,
+          "ocv": 3.914949,
+          "dischargeVoltage": 3.903745,
+          "chargeVoltage": 3.926153
+        },
+        {
+          "soc": 0.72,
+          "ocv": 3.918381,
+          "dischargeVoltage": 3.907185,
+          "chargeVoltage": 3.929578
+        },
+        {
+          "soc": 0.725,
+          "ocv": 3.921761,
+          "dischargeVoltage": 3.910444,
+          "chargeVoltage": 3.933078
+        },
+        {
+          "soc": 0.73,
+          "ocv": 3.925285,
+          "dischargeVoltage": 3.913989,
+          "chargeVoltage": 3.93658
+        },
+        {
+          "soc": 0.735,
+          "ocv": 3.928758,
+          "dischargeVoltage": 3.917315,
+          "chargeVoltage": 3.9402
+        },
+        {
+          "soc": 0.74,
+          "ocv": 3.932428,
+          "dischargeVoltage": 3.921068,
+          "chargeVoltage": 3.943788
+        },
+        {
+          "soc": 0.745,
+          "ocv": 3.93618,
+          "dischargeVoltage": 3.924747,
+          "chargeVoltage": 3.947613
+        },
+        {
+          "soc": 0.75,
+          "ocv": 3.939718,
+          "dischargeVoltage": 3.928299,
+          "chargeVoltage": 3.951137
+        },
+        {
+          "soc": 0.755,
+          "ocv": 3.943702,
+          "dischargeVoltage": 3.932127,
+          "chargeVoltage": 3.955276
+        },
+        {
+          "soc": 0.76,
+          "ocv": 3.947406,
+          "dischargeVoltage": 3.935808,
+          "chargeVoltage": 3.959004
+        },
+        {
+          "soc": 0.765,
+          "ocv": 3.951247,
+          "dischargeVoltage": 3.939723,
+          "chargeVoltage": 3.962771
+        },
+        {
+          "soc": 0.77,
+          "ocv": 3.955125,
+          "dischargeVoltage": 3.943407,
+          "chargeVoltage": 3.966843
+        },
+        {
+          "soc": 0.775,
+          "ocv": 3.959108,
+          "dischargeVoltage": 3.947263,
+          "chargeVoltage": 3.970952
+        },
+        {
+          "soc": 0.78,
+          "ocv": 3.962972,
+          "dischargeVoltage": 3.951112,
+          "chargeVoltage": 3.974832
+        },
+        {
+          "soc": 0.785,
+          "ocv": 3.966953,
+          "dischargeVoltage": 3.954896,
+          "chargeVoltage": 3.979009
+        },
+        {
+          "soc": 0.79,
+          "ocv": 3.970916,
+          "dischargeVoltage": 3.958839,
+          "chargeVoltage": 3.982994
+        },
+        {
+          "soc": 0.795,
+          "ocv": 3.975131,
+          "dischargeVoltage": 3.963233,
+          "chargeVoltage": 3.987028
+        },
+        {
+          "soc": 0.8,
+          "ocv": 3.979303,
+          "dischargeVoltage": 3.967351,
+          "chargeVoltage": 3.991256
+        },
+        {
+          "soc": 0.805,
+          "ocv": 3.983665,
+          "dischargeVoltage": 3.971653,
+          "chargeVoltage": 3.995677
+        },
+        {
+          "soc": 0.81,
+          "ocv": 3.987998,
+          "dischargeVoltage": 3.975832,
+          "chargeVoltage": 4.000164
+        },
+        {
+          "soc": 0.815,
+          "ocv": 3.992642,
+          "dischargeVoltage": 3.980463,
+          "chargeVoltage": 4.004821
+        },
+        {
+          "soc": 0.82,
+          "ocv": 3.997459,
+          "dischargeVoltage": 3.985242,
+          "chargeVoltage": 4.009677
+        },
+        {
+          "soc": 0.825,
+          "ocv": 4.002391,
+          "dischargeVoltage": 3.990138,
+          "chargeVoltage": 4.014644
+        },
+        {
+          "soc": 0.83,
+          "ocv": 4.007581,
+          "dischargeVoltage": 3.995452,
+          "chargeVoltage": 4.019711
+        },
+        {
+          "soc": 0.835,
+          "ocv": 4.012862,
+          "dischargeVoltage": 4.000762,
+          "chargeVoltage": 4.024963
+        },
+        {
+          "soc": 0.84,
+          "ocv": 4.018189,
+          "dischargeVoltage": 4.006072,
+          "chargeVoltage": 4.030306
+        },
+        {
+          "soc": 0.845,
+          "ocv": 4.023611,
+          "dischargeVoltage": 4.011571,
+          "chargeVoltage": 4.035651
+        },
+        {
+          "soc": 0.85,
+          "ocv": 4.029087,
+          "dischargeVoltage": 4.017202,
+          "chargeVoltage": 4.040971
+        },
+        {
+          "soc": 0.855,
+          "ocv": 4.034696,
+          "dischargeVoltage": 4.022835,
+          "chargeVoltage": 4.046557
+        },
+        {
+          "soc": 0.86,
+          "ocv": 4.04,
+          "dischargeVoltage": 4.028271,
+          "chargeVoltage": 4.05173
+        },
+        {
+          "soc": 0.865,
+          "ocv": 4.045527,
+          "dischargeVoltage": 4.033987,
+          "chargeVoltage": 4.057068
+        },
+        {
+          "soc": 0.87,
+          "ocv": 4.0511,
+          "dischargeVoltage": 4.039873,
+          "chargeVoltage": 4.062327
+        },
+        {
+          "soc": 0.875,
+          "ocv": 4.056648,
+          "dischargeVoltage": 4.045877,
+          "chargeVoltage": 4.067419
+        },
+        {
+          "soc": 0.88,
+          "ocv": 4.061866,
+          "dischargeVoltage": 4.051347,
+          "chargeVoltage": 4.072386
+        },
+        {
+          "soc": 0.885,
+          "ocv": 4.067221,
+          "dischargeVoltage": 4.056889,
+          "chargeVoltage": 4.077553
+        },
+        {
+          "soc": 0.89,
+          "ocv": 4.072468,
+          "dischargeVoltage": 4.062497,
+          "chargeVoltage": 4.08244
+        },
+        {
+          "soc": 0.895,
+          "ocv": 4.077721,
+          "dischargeVoltage": 4.068054,
+          "chargeVoltage": 4.087388
+        },
+        {
+          "soc": 0.9,
+          "ocv": 4.083023,
+          "dischargeVoltage": 4.07361,
+          "chargeVoltage": 4.092436
+        },
+        {
+          "soc": 0.905,
+          "ocv": 4.088155,
+          "dischargeVoltage": 4.079053,
+          "chargeVoltage": 4.097256
+        },
+        {
+          "soc": 0.91,
+          "ocv": 4.093285,
+          "dischargeVoltage": 4.084315,
+          "chargeVoltage": 4.102255
+        },
+        {
+          "soc": 0.915,
+          "ocv": 4.098241,
+          "dischargeVoltage": 4.089495,
+          "chargeVoltage": 4.106987
+        },
+        {
+          "soc": 0.92,
+          "ocv": 4.103531,
+          "dischargeVoltage": 4.095015,
+          "chargeVoltage": 4.112046
+        },
+        {
+          "soc": 0.925,
+          "ocv": 4.108686,
+          "dischargeVoltage": 4.100345,
+          "chargeVoltage": 4.117027
+        },
+        {
+          "soc": 0.93,
+          "ocv": 4.113924,
+          "dischargeVoltage": 4.105666,
+          "chargeVoltage": 4.122182
+        },
+        {
+          "soc": 0.935,
+          "ocv": 4.119097,
+          "dischargeVoltage": 4.111001,
+          "chargeVoltage": 4.127193
+        },
+        {
+          "soc": 0.94,
+          "ocv": 4.124511,
+          "dischargeVoltage": 4.116541,
+          "chargeVoltage": 4.132481
+        },
+        {
+          "soc": 0.945,
+          "ocv": 4.129845,
+          "dischargeVoltage": 4.1221,
+          "chargeVoltage": 4.13759
+        },
+        {
+          "soc": 0.95,
+          "ocv": 4.135267,
+          "dischargeVoltage": 4.127543,
+          "chargeVoltage": 4.142991
+        },
+        {
+          "soc": 0.955,
+          "ocv": 4.140864,
+          "dischargeVoltage": 4.133374,
+          "chargeVoltage": 4.148355
+        },
+        {
+          "soc": 0.96,
+          "ocv": 4.146275,
+          "dischargeVoltage": 4.138925,
+          "chargeVoltage": 4.153626
+        },
+        {
+          "soc": 0.965,
+          "ocv": 4.15196,
+          "dischargeVoltage": 4.144804,
+          "chargeVoltage": 4.159116
+        },
+        {
+          "soc": 0.97,
+          "ocv": 4.157827,
+          "dischargeVoltage": 4.150818,
+          "chargeVoltage": 4.164835
+        },
+        {
+          "soc": 0.975,
+          "ocv": 4.163708,
+          "dischargeVoltage": 4.156948,
+          "chargeVoltage": 4.170468
+        },
+        {
+          "soc": 0.98,
+          "ocv": 4.169685,
+          "dischargeVoltage": 4.163118,
+          "chargeVoltage": 4.176251
+        },
+        {
+          "soc": 0.985,
+          "ocv": 4.17576,
+          "dischargeVoltage": 4.169309,
+          "chargeVoltage": 4.18221
+        },
+        {
+          "soc": 0.99,
+          "ocv": 4.181672,
+          "dischargeVoltage": 4.175578,
+          "chargeVoltage": 4.187767
+        },
+        {
+          "soc": 0.995,
+          "ocv": 4.18811,
+          "dischargeVoltage": 4.182173,
+          "chargeVoltage": 4.194048
+        },
+        {
+          "soc": 1,
+          "ocv": 4.195451,
+          "dischargeVoltage": 4.19104,
+          "chargeVoltage": 4.199863
+        }
+      ]
+    },
+    {
+      "targetSoh": 85,
+      "measuredSoh": 85.17264,
+      "cycle": 3700,
+      "dischargeCapacityAh": 0.62952,
+      "pocvDischargeCapacityAh": 0.632997,
+      "pocvChargeCapacityAh": 0.631905,
+      "points": [
+        {
+          "soc": 0,
+          "ocv": 2.701885,
+          "dischargeVoltage": 2.70006,
+          "chargeVoltage": 2.70371
+        },
+        {
+          "soc": 0.005,
+          "ocv": 2.967902,
+          "dischargeVoltage": 2.939664,
+          "chargeVoltage": 2.996139
+        },
+        {
+          "soc": 0.01,
+          "ocv": 3.071081,
+          "dischargeVoltage": 3.047936,
+          "chargeVoltage": 3.094227
+        },
+        {
+          "soc": 0.015,
+          "ocv": 3.140249,
+          "dischargeVoltage": 3.119213,
+          "chargeVoltage": 3.161285
+        },
+        {
+          "soc": 0.02,
+          "ocv": 3.193777,
+          "dischargeVoltage": 3.174325,
+          "chargeVoltage": 3.213228
+        },
+        {
+          "soc": 0.025,
+          "ocv": 3.23806,
+          "dischargeVoltage": 3.219703,
+          "chargeVoltage": 3.256418
+        },
+        {
+          "soc": 0.03,
+          "ocv": 3.275916,
+          "dischargeVoltage": 3.258342,
+          "chargeVoltage": 3.29349
+        },
+        {
+          "soc": 0.035,
+          "ocv": 3.309338,
+          "dischargeVoltage": 3.292395,
+          "chargeVoltage": 3.326281
+        },
+        {
+          "soc": 0.04,
+          "ocv": 3.339318,
+          "dischargeVoltage": 3.322898,
+          "chargeVoltage": 3.355738
+        },
+        {
+          "soc": 0.045,
+          "ocv": 3.366473,
+          "dischargeVoltage": 3.350458,
+          "chargeVoltage": 3.382488
+        },
+        {
+          "soc": 0.05,
+          "ocv": 3.391418,
+          "dischargeVoltage": 3.375606,
+          "chargeVoltage": 3.407229
+        },
+        {
+          "soc": 0.055,
+          "ocv": 3.41433,
+          "dischargeVoltage": 3.398791,
+          "chargeVoltage": 3.429869
+        },
+        {
+          "soc": 0.06,
+          "ocv": 3.435832,
+          "dischargeVoltage": 3.420341,
+          "chargeVoltage": 3.451323
+        },
+        {
+          "soc": 0.065,
+          "ocv": 3.45535,
+          "dischargeVoltage": 3.439726,
+          "chargeVoltage": 3.470973
+        },
+        {
+          "soc": 0.07,
+          "ocv": 3.473675,
+          "dischargeVoltage": 3.457592,
+          "chargeVoltage": 3.489758
+        },
+        {
+          "soc": 0.075,
+          "ocv": 3.490402,
+          "dischargeVoltage": 3.473523,
+          "chargeVoltage": 3.507282
+        },
+        {
+          "soc": 0.08,
+          "ocv": 3.505282,
+          "dischargeVoltage": 3.487224,
+          "chargeVoltage": 3.523341
+        },
+        {
+          "soc": 0.085,
+          "ocv": 3.518574,
+          "dischargeVoltage": 3.499291,
+          "chargeVoltage": 3.537857
+        },
+        {
+          "soc": 0.09,
+          "ocv": 3.530337,
+          "dischargeVoltage": 3.510013,
+          "chargeVoltage": 3.550661
+        },
+        {
+          "soc": 0.095,
+          "ocv": 3.540499,
+          "dischargeVoltage": 3.519486,
+          "chargeVoltage": 3.561511
+        },
+        {
+          "soc": 0.1,
+          "ocv": 3.549795,
+          "dischargeVoltage": 3.52838,
+          "chargeVoltage": 3.57121
+        },
+        {
+          "soc": 0.105,
+          "ocv": 3.558281,
+          "dischargeVoltage": 3.536652,
+          "chargeVoltage": 3.579909
+        },
+        {
+          "soc": 0.11,
+          "ocv": 3.566518,
+          "dischargeVoltage": 3.544568,
+          "chargeVoltage": 3.588468
+        },
+        {
+          "soc": 0.115,
+          "ocv": 3.574487,
+          "dischargeVoltage": 3.552334,
+          "chargeVoltage": 3.596641
+        },
+        {
+          "soc": 0.12,
+          "ocv": 3.58217,
+          "dischargeVoltage": 3.559823,
+          "chargeVoltage": 3.604517
+        },
+        {
+          "soc": 0.125,
+          "ocv": 3.589734,
+          "dischargeVoltage": 3.567098,
+          "chargeVoltage": 3.61237
+        },
+        {
+          "soc": 0.13,
+          "ocv": 3.597208,
+          "dischargeVoltage": 3.574531,
+          "chargeVoltage": 3.619884
+        },
+        {
+          "soc": 0.135,
+          "ocv": 3.604628,
+          "dischargeVoltage": 3.581562,
+          "chargeVoltage": 3.627694
+        },
+        {
+          "soc": 0.14,
+          "ocv": 3.611858,
+          "dischargeVoltage": 3.588647,
+          "chargeVoltage": 3.635069
+        },
+        {
+          "soc": 0.145,
+          "ocv": 3.619049,
+          "dischargeVoltage": 3.595643,
+          "chargeVoltage": 3.642456
+        },
+        {
+          "soc": 0.15,
+          "ocv": 3.626283,
+          "dischargeVoltage": 3.602894,
+          "chargeVoltage": 3.649673
+        },
+        {
+          "soc": 0.155,
+          "ocv": 3.633297,
+          "dischargeVoltage": 3.609843,
+          "chargeVoltage": 3.656751
+        },
+        {
+          "soc": 0.16,
+          "ocv": 3.640194,
+          "dischargeVoltage": 3.616629,
+          "chargeVoltage": 3.663758
+        },
+        {
+          "soc": 0.165,
+          "ocv": 3.64656,
+          "dischargeVoltage": 3.622935,
+          "chargeVoltage": 3.670186
+        },
+        {
+          "soc": 0.17,
+          "ocv": 3.652824,
+          "dischargeVoltage": 3.629132,
+          "chargeVoltage": 3.676515
+        },
+        {
+          "soc": 0.175,
+          "ocv": 3.658879,
+          "dischargeVoltage": 3.635351,
+          "chargeVoltage": 3.682408
+        },
+        {
+          "soc": 0.18,
+          "ocv": 3.664737,
+          "dischargeVoltage": 3.64127,
+          "chargeVoltage": 3.688205
+        },
+        {
+          "soc": 0.185,
+          "ocv": 3.670276,
+          "dischargeVoltage": 3.646833,
+          "chargeVoltage": 3.693718
+        },
+        {
+          "soc": 0.19,
+          "ocv": 3.675824,
+          "dischargeVoltage": 3.652318,
+          "chargeVoltage": 3.699329
+        },
+        {
+          "soc": 0.195,
+          "ocv": 3.680753,
+          "dischargeVoltage": 3.65727,
+          "chargeVoltage": 3.704236
+        },
+        {
+          "soc": 0.2,
+          "ocv": 3.685403,
+          "dischargeVoltage": 3.661904,
+          "chargeVoltage": 3.708902
+        },
+        {
+          "soc": 0.205,
+          "ocv": 3.689885,
+          "dischargeVoltage": 3.666467,
+          "chargeVoltage": 3.713304
+        },
+        {
+          "soc": 0.21,
+          "ocv": 3.694085,
+          "dischargeVoltage": 3.670827,
+          "chargeVoltage": 3.717343
+        },
+        {
+          "soc": 0.215,
+          "ocv": 3.698241,
+          "dischargeVoltage": 3.675224,
+          "chargeVoltage": 3.721258
+        },
+        {
+          "soc": 0.22,
+          "ocv": 3.702168,
+          "dischargeVoltage": 3.67915,
+          "chargeVoltage": 3.725185
+        },
+        {
+          "soc": 0.225,
+          "ocv": 3.705976,
+          "dischargeVoltage": 3.683264,
+          "chargeVoltage": 3.728688
+        },
+        {
+          "soc": 0.23,
+          "ocv": 3.709606,
+          "dischargeVoltage": 3.687079,
+          "chargeVoltage": 3.732132
+        },
+        {
+          "soc": 0.235,
+          "ocv": 3.713204,
+          "dischargeVoltage": 3.690499,
+          "chargeVoltage": 3.735908
+        },
+        {
+          "soc": 0.24,
+          "ocv": 3.716505,
+          "dischargeVoltage": 3.693937,
+          "chargeVoltage": 3.739074
+        },
+        {
+          "soc": 0.245,
+          "ocv": 3.719695,
+          "dischargeVoltage": 3.697087,
+          "chargeVoltage": 3.742303
+        },
+        {
+          "soc": 0.25,
+          "ocv": 3.722519,
+          "dischargeVoltage": 3.699731,
+          "chargeVoltage": 3.745307
+        },
+        {
+          "soc": 0.255,
+          "ocv": 3.725451,
+          "dischargeVoltage": 3.702609,
+          "chargeVoltage": 3.748292
+        },
+        {
+          "soc": 0.26,
+          "ocv": 3.728043,
+          "dischargeVoltage": 3.705205,
+          "chargeVoltage": 3.750881
+        },
+        {
+          "soc": 0.265,
+          "ocv": 3.730506,
+          "dischargeVoltage": 3.707659,
+          "chargeVoltage": 3.753353
+        },
+        {
+          "soc": 0.27,
+          "ocv": 3.732768,
+          "dischargeVoltage": 3.71004,
+          "chargeVoltage": 3.755495
+        },
+        {
+          "soc": 0.275,
+          "ocv": 3.735141,
+          "dischargeVoltage": 3.712243,
+          "chargeVoltage": 3.758038
+        },
+        {
+          "soc": 0.28,
+          "ocv": 3.737226,
+          "dischargeVoltage": 3.714641,
+          "chargeVoltage": 3.759812
+        },
+        {
+          "soc": 0.285,
+          "ocv": 3.739253,
+          "dischargeVoltage": 3.716645,
+          "chargeVoltage": 3.761862
+        },
+        {
+          "soc": 0.29,
+          "ocv": 3.741071,
+          "dischargeVoltage": 3.718407,
+          "chargeVoltage": 3.763734
+        },
+        {
+          "soc": 0.295,
+          "ocv": 3.742771,
+          "dischargeVoltage": 3.720064,
+          "chargeVoltage": 3.765478
+        },
+        {
+          "soc": 0.3,
+          "ocv": 3.744397,
+          "dischargeVoltage": 3.721792,
+          "chargeVoltage": 3.767002
+        },
+        {
+          "soc": 0.305,
+          "ocv": 3.745811,
+          "dischargeVoltage": 3.723171,
+          "chargeVoltage": 3.768451
+        },
+        {
+          "soc": 0.31,
+          "ocv": 3.747547,
+          "dischargeVoltage": 3.724683,
+          "chargeVoltage": 3.77041
+        },
+        {
+          "soc": 0.315,
+          "ocv": 3.74894,
+          "dischargeVoltage": 3.725889,
+          "chargeVoltage": 3.771991
+        },
+        {
+          "soc": 0.32,
+          "ocv": 3.750261,
+          "dischargeVoltage": 3.727128,
+          "chargeVoltage": 3.773394
+        },
+        {
+          "soc": 0.325,
+          "ocv": 3.751772,
+          "dischargeVoltage": 3.728386,
+          "chargeVoltage": 3.775158
+        },
+        {
+          "soc": 0.33,
+          "ocv": 3.753276,
+          "dischargeVoltage": 3.729627,
+          "chargeVoltage": 3.776924
+        },
+        {
+          "soc": 0.335,
+          "ocv": 3.754633,
+          "dischargeVoltage": 3.730724,
+          "chargeVoltage": 3.778542
+        },
+        {
+          "soc": 0.34,
+          "ocv": 3.755943,
+          "dischargeVoltage": 3.731919,
+          "chargeVoltage": 3.779968
+        },
+        {
+          "soc": 0.345,
+          "ocv": 3.757577,
+          "dischargeVoltage": 3.733176,
+          "chargeVoltage": 3.781977
+        },
+        {
+          "soc": 0.35,
+          "ocv": 3.758943,
+          "dischargeVoltage": 3.734427,
+          "chargeVoltage": 3.783459
+        },
+        {
+          "soc": 0.355,
+          "ocv": 3.760363,
+          "dischargeVoltage": 3.735608,
+          "chargeVoltage": 3.785118
+        },
+        {
+          "soc": 0.36,
+          "ocv": 3.761642,
+          "dischargeVoltage": 3.73687,
+          "chargeVoltage": 3.786415
+        },
+        {
+          "soc": 0.365,
+          "ocv": 3.763199,
+          "dischargeVoltage": 3.738348,
+          "chargeVoltage": 3.78805
+        },
+        {
+          "soc": 0.37,
+          "ocv": 3.764773,
+          "dischargeVoltage": 3.739973,
+          "chargeVoltage": 3.789573
+        },
+        {
+          "soc": 0.375,
+          "ocv": 3.766247,
+          "dischargeVoltage": 3.741412,
+          "chargeVoltage": 3.791082
+        },
+        {
+          "soc": 0.38,
+          "ocv": 3.768043,
+          "dischargeVoltage": 3.743415,
+          "chargeVoltage": 3.792671
+        },
+        {
+          "soc": 0.385,
+          "ocv": 3.769781,
+          "dischargeVoltage": 3.745419,
+          "chargeVoltage": 3.794143
+        },
+        {
+          "soc": 0.39,
+          "ocv": 3.771224,
+          "dischargeVoltage": 3.747075,
+          "chargeVoltage": 3.795374
+        },
+        {
+          "soc": 0.395,
+          "ocv": 3.772958,
+          "dischargeVoltage": 3.749002,
+          "chargeVoltage": 3.796914
+        },
+        {
+          "soc": 0.4,
+          "ocv": 3.774897,
+          "dischargeVoltage": 3.751224,
+          "chargeVoltage": 3.798569
+        },
+        {
+          "soc": 0.405,
+          "ocv": 3.776592,
+          "dischargeVoltage": 3.753402,
+          "chargeVoltage": 3.799783
+        },
+        {
+          "soc": 0.41,
+          "ocv": 3.778378,
+          "dischargeVoltage": 3.755588,
+          "chargeVoltage": 3.801168
+        },
+        {
+          "soc": 0.415,
+          "ocv": 3.780212,
+          "dischargeVoltage": 3.757831,
+          "chargeVoltage": 3.802592
+        },
+        {
+          "soc": 0.42,
+          "ocv": 3.781917,
+          "dischargeVoltage": 3.760141,
+          "chargeVoltage": 3.803693
+        },
+        {
+          "soc": 0.425,
+          "ocv": 3.783616,
+          "dischargeVoltage": 3.762343,
+          "chargeVoltage": 3.804889
+        },
+        {
+          "soc": 0.43,
+          "ocv": 3.785612,
+          "dischargeVoltage": 3.764682,
+          "chargeVoltage": 3.806541
+        },
+        {
+          "soc": 0.435,
+          "ocv": 3.78739,
+          "dischargeVoltage": 3.767001,
+          "chargeVoltage": 3.807779
+        },
+        {
+          "soc": 0.44,
+          "ocv": 3.789142,
+          "dischargeVoltage": 3.769108,
+          "chargeVoltage": 3.809177
+        },
+        {
+          "soc": 0.445,
+          "ocv": 3.791048,
+          "dischargeVoltage": 3.771615,
+          "chargeVoltage": 3.810482
+        },
+        {
+          "soc": 0.45,
+          "ocv": 3.792908,
+          "dischargeVoltage": 3.773693,
+          "chargeVoltage": 3.812124
+        },
+        {
+          "soc": 0.455,
+          "ocv": 3.794675,
+          "dischargeVoltage": 3.775912,
+          "chargeVoltage": 3.813439
+        },
+        {
+          "soc": 0.46,
+          "ocv": 3.796631,
+          "dischargeVoltage": 3.77835,
+          "chargeVoltage": 3.814912
+        },
+        {
+          "soc": 0.465,
+          "ocv": 3.798533,
+          "dischargeVoltage": 3.780438,
+          "chargeVoltage": 3.816629
+        },
+        {
+          "soc": 0.47,
+          "ocv": 3.800425,
+          "dischargeVoltage": 3.782681,
+          "chargeVoltage": 3.818169
+        },
+        {
+          "soc": 0.475,
+          "ocv": 3.802461,
+          "dischargeVoltage": 3.785022,
+          "chargeVoltage": 3.819899
+        },
+        {
+          "soc": 0.48,
+          "ocv": 3.804321,
+          "dischargeVoltage": 3.787102,
+          "chargeVoltage": 3.82154
+        },
+        {
+          "soc": 0.485,
+          "ocv": 3.806393,
+          "dischargeVoltage": 3.789484,
+          "chargeVoltage": 3.823303
+        },
+        {
+          "soc": 0.49,
+          "ocv": 3.808345,
+          "dischargeVoltage": 3.791584,
+          "chargeVoltage": 3.825106
+        },
+        {
+          "soc": 0.495,
+          "ocv": 3.810309,
+          "dischargeVoltage": 3.793794,
+          "chargeVoltage": 3.826824
+        },
+        {
+          "soc": 0.5,
+          "ocv": 3.812196,
+          "dischargeVoltage": 3.795956,
+          "chargeVoltage": 3.828437
+        },
+        {
+          "soc": 0.505,
+          "ocv": 3.814239,
+          "dischargeVoltage": 3.798224,
+          "chargeVoltage": 3.830255
+        },
+        {
+          "soc": 0.51,
+          "ocv": 3.816416,
+          "dischargeVoltage": 3.800486,
+          "chargeVoltage": 3.832345
+        },
+        {
+          "soc": 0.515,
+          "ocv": 3.818348,
+          "dischargeVoltage": 3.802684,
+          "chargeVoltage": 3.834012
+        },
+        {
+          "soc": 0.52,
+          "ocv": 3.820433,
+          "dischargeVoltage": 3.804926,
+          "chargeVoltage": 3.835941
+        },
+        {
+          "soc": 0.525,
+          "ocv": 3.822468,
+          "dischargeVoltage": 3.806976,
+          "chargeVoltage": 3.837961
+        },
+        {
+          "soc": 0.53,
+          "ocv": 3.824639,
+          "dischargeVoltage": 3.809398,
+          "chargeVoltage": 3.839879
+        },
+        {
+          "soc": 0.535,
+          "ocv": 3.82664,
+          "dischargeVoltage": 3.811434,
+          "chargeVoltage": 3.841846
+        },
+        {
+          "soc": 0.54,
+          "ocv": 3.828883,
+          "dischargeVoltage": 3.813916,
+          "chargeVoltage": 3.84385
+        },
+        {
+          "soc": 0.545,
+          "ocv": 3.830917,
+          "dischargeVoltage": 3.816066,
+          "chargeVoltage": 3.845767
+        },
+        {
+          "soc": 0.55,
+          "ocv": 3.833246,
+          "dischargeVoltage": 3.818389,
+          "chargeVoltage": 3.848102
+        },
+        {
+          "soc": 0.555,
+          "ocv": 3.835399,
+          "dischargeVoltage": 3.820602,
+          "chargeVoltage": 3.850196
+        },
+        {
+          "soc": 0.56,
+          "ocv": 3.837633,
+          "dischargeVoltage": 3.822892,
+          "chargeVoltage": 3.852375
+        },
+        {
+          "soc": 0.565,
+          "ocv": 3.839817,
+          "dischargeVoltage": 3.825176,
+          "chargeVoltage": 3.854457
+        },
+        {
+          "soc": 0.57,
+          "ocv": 3.842129,
+          "dischargeVoltage": 3.827483,
+          "chargeVoltage": 3.856775
+        },
+        {
+          "soc": 0.575,
+          "ocv": 3.844456,
+          "dischargeVoltage": 3.829979,
+          "chargeVoltage": 3.858933
+        },
+        {
+          "soc": 0.58,
+          "ocv": 3.846748,
+          "dischargeVoltage": 3.832335,
+          "chargeVoltage": 3.86116
+        },
+        {
+          "soc": 0.585,
+          "ocv": 3.849248,
+          "dischargeVoltage": 3.83479,
+          "chargeVoltage": 3.863706
+        },
+        {
+          "soc": 0.59,
+          "ocv": 3.851602,
+          "dischargeVoltage": 3.837352,
+          "chargeVoltage": 3.865853
+        },
+        {
+          "soc": 0.595,
+          "ocv": 3.853959,
+          "dischargeVoltage": 3.839717,
+          "chargeVoltage": 3.8682
+        },
+        {
+          "soc": 0.6,
+          "ocv": 3.856331,
+          "dischargeVoltage": 3.842112,
+          "chargeVoltage": 3.870551
+        },
+        {
+          "soc": 0.605,
+          "ocv": 3.858753,
+          "dischargeVoltage": 3.844527,
+          "chargeVoltage": 3.872979
+        },
+        {
+          "soc": 0.61,
+          "ocv": 3.861231,
+          "dischargeVoltage": 3.846968,
+          "chargeVoltage": 3.875494
+        },
+        {
+          "soc": 0.615,
+          "ocv": 3.863957,
+          "dischargeVoltage": 3.849843,
+          "chargeVoltage": 3.878071
+        },
+        {
+          "soc": 0.62,
+          "ocv": 3.866315,
+          "dischargeVoltage": 3.852141,
+          "chargeVoltage": 3.880489
+        },
+        {
+          "soc": 0.625,
+          "ocv": 3.86889,
+          "dischargeVoltage": 3.854767,
+          "chargeVoltage": 3.883013
+        },
+        {
+          "soc": 0.63,
+          "ocv": 3.871582,
+          "dischargeVoltage": 3.857598,
+          "chargeVoltage": 3.885565
+        },
+        {
+          "soc": 0.635,
+          "ocv": 3.874232,
+          "dischargeVoltage": 3.860154,
+          "chargeVoltage": 3.88831
+        },
+        {
+          "soc": 0.64,
+          "ocv": 3.876929,
+          "dischargeVoltage": 3.862889,
+          "chargeVoltage": 3.890969
+        },
+        {
+          "soc": 0.645,
+          "ocv": 3.879548,
+          "dischargeVoltage": 3.865422,
+          "chargeVoltage": 3.893674
+        },
+        {
+          "soc": 0.65,
+          "ocv": 3.882222,
+          "dischargeVoltage": 3.868108,
+          "chargeVoltage": 3.896335
+        },
+        {
+          "soc": 0.655,
+          "ocv": 3.885089,
+          "dischargeVoltage": 3.870963,
+          "chargeVoltage": 3.899216
+        },
+        {
+          "soc": 0.66,
+          "ocv": 3.888057,
+          "dischargeVoltage": 3.87397,
+          "chargeVoltage": 3.902144
+        },
+        {
+          "soc": 0.665,
+          "ocv": 3.890802,
+          "dischargeVoltage": 3.876678,
+          "chargeVoltage": 3.904926
+        },
+        {
+          "soc": 0.67,
+          "ocv": 3.893642,
+          "dischargeVoltage": 3.879446,
+          "chargeVoltage": 3.907838
+        },
+        {
+          "soc": 0.675,
+          "ocv": 3.896571,
+          "dischargeVoltage": 3.882423,
+          "chargeVoltage": 3.910719
+        },
+        {
+          "soc": 0.68,
+          "ocv": 3.8996,
+          "dischargeVoltage": 3.885429,
+          "chargeVoltage": 3.913771
+        },
+        {
+          "soc": 0.685,
+          "ocv": 3.902698,
+          "dischargeVoltage": 3.888615,
+          "chargeVoltage": 3.916781
+        },
+        {
+          "soc": 0.69,
+          "ocv": 3.905791,
+          "dischargeVoltage": 3.891669,
+          "chargeVoltage": 3.919913
+        },
+        {
+          "soc": 0.695,
+          "ocv": 3.908933,
+          "dischargeVoltage": 3.894845,
+          "chargeVoltage": 3.92302
+        },
+        {
+          "soc": 0.7,
+          "ocv": 3.912063,
+          "dischargeVoltage": 3.897797,
+          "chargeVoltage": 3.926329
+        },
+        {
+          "soc": 0.705,
+          "ocv": 3.915135,
+          "dischargeVoltage": 3.900941,
+          "chargeVoltage": 3.929329
+        },
+        {
+          "soc": 0.71,
+          "ocv": 3.918492,
+          "dischargeVoltage": 3.904425,
+          "chargeVoltage": 3.932558
+        },
+        {
+          "soc": 0.715,
+          "ocv": 3.921668,
+          "dischargeVoltage": 3.907504,
+          "chargeVoltage": 3.935833
+        },
+        {
+          "soc": 0.72,
+          "ocv": 3.924971,
+          "dischargeVoltage": 3.910632,
+          "chargeVoltage": 3.93931
+        },
+        {
+          "soc": 0.725,
+          "ocv": 3.928332,
+          "dischargeVoltage": 3.914003,
+          "chargeVoltage": 3.942662
+        },
+        {
+          "soc": 0.73,
+          "ocv": 3.931614,
+          "dischargeVoltage": 3.917224,
+          "chargeVoltage": 3.946003
+        },
+        {
+          "soc": 0.735,
+          "ocv": 3.935108,
+          "dischargeVoltage": 3.920677,
+          "chargeVoltage": 3.94954
+        },
+        {
+          "soc": 0.74,
+          "ocv": 3.938508,
+          "dischargeVoltage": 3.92408,
+          "chargeVoltage": 3.952935
+        },
+        {
+          "soc": 0.745,
+          "ocv": 3.941973,
+          "dischargeVoltage": 3.927409,
+          "chargeVoltage": 3.956536
+        },
+        {
+          "soc": 0.75,
+          "ocv": 3.945508,
+          "dischargeVoltage": 3.930846,
+          "chargeVoltage": 3.96017
+        },
+        {
+          "soc": 0.755,
+          "ocv": 3.948823,
+          "dischargeVoltage": 3.934289,
+          "chargeVoltage": 3.963357
+        },
+        {
+          "soc": 0.76,
+          "ocv": 3.952351,
+          "dischargeVoltage": 3.937732,
+          "chargeVoltage": 3.966969
+        },
+        {
+          "soc": 0.765,
+          "ocv": 3.955651,
+          "dischargeVoltage": 3.941146,
+          "chargeVoltage": 3.970156
+        },
+        {
+          "soc": 0.77,
+          "ocv": 3.958782,
+          "dischargeVoltage": 3.94429,
+          "chargeVoltage": 3.973274
+        },
+        {
+          "soc": 0.775,
+          "ocv": 3.962137,
+          "dischargeVoltage": 3.947581,
+          "chargeVoltage": 3.976692
+        },
+        {
+          "soc": 0.78,
+          "ocv": 3.965451,
+          "dischargeVoltage": 3.950762,
+          "chargeVoltage": 3.980141
+        },
+        {
+          "soc": 0.785,
+          "ocv": 3.968999,
+          "dischargeVoltage": 3.954437,
+          "chargeVoltage": 3.983562
+        },
+        {
+          "soc": 0.79,
+          "ocv": 3.972654,
+          "dischargeVoltage": 3.957937,
+          "chargeVoltage": 3.98737
+        },
+        {
+          "soc": 0.795,
+          "ocv": 3.9764,
+          "dischargeVoltage": 3.961791,
+          "chargeVoltage": 3.991009
+        },
+        {
+          "soc": 0.8,
+          "ocv": 3.980636,
+          "dischargeVoltage": 3.965898,
+          "chargeVoltage": 3.995374
+        },
+        {
+          "soc": 0.805,
+          "ocv": 3.984909,
+          "dischargeVoltage": 3.970072,
+          "chargeVoltage": 3.999746
+        },
+        {
+          "soc": 0.81,
+          "ocv": 3.989617,
+          "dischargeVoltage": 3.974711,
+          "chargeVoltage": 4.004523
+        },
+        {
+          "soc": 0.815,
+          "ocv": 3.994566,
+          "dischargeVoltage": 3.97965,
+          "chargeVoltage": 4.009482
+        },
+        {
+          "soc": 0.82,
+          "ocv": 3.999438,
+          "dischargeVoltage": 3.984436,
+          "chargeVoltage": 4.014441
+        },
+        {
+          "soc": 0.825,
+          "ocv": 4.004718,
+          "dischargeVoltage": 3.989513,
+          "chargeVoltage": 4.019922
+        },
+        {
+          "soc": 0.83,
+          "ocv": 4.00995,
+          "dischargeVoltage": 3.994623,
+          "chargeVoltage": 4.025277
+        },
+        {
+          "soc": 0.835,
+          "ocv": 4.015404,
+          "dischargeVoltage": 4.000161,
+          "chargeVoltage": 4.030647
+        },
+        {
+          "soc": 0.84,
+          "ocv": 4.020633,
+          "dischargeVoltage": 4.005063,
+          "chargeVoltage": 4.036204
+        },
+        {
+          "soc": 0.845,
+          "ocv": 4.025887,
+          "dischargeVoltage": 4.010449,
+          "chargeVoltage": 4.041326
+        },
+        {
+          "soc": 0.85,
+          "ocv": 4.030853,
+          "dischargeVoltage": 4.014952,
+          "chargeVoltage": 4.046755
+        },
+        {
+          "soc": 0.855,
+          "ocv": 4.035711,
+          "dischargeVoltage": 4.019609,
+          "chargeVoltage": 4.051814
+        },
+        {
+          "soc": 0.86,
+          "ocv": 4.040353,
+          "dischargeVoltage": 4.024151,
+          "chargeVoltage": 4.056555
+        },
+        {
+          "soc": 0.865,
+          "ocv": 4.044762,
+          "dischargeVoltage": 4.028433,
+          "chargeVoltage": 4.061091
+        },
+        {
+          "soc": 0.87,
+          "ocv": 4.049,
+          "dischargeVoltage": 4.032871,
+          "chargeVoltage": 4.065128
+        },
+        {
+          "soc": 0.875,
+          "ocv": 4.053505,
+          "dischargeVoltage": 4.037651,
+          "chargeVoltage": 4.069359
+        },
+        {
+          "soc": 0.88,
+          "ocv": 4.058096,
+          "dischargeVoltage": 4.042534,
+          "chargeVoltage": 4.073658
+        },
+        {
+          "soc": 0.885,
+          "ocv": 4.062754,
+          "dischargeVoltage": 4.047552,
+          "chargeVoltage": 4.077956
+        },
+        {
+          "soc": 0.89,
+          "ocv": 4.067629,
+          "dischargeVoltage": 4.05277,
+          "chargeVoltage": 4.082488
+        },
+        {
+          "soc": 0.895,
+          "ocv": 4.072557,
+          "dischargeVoltage": 4.057944,
+          "chargeVoltage": 4.08717
+        },
+        {
+          "soc": 0.9,
+          "ocv": 4.077655,
+          "dischargeVoltage": 4.063518,
+          "chargeVoltage": 4.091792
+        },
+        {
+          "soc": 0.905,
+          "ocv": 4.082884,
+          "dischargeVoltage": 4.068887,
+          "chargeVoltage": 4.096881
+        },
+        {
+          "soc": 0.91,
+          "ocv": 4.08813,
+          "dischargeVoltage": 4.074498,
+          "chargeVoltage": 4.101763
+        },
+        {
+          "soc": 0.915,
+          "ocv": 4.0933,
+          "dischargeVoltage": 4.080047,
+          "chargeVoltage": 4.106553
+        },
+        {
+          "soc": 0.92,
+          "ocv": 4.098622,
+          "dischargeVoltage": 4.08557,
+          "chargeVoltage": 4.111675
+        },
+        {
+          "soc": 0.925,
+          "ocv": 4.104016,
+          "dischargeVoltage": 4.091423,
+          "chargeVoltage": 4.116609
+        },
+        {
+          "soc": 0.93,
+          "ocv": 4.109707,
+          "dischargeVoltage": 4.097311,
+          "chargeVoltage": 4.122102
+        },
+        {
+          "soc": 0.935,
+          "ocv": 4.115094,
+          "dischargeVoltage": 4.103014,
+          "chargeVoltage": 4.127174
+        },
+        {
+          "soc": 0.94,
+          "ocv": 4.120679,
+          "dischargeVoltage": 4.108919,
+          "chargeVoltage": 4.132439
+        },
+        {
+          "soc": 0.945,
+          "ocv": 4.126357,
+          "dischargeVoltage": 4.114928,
+          "chargeVoltage": 4.137786
+        },
+        {
+          "soc": 0.95,
+          "ocv": 4.132053,
+          "dischargeVoltage": 4.121033,
+          "chargeVoltage": 4.143073
+        },
+        {
+          "soc": 0.955,
+          "ocv": 4.137952,
+          "dischargeVoltage": 4.12716,
+          "chargeVoltage": 4.148744
+        },
+        {
+          "soc": 0.96,
+          "ocv": 4.143783,
+          "dischargeVoltage": 4.133378,
+          "chargeVoltage": 4.154189
+        },
+        {
+          "soc": 0.965,
+          "ocv": 4.149635,
+          "dischargeVoltage": 4.139634,
+          "chargeVoltage": 4.159636
+        },
+        {
+          "soc": 0.97,
+          "ocv": 4.155661,
+          "dischargeVoltage": 4.14609,
+          "chargeVoltage": 4.165232
+        },
+        {
+          "soc": 0.975,
+          "ocv": 4.161742,
+          "dischargeVoltage": 4.152591,
+          "chargeVoltage": 4.170893
+        },
+        {
+          "soc": 0.98,
+          "ocv": 4.167803,
+          "dischargeVoltage": 4.159125,
+          "chargeVoltage": 4.176481
+        },
+        {
+          "soc": 0.985,
+          "ocv": 4.174241,
+          "dischargeVoltage": 4.166074,
+          "chargeVoltage": 4.182408
+        },
+        {
+          "soc": 0.99,
+          "ocv": 4.180623,
+          "dischargeVoltage": 4.172962,
+          "chargeVoltage": 4.188284
+        },
+        {
+          "soc": 0.995,
+          "ocv": 4.187014,
+          "dischargeVoltage": 4.180093,
+          "chargeVoltage": 4.193935
+        },
+        {
+          "soc": 1,
+          "ocv": 4.195787,
+          "dischargeVoltage": 4.191797,
+          "chargeVoltage": 4.199777
+        }
+      ]
+    },
+    {
+      "targetSoh": 80,
+      "measuredSoh": 79.883188,
+      "cycle": 5800,
+      "dischargeCapacityAh": 0.590425,
+      "pocvDischargeCapacityAh": 0.597488,
+      "pocvChargeCapacityAh": 0.599881,
+      "points": [
+        {
+          "soc": 0,
+          "ocv": 2.701259,
+          "dischargeVoltage": 2.700016,
+          "chargeVoltage": 2.702502
+        },
+        {
+          "soc": 0.005,
+          "ocv": 2.952678,
+          "dischargeVoltage": 2.918349,
+          "chargeVoltage": 2.987007
+        },
+        {
+          "soc": 0.01,
+          "ocv": 3.063353,
+          "dischargeVoltage": 3.03761,
+          "chargeVoltage": 3.089096
+        },
+        {
+          "soc": 0.015,
+          "ocv": 3.135936,
+          "dischargeVoltage": 3.114164,
+          "chargeVoltage": 3.157708
+        },
+        {
+          "soc": 0.02,
+          "ocv": 3.191588,
+          "dischargeVoltage": 3.172198,
+          "chargeVoltage": 3.210978
+        },
+        {
+          "soc": 0.025,
+          "ocv": 3.23729,
+          "dischargeVoltage": 3.219392,
+          "chargeVoltage": 3.255189
+        },
+        {
+          "soc": 0.03,
+          "ocv": 3.276601,
+          "dischargeVoltage": 3.259914,
+          "chargeVoltage": 3.293288
+        },
+        {
+          "soc": 0.035,
+          "ocv": 3.310968,
+          "dischargeVoltage": 3.295221,
+          "chargeVoltage": 3.326714
+        },
+        {
+          "soc": 0.04,
+          "ocv": 3.34164,
+          "dischargeVoltage": 3.32638,
+          "chargeVoltage": 3.356899
+        },
+        {
+          "soc": 0.045,
+          "ocv": 3.36939,
+          "dischargeVoltage": 3.354556,
+          "chargeVoltage": 3.384223
+        },
+        {
+          "soc": 0.05,
+          "ocv": 3.39462,
+          "dischargeVoltage": 3.38011,
+          "chargeVoltage": 3.40913
+        },
+        {
+          "soc": 0.055,
+          "ocv": 3.417966,
+          "dischargeVoltage": 3.403444,
+          "chargeVoltage": 3.432488
+        },
+        {
+          "soc": 0.06,
+          "ocv": 3.439386,
+          "dischargeVoltage": 3.425079,
+          "chargeVoltage": 3.453693
+        },
+        {
+          "soc": 0.065,
+          "ocv": 3.459269,
+          "dischargeVoltage": 3.444861,
+          "chargeVoltage": 3.473676
+        },
+        {
+          "soc": 0.07,
+          "ocv": 3.477781,
+          "dischargeVoltage": 3.463296,
+          "chargeVoltage": 3.492267
+        },
+        {
+          "soc": 0.075,
+          "ocv": 3.495053,
+          "dischargeVoltage": 3.48047,
+          "chargeVoltage": 3.509637
+        },
+        {
+          "soc": 0.08,
+          "ocv": 3.511195,
+          "dischargeVoltage": 3.496627,
+          "chargeVoltage": 3.525763
+        },
+        {
+          "soc": 0.085,
+          "ocv": 3.526125,
+          "dischargeVoltage": 3.511129,
+          "chargeVoltage": 3.54112
+        },
+        {
+          "soc": 0.09,
+          "ocv": 3.540345,
+          "dischargeVoltage": 3.524791,
+          "chargeVoltage": 3.555899
+        },
+        {
+          "soc": 0.095,
+          "ocv": 3.553075,
+          "dischargeVoltage": 3.53678,
+          "chargeVoltage": 3.56937
+        },
+        {
+          "soc": 0.1,
+          "ocv": 3.564764,
+          "dischargeVoltage": 3.547826,
+          "chargeVoltage": 3.581701
+        },
+        {
+          "soc": 0.105,
+          "ocv": 3.575602,
+          "dischargeVoltage": 3.558124,
+          "chargeVoltage": 3.59308
+        },
+        {
+          "soc": 0.11,
+          "ocv": 3.58545,
+          "dischargeVoltage": 3.567342,
+          "chargeVoltage": 3.603559
+        },
+        {
+          "soc": 0.115,
+          "ocv": 3.594626,
+          "dischargeVoltage": 3.576253,
+          "chargeVoltage": 3.612999
+        },
+        {
+          "soc": 0.12,
+          "ocv": 3.60347,
+          "dischargeVoltage": 3.58482,
+          "chargeVoltage": 3.622121
+        },
+        {
+          "soc": 0.125,
+          "ocv": 3.611789,
+          "dischargeVoltage": 3.593006,
+          "chargeVoltage": 3.630571
+        },
+        {
+          "soc": 0.13,
+          "ocv": 3.619566,
+          "dischargeVoltage": 3.600507,
+          "chargeVoltage": 3.638624
+        },
+        {
+          "soc": 0.135,
+          "ocv": 3.62704,
+          "dischargeVoltage": 3.607988,
+          "chargeVoltage": 3.646092
+        },
+        {
+          "soc": 0.14,
+          "ocv": 3.634206,
+          "dischargeVoltage": 3.615301,
+          "chargeVoltage": 3.653111
+        },
+        {
+          "soc": 0.145,
+          "ocv": 3.640716,
+          "dischargeVoltage": 3.621777,
+          "chargeVoltage": 3.659654
+        },
+        {
+          "soc": 0.15,
+          "ocv": 3.646985,
+          "dischargeVoltage": 3.628142,
+          "chargeVoltage": 3.665827
+        },
+        {
+          "soc": 0.155,
+          "ocv": 3.65301,
+          "dischargeVoltage": 3.634225,
+          "chargeVoltage": 3.671796
+        },
+        {
+          "soc": 0.16,
+          "ocv": 3.658482,
+          "dischargeVoltage": 3.63992,
+          "chargeVoltage": 3.677044
+        },
+        {
+          "soc": 0.165,
+          "ocv": 3.663371,
+          "dischargeVoltage": 3.644978,
+          "chargeVoltage": 3.681765
+        },
+        {
+          "soc": 0.17,
+          "ocv": 3.667879,
+          "dischargeVoltage": 3.649637,
+          "chargeVoltage": 3.686121
+        },
+        {
+          "soc": 0.175,
+          "ocv": 3.672197,
+          "dischargeVoltage": 3.654218,
+          "chargeVoltage": 3.690177
+        },
+        {
+          "soc": 0.18,
+          "ocv": 3.675649,
+          "dischargeVoltage": 3.657805,
+          "chargeVoltage": 3.693492
+        },
+        {
+          "soc": 0.185,
+          "ocv": 3.678758,
+          "dischargeVoltage": 3.660978,
+          "chargeVoltage": 3.696538
+        },
+        {
+          "soc": 0.19,
+          "ocv": 3.681545,
+          "dischargeVoltage": 3.663777,
+          "chargeVoltage": 3.699313
+        },
+        {
+          "soc": 0.195,
+          "ocv": 3.68426,
+          "dischargeVoltage": 3.66665,
+          "chargeVoltage": 3.701869
+        },
+        {
+          "soc": 0.2,
+          "ocv": 3.6868,
+          "dischargeVoltage": 3.66937,
+          "chargeVoltage": 3.704229
+        },
+        {
+          "soc": 0.205,
+          "ocv": 3.689555,
+          "dischargeVoltage": 3.672598,
+          "chargeVoltage": 3.706512
+        },
+        {
+          "soc": 0.21,
+          "ocv": 3.692447,
+          "dischargeVoltage": 3.675566,
+          "chargeVoltage": 3.709328
+        },
+        {
+          "soc": 0.215,
+          "ocv": 3.695286,
+          "dischargeVoltage": 3.678716,
+          "chargeVoltage": 3.711857
+        },
+        {
+          "soc": 0.22,
+          "ocv": 3.697823,
+          "dischargeVoltage": 3.681415,
+          "chargeVoltage": 3.71423
+        },
+        {
+          "soc": 0.225,
+          "ocv": 3.700627,
+          "dischargeVoltage": 3.684274,
+          "chargeVoltage": 3.71698
+        },
+        {
+          "soc": 0.23,
+          "ocv": 3.703131,
+          "dischargeVoltage": 3.686797,
+          "chargeVoltage": 3.719465
+        },
+        {
+          "soc": 0.235,
+          "ocv": 3.70581,
+          "dischargeVoltage": 3.689212,
+          "chargeVoltage": 3.722408
+        },
+        {
+          "soc": 0.24,
+          "ocv": 3.708177,
+          "dischargeVoltage": 3.691405,
+          "chargeVoltage": 3.724948
+        },
+        {
+          "soc": 0.245,
+          "ocv": 3.710511,
+          "dischargeVoltage": 3.693566,
+          "chargeVoltage": 3.727457
+        },
+        {
+          "soc": 0.25,
+          "ocv": 3.712753,
+          "dischargeVoltage": 3.695501,
+          "chargeVoltage": 3.730004
+        },
+        {
+          "soc": 0.255,
+          "ocv": 3.715058,
+          "dischargeVoltage": 3.697666,
+          "chargeVoltage": 3.732449
+        },
+        {
+          "soc": 0.26,
+          "ocv": 3.71725,
+          "dischargeVoltage": 3.699545,
+          "chargeVoltage": 3.734955
+        },
+        {
+          "soc": 0.265,
+          "ocv": 3.71935,
+          "dischargeVoltage": 3.701452,
+          "chargeVoltage": 3.737248
+        },
+        {
+          "soc": 0.27,
+          "ocv": 3.72151,
+          "dischargeVoltage": 3.703203,
+          "chargeVoltage": 3.739817
+        },
+        {
+          "soc": 0.275,
+          "ocv": 3.723493,
+          "dischargeVoltage": 3.70501,
+          "chargeVoltage": 3.741977
+        },
+        {
+          "soc": 0.28,
+          "ocv": 3.725406,
+          "dischargeVoltage": 3.70675,
+          "chargeVoltage": 3.744061
+        },
+        {
+          "soc": 0.285,
+          "ocv": 3.727332,
+          "dischargeVoltage": 3.708529,
+          "chargeVoltage": 3.746135
+        },
+        {
+          "soc": 0.29,
+          "ocv": 3.729232,
+          "dischargeVoltage": 3.710335,
+          "chargeVoltage": 3.74813
+        },
+        {
+          "soc": 0.295,
+          "ocv": 3.730874,
+          "dischargeVoltage": 3.711739,
+          "chargeVoltage": 3.75001
+        },
+        {
+          "soc": 0.3,
+          "ocv": 3.732551,
+          "dischargeVoltage": 3.713156,
+          "chargeVoltage": 3.751946
+        },
+        {
+          "soc": 0.305,
+          "ocv": 3.734169,
+          "dischargeVoltage": 3.714584,
+          "chargeVoltage": 3.753755
+        },
+        {
+          "soc": 0.31,
+          "ocv": 3.735902,
+          "dischargeVoltage": 3.716094,
+          "chargeVoltage": 3.75571
+        },
+        {
+          "soc": 0.315,
+          "ocv": 3.73723,
+          "dischargeVoltage": 3.717166,
+          "chargeVoltage": 3.757293
+        },
+        {
+          "soc": 0.32,
+          "ocv": 3.73886,
+          "dischargeVoltage": 3.718509,
+          "chargeVoltage": 3.759211
+        },
+        {
+          "soc": 0.325,
+          "ocv": 3.740436,
+          "dischargeVoltage": 3.719655,
+          "chargeVoltage": 3.761217
+        },
+        {
+          "soc": 0.33,
+          "ocv": 3.74203,
+          "dischargeVoltage": 3.721113,
+          "chargeVoltage": 3.762946
+        },
+        {
+          "soc": 0.335,
+          "ocv": 3.743805,
+          "dischargeVoltage": 3.722498,
+          "chargeVoltage": 3.765112
+        },
+        {
+          "soc": 0.34,
+          "ocv": 3.745527,
+          "dischargeVoltage": 3.724041,
+          "chargeVoltage": 3.767012
+        },
+        {
+          "soc": 0.345,
+          "ocv": 3.747088,
+          "dischargeVoltage": 3.725139,
+          "chargeVoltage": 3.769037
+        },
+        {
+          "soc": 0.35,
+          "ocv": 3.748967,
+          "dischargeVoltage": 3.726903,
+          "chargeVoltage": 3.771031
+        },
+        {
+          "soc": 0.355,
+          "ocv": 3.750787,
+          "dischargeVoltage": 3.728642,
+          "chargeVoltage": 3.772932
+        },
+        {
+          "soc": 0.36,
+          "ocv": 3.752661,
+          "dischargeVoltage": 3.730185,
+          "chargeVoltage": 3.775137
+        },
+        {
+          "soc": 0.365,
+          "ocv": 3.754598,
+          "dischargeVoltage": 3.732294,
+          "chargeVoltage": 3.776902
+        },
+        {
+          "soc": 0.37,
+          "ocv": 3.756639,
+          "dischargeVoltage": 3.734304,
+          "chargeVoltage": 3.778974
+        },
+        {
+          "soc": 0.375,
+          "ocv": 3.758493,
+          "dischargeVoltage": 3.73615,
+          "chargeVoltage": 3.780837
+        },
+        {
+          "soc": 0.38,
+          "ocv": 3.760719,
+          "dischargeVoltage": 3.738542,
+          "chargeVoltage": 3.782895
+        },
+        {
+          "soc": 0.385,
+          "ocv": 3.762846,
+          "dischargeVoltage": 3.740785,
+          "chargeVoltage": 3.784906
+        },
+        {
+          "soc": 0.39,
+          "ocv": 3.765034,
+          "dischargeVoltage": 3.743271,
+          "chargeVoltage": 3.786797
+        },
+        {
+          "soc": 0.395,
+          "ocv": 3.767192,
+          "dischargeVoltage": 3.74545,
+          "chargeVoltage": 3.788934
+        },
+        {
+          "soc": 0.4,
+          "ocv": 3.769598,
+          "dischargeVoltage": 3.748261,
+          "chargeVoltage": 3.790935
+        },
+        {
+          "soc": 0.405,
+          "ocv": 3.771831,
+          "dischargeVoltage": 3.750675,
+          "chargeVoltage": 3.792987
+        },
+        {
+          "soc": 0.41,
+          "ocv": 3.774177,
+          "dischargeVoltage": 3.753351,
+          "chargeVoltage": 3.795003
+        },
+        {
+          "soc": 0.415,
+          "ocv": 3.776456,
+          "dischargeVoltage": 3.755812,
+          "chargeVoltage": 3.797101
+        },
+        {
+          "soc": 0.42,
+          "ocv": 3.778534,
+          "dischargeVoltage": 3.758311,
+          "chargeVoltage": 3.798758
+        },
+        {
+          "soc": 0.425,
+          "ocv": 3.780923,
+          "dischargeVoltage": 3.761073,
+          "chargeVoltage": 3.800773
+        },
+        {
+          "soc": 0.43,
+          "ocv": 3.783334,
+          "dischargeVoltage": 3.763766,
+          "chargeVoltage": 3.802902
+        },
+        {
+          "soc": 0.435,
+          "ocv": 3.785843,
+          "dischargeVoltage": 3.766597,
+          "chargeVoltage": 3.805088
+        },
+        {
+          "soc": 0.44,
+          "ocv": 3.788373,
+          "dischargeVoltage": 3.769573,
+          "chargeVoltage": 3.807173
+        },
+        {
+          "soc": 0.445,
+          "ocv": 3.790805,
+          "dischargeVoltage": 3.77245,
+          "chargeVoltage": 3.80916
+        },
+        {
+          "soc": 0.45,
+          "ocv": 3.793265,
+          "dischargeVoltage": 3.775381,
+          "chargeVoltage": 3.811148
+        },
+        {
+          "soc": 0.455,
+          "ocv": 3.795843,
+          "dischargeVoltage": 3.778426,
+          "chargeVoltage": 3.81326
+        },
+        {
+          "soc": 0.46,
+          "ocv": 3.798533,
+          "dischargeVoltage": 3.781525,
+          "chargeVoltage": 3.81554
+        },
+        {
+          "soc": 0.465,
+          "ocv": 3.801127,
+          "dischargeVoltage": 3.78449,
+          "chargeVoltage": 3.817764
+        },
+        {
+          "soc": 0.47,
+          "ocv": 3.80353,
+          "dischargeVoltage": 3.787452,
+          "chargeVoltage": 3.819608
+        },
+        {
+          "soc": 0.475,
+          "ocv": 3.806158,
+          "dischargeVoltage": 3.790277,
+          "chargeVoltage": 3.82204
+        },
+        {
+          "soc": 0.48,
+          "ocv": 3.808613,
+          "dischargeVoltage": 3.793107,
+          "chargeVoltage": 3.824119
+        },
+        {
+          "soc": 0.485,
+          "ocv": 3.810904,
+          "dischargeVoltage": 3.795774,
+          "chargeVoltage": 3.826033
+        },
+        {
+          "soc": 0.49,
+          "ocv": 3.813523,
+          "dischargeVoltage": 3.798721,
+          "chargeVoltage": 3.828325
+        },
+        {
+          "soc": 0.495,
+          "ocv": 3.815909,
+          "dischargeVoltage": 3.801294,
+          "chargeVoltage": 3.830523
+        },
+        {
+          "soc": 0.5,
+          "ocv": 3.818363,
+          "dischargeVoltage": 3.803838,
+          "chargeVoltage": 3.832887
+        },
+        {
+          "soc": 0.505,
+          "ocv": 3.820976,
+          "dischargeVoltage": 3.806727,
+          "chargeVoltage": 3.835225
+        },
+        {
+          "soc": 0.51,
+          "ocv": 3.823304,
+          "dischargeVoltage": 3.809302,
+          "chargeVoltage": 3.837306
+        },
+        {
+          "soc": 0.515,
+          "ocv": 3.825728,
+          "dischargeVoltage": 3.812084,
+          "chargeVoltage": 3.839372
+        },
+        {
+          "soc": 0.52,
+          "ocv": 3.828142,
+          "dischargeVoltage": 3.814587,
+          "chargeVoltage": 3.841696
+        },
+        {
+          "soc": 0.525,
+          "ocv": 3.83068,
+          "dischargeVoltage": 3.817168,
+          "chargeVoltage": 3.844192
+        },
+        {
+          "soc": 0.53,
+          "ocv": 3.83306,
+          "dischargeVoltage": 3.819791,
+          "chargeVoltage": 3.846329
+        },
+        {
+          "soc": 0.535,
+          "ocv": 3.835387,
+          "dischargeVoltage": 3.82222,
+          "chargeVoltage": 3.848554
+        },
+        {
+          "soc": 0.54,
+          "ocv": 3.83781,
+          "dischargeVoltage": 3.824628,
+          "chargeVoltage": 3.850992
+        },
+        {
+          "soc": 0.545,
+          "ocv": 3.840252,
+          "dischargeVoltage": 3.82716,
+          "chargeVoltage": 3.853344
+        },
+        {
+          "soc": 0.55,
+          "ocv": 3.842827,
+          "dischargeVoltage": 3.829793,
+          "chargeVoltage": 3.855862
+        },
+        {
+          "soc": 0.555,
+          "ocv": 3.845252,
+          "dischargeVoltage": 3.832289,
+          "chargeVoltage": 3.858214
+        },
+        {
+          "soc": 0.56,
+          "ocv": 3.847713,
+          "dischargeVoltage": 3.834859,
+          "chargeVoltage": 3.860568
+        },
+        {
+          "soc": 0.565,
+          "ocv": 3.85005,
+          "dischargeVoltage": 3.837184,
+          "chargeVoltage": 3.862917
+        },
+        {
+          "soc": 0.57,
+          "ocv": 3.852595,
+          "dischargeVoltage": 3.839827,
+          "chargeVoltage": 3.865364
+        },
+        {
+          "soc": 0.575,
+          "ocv": 3.855131,
+          "dischargeVoltage": 3.842248,
+          "chargeVoltage": 3.868014
+        },
+        {
+          "soc": 0.58,
+          "ocv": 3.857587,
+          "dischargeVoltage": 3.844953,
+          "chargeVoltage": 3.87022
+        },
+        {
+          "soc": 0.585,
+          "ocv": 3.860273,
+          "dischargeVoltage": 3.84771,
+          "chargeVoltage": 3.872837
+        },
+        {
+          "soc": 0.59,
+          "ocv": 3.862633,
+          "dischargeVoltage": 3.849834,
+          "chargeVoltage": 3.875432
+        },
+        {
+          "soc": 0.595,
+          "ocv": 3.865185,
+          "dischargeVoltage": 3.852479,
+          "chargeVoltage": 3.87789
+        },
+        {
+          "soc": 0.6,
+          "ocv": 3.867789,
+          "dischargeVoltage": 3.8551,
+          "chargeVoltage": 3.880479
+        },
+        {
+          "soc": 0.605,
+          "ocv": 3.870468,
+          "dischargeVoltage": 3.857787,
+          "chargeVoltage": 3.883149
+        },
+        {
+          "soc": 0.61,
+          "ocv": 3.873198,
+          "dischargeVoltage": 3.860382,
+          "chargeVoltage": 3.886013
+        },
+        {
+          "soc": 0.615,
+          "ocv": 3.875704,
+          "dischargeVoltage": 3.862907,
+          "chargeVoltage": 3.8885
+        },
+        {
+          "soc": 0.62,
+          "ocv": 3.878392,
+          "dischargeVoltage": 3.865658,
+          "chargeVoltage": 3.891125
+        },
+        {
+          "soc": 0.625,
+          "ocv": 3.881001,
+          "dischargeVoltage": 3.868294,
+          "chargeVoltage": 3.893707
+        },
+        {
+          "soc": 0.63,
+          "ocv": 3.883994,
+          "dischargeVoltage": 3.871107,
+          "chargeVoltage": 3.896882
+        },
+        {
+          "soc": 0.635,
+          "ocv": 3.886681,
+          "dischargeVoltage": 3.873923,
+          "chargeVoltage": 3.899439
+        },
+        {
+          "soc": 0.64,
+          "ocv": 3.889381,
+          "dischargeVoltage": 3.876646,
+          "chargeVoltage": 3.902115
+        },
+        {
+          "soc": 0.645,
+          "ocv": 3.892261,
+          "dischargeVoltage": 3.879504,
+          "chargeVoltage": 3.905018
+        },
+        {
+          "soc": 0.65,
+          "ocv": 3.895196,
+          "dischargeVoltage": 3.882317,
+          "chargeVoltage": 3.908075
+        },
+        {
+          "soc": 0.655,
+          "ocv": 3.897942,
+          "dischargeVoltage": 3.885022,
+          "chargeVoltage": 3.910862
+        },
+        {
+          "soc": 0.66,
+          "ocv": 3.900917,
+          "dischargeVoltage": 3.888016,
+          "chargeVoltage": 3.913818
+        },
+        {
+          "soc": 0.665,
+          "ocv": 3.903919,
+          "dischargeVoltage": 3.89089,
+          "chargeVoltage": 3.916949
+        },
+        {
+          "soc": 0.67,
+          "ocv": 3.906953,
+          "dischargeVoltage": 3.894041,
+          "chargeVoltage": 3.919864
+        },
+        {
+          "soc": 0.675,
+          "ocv": 3.909915,
+          "dischargeVoltage": 3.896904,
+          "chargeVoltage": 3.922926
+        },
+        {
+          "soc": 0.68,
+          "ocv": 3.912986,
+          "dischargeVoltage": 3.900094,
+          "chargeVoltage": 3.925878
+        },
+        {
+          "soc": 0.685,
+          "ocv": 3.91607,
+          "dischargeVoltage": 3.903141,
+          "chargeVoltage": 3.928999
+        },
+        {
+          "soc": 0.69,
+          "ocv": 3.919179,
+          "dischargeVoltage": 3.906229,
+          "chargeVoltage": 3.932128
+        },
+        {
+          "soc": 0.695,
+          "ocv": 3.922361,
+          "dischargeVoltage": 3.909177,
+          "chargeVoltage": 3.935545
+        },
+        {
+          "soc": 0.7,
+          "ocv": 3.925625,
+          "dischargeVoltage": 3.912675,
+          "chargeVoltage": 3.938574
+        },
+        {
+          "soc": 0.705,
+          "ocv": 3.928834,
+          "dischargeVoltage": 3.915773,
+          "chargeVoltage": 3.941895
+        },
+        {
+          "soc": 0.71,
+          "ocv": 3.932108,
+          "dischargeVoltage": 3.91895,
+          "chargeVoltage": 3.945266
+        },
+        {
+          "soc": 0.715,
+          "ocv": 3.935456,
+          "dischargeVoltage": 3.92223,
+          "chargeVoltage": 3.948682
+        },
+        {
+          "soc": 0.72,
+          "ocv": 3.9388,
+          "dischargeVoltage": 3.925633,
+          "chargeVoltage": 3.951966
+        },
+        {
+          "soc": 0.725,
+          "ocv": 3.942275,
+          "dischargeVoltage": 3.928883,
+          "chargeVoltage": 3.955668
+        },
+        {
+          "soc": 0.73,
+          "ocv": 3.945556,
+          "dischargeVoltage": 3.932288,
+          "chargeVoltage": 3.958824
+        },
+        {
+          "soc": 0.735,
+          "ocv": 3.949114,
+          "dischargeVoltage": 3.935742,
+          "chargeVoltage": 3.962485
+        },
+        {
+          "soc": 0.74,
+          "ocv": 3.952558,
+          "dischargeVoltage": 3.939221,
+          "chargeVoltage": 3.965895
+        },
+        {
+          "soc": 0.745,
+          "ocv": 3.956182,
+          "dischargeVoltage": 3.942716,
+          "chargeVoltage": 3.969649
+        },
+        {
+          "soc": 0.75,
+          "ocv": 3.959526,
+          "dischargeVoltage": 3.946024,
+          "chargeVoltage": 3.973028
+        },
+        {
+          "soc": 0.755,
+          "ocv": 3.963194,
+          "dischargeVoltage": 3.949579,
+          "chargeVoltage": 3.976808
+        },
+        {
+          "soc": 0.76,
+          "ocv": 3.966738,
+          "dischargeVoltage": 3.953098,
+          "chargeVoltage": 3.980378
+        },
+        {
+          "soc": 0.765,
+          "ocv": 3.97031,
+          "dischargeVoltage": 3.956786,
+          "chargeVoltage": 3.983834
+        },
+        {
+          "soc": 0.77,
+          "ocv": 3.973943,
+          "dischargeVoltage": 3.960383,
+          "chargeVoltage": 3.987503
+        },
+        {
+          "soc": 0.775,
+          "ocv": 3.977654,
+          "dischargeVoltage": 3.964096,
+          "chargeVoltage": 3.991213
+        },
+        {
+          "soc": 0.78,
+          "ocv": 3.981314,
+          "dischargeVoltage": 3.967677,
+          "chargeVoltage": 3.994951
+        },
+        {
+          "soc": 0.785,
+          "ocv": 3.985042,
+          "dischargeVoltage": 3.971418,
+          "chargeVoltage": 3.998667
+        },
+        {
+          "soc": 0.79,
+          "ocv": 3.989107,
+          "dischargeVoltage": 3.97544,
+          "chargeVoltage": 4.002774
+        },
+        {
+          "soc": 0.795,
+          "ocv": 3.992985,
+          "dischargeVoltage": 3.979312,
+          "chargeVoltage": 4.006657
+        },
+        {
+          "soc": 0.8,
+          "ocv": 3.996993,
+          "dischargeVoltage": 3.983252,
+          "chargeVoltage": 4.010734
+        },
+        {
+          "soc": 0.805,
+          "ocv": 4.001068,
+          "dischargeVoltage": 3.987392,
+          "chargeVoltage": 4.014744
+        },
+        {
+          "soc": 0.81,
+          "ocv": 4.005029,
+          "dischargeVoltage": 3.991325,
+          "chargeVoltage": 4.018733
+        },
+        {
+          "soc": 0.815,
+          "ocv": 4.009111,
+          "dischargeVoltage": 3.995258,
+          "chargeVoltage": 4.022964
+        },
+        {
+          "soc": 0.82,
+          "ocv": 4.013316,
+          "dischargeVoltage": 3.999456,
+          "chargeVoltage": 4.027176
+        },
+        {
+          "soc": 0.825,
+          "ocv": 4.017545,
+          "dischargeVoltage": 4.003655,
+          "chargeVoltage": 4.031436
+        },
+        {
+          "soc": 0.83,
+          "ocv": 4.021627,
+          "dischargeVoltage": 4.007788,
+          "chargeVoltage": 4.035466
+        },
+        {
+          "soc": 0.835,
+          "ocv": 4.02574,
+          "dischargeVoltage": 4.011912,
+          "chargeVoltage": 4.039569
+        },
+        {
+          "soc": 0.84,
+          "ocv": 4.029762,
+          "dischargeVoltage": 4.015866,
+          "chargeVoltage": 4.043658
+        },
+        {
+          "soc": 0.845,
+          "ocv": 4.033871,
+          "dischargeVoltage": 4.019931,
+          "chargeVoltage": 4.047811
+        },
+        {
+          "soc": 0.85,
+          "ocv": 4.037819,
+          "dischargeVoltage": 4.023849,
+          "chargeVoltage": 4.051788
+        },
+        {
+          "soc": 0.855,
+          "ocv": 4.04184,
+          "dischargeVoltage": 4.0279,
+          "chargeVoltage": 4.055781
+        },
+        {
+          "soc": 0.86,
+          "ocv": 4.046129,
+          "dischargeVoltage": 4.032274,
+          "chargeVoltage": 4.059984
+        },
+        {
+          "soc": 0.865,
+          "ocv": 4.050231,
+          "dischargeVoltage": 4.036408,
+          "chargeVoltage": 4.064055
+        },
+        {
+          "soc": 0.87,
+          "ocv": 4.054249,
+          "dischargeVoltage": 4.040459,
+          "chargeVoltage": 4.068039
+        },
+        {
+          "soc": 0.875,
+          "ocv": 4.058502,
+          "dischargeVoltage": 4.044818,
+          "chargeVoltage": 4.072187
+        },
+        {
+          "soc": 0.88,
+          "ocv": 4.062785,
+          "dischargeVoltage": 4.049267,
+          "chargeVoltage": 4.076303
+        },
+        {
+          "soc": 0.885,
+          "ocv": 4.067018,
+          "dischargeVoltage": 4.053333,
+          "chargeVoltage": 4.080703
+        },
+        {
+          "soc": 0.89,
+          "ocv": 4.07143,
+          "dischargeVoltage": 4.05794,
+          "chargeVoltage": 4.084921
+        },
+        {
+          "soc": 0.895,
+          "ocv": 4.075777,
+          "dischargeVoltage": 4.062358,
+          "chargeVoltage": 4.089196
+        },
+        {
+          "soc": 0.9,
+          "ocv": 4.080324,
+          "dischargeVoltage": 4.067024,
+          "chargeVoltage": 4.093624
+        },
+        {
+          "soc": 0.905,
+          "ocv": 4.084917,
+          "dischargeVoltage": 4.07163,
+          "chargeVoltage": 4.098204
+        },
+        {
+          "soc": 0.91,
+          "ocv": 4.089525,
+          "dischargeVoltage": 4.0763,
+          "chargeVoltage": 4.102751
+        },
+        {
+          "soc": 0.915,
+          "ocv": 4.094336,
+          "dischargeVoltage": 4.081152,
+          "chargeVoltage": 4.107519
+        },
+        {
+          "soc": 0.92,
+          "ocv": 4.099211,
+          "dischargeVoltage": 4.086287,
+          "chargeVoltage": 4.112134
+        },
+        {
+          "soc": 0.925,
+          "ocv": 4.10433,
+          "dischargeVoltage": 4.091536,
+          "chargeVoltage": 4.117124
+        },
+        {
+          "soc": 0.93,
+          "ocv": 4.109509,
+          "dischargeVoltage": 4.097002,
+          "chargeVoltage": 4.122016
+        },
+        {
+          "soc": 0.935,
+          "ocv": 4.114779,
+          "dischargeVoltage": 4.102344,
+          "chargeVoltage": 4.127213
+        },
+        {
+          "soc": 0.94,
+          "ocv": 4.12016,
+          "dischargeVoltage": 4.108036,
+          "chargeVoltage": 4.132283
+        },
+        {
+          "soc": 0.945,
+          "ocv": 4.125724,
+          "dischargeVoltage": 4.1137,
+          "chargeVoltage": 4.137748
+        },
+        {
+          "soc": 0.95,
+          "ocv": 4.131134,
+          "dischargeVoltage": 4.11934,
+          "chargeVoltage": 4.142929
+        },
+        {
+          "soc": 0.955,
+          "ocv": 4.136689,
+          "dischargeVoltage": 4.125136,
+          "chargeVoltage": 4.148242
+        },
+        {
+          "soc": 0.96,
+          "ocv": 4.142678,
+          "dischargeVoltage": 4.131488,
+          "chargeVoltage": 4.153868
+        },
+        {
+          "soc": 0.965,
+          "ocv": 4.148616,
+          "dischargeVoltage": 4.137713,
+          "chargeVoltage": 4.159518
+        },
+        {
+          "soc": 0.97,
+          "ocv": 4.154725,
+          "dischargeVoltage": 4.14414,
+          "chargeVoltage": 4.16531
+        },
+        {
+          "soc": 0.975,
+          "ocv": 4.1607,
+          "dischargeVoltage": 4.150555,
+          "chargeVoltage": 4.170844
+        },
+        {
+          "soc": 0.98,
+          "ocv": 4.166941,
+          "dischargeVoltage": 4.157326,
+          "chargeVoltage": 4.176556
+        },
+        {
+          "soc": 0.985,
+          "ocv": 4.173165,
+          "dischargeVoltage": 4.164048,
+          "chargeVoltage": 4.182281
+        },
+        {
+          "soc": 0.99,
+          "ocv": 4.179565,
+          "dischargeVoltage": 4.17093,
+          "chargeVoltage": 4.1882
+        },
+        {
+          "soc": 0.995,
+          "ocv": 4.185917,
+          "dischargeVoltage": 4.177882,
+          "chargeVoltage": 4.193953
+        },
+        {
+          "soc": 1,
+          "ocv": 4.193917,
+          "dischargeVoltage": 4.188143,
+          "chargeVoltage": 4.199692
+        }
+      ]
+    },
+    {
+      "targetSoh": 75,
+      "measuredSoh": 75.768546,
+      "cycle": 8100,
+      "dischargeCapacityAh": 0.560014,
+      "pocvDischargeCapacityAh": 0.570271,
+      "pocvChargeCapacityAh": 0.57338,
+      "points": [
+        {
+          "soc": 0,
+          "ocv": 2.701496,
+          "dischargeVoltage": 2.700073,
+          "chargeVoltage": 2.70292
+        },
+        {
+          "soc": 0.005,
+          "ocv": 2.946932,
+          "dischargeVoltage": 2.909059,
+          "chargeVoltage": 2.984804
+        },
+        {
+          "soc": 0.01,
+          "ocv": 3.062931,
+          "dischargeVoltage": 3.034996,
+          "chargeVoltage": 3.090866
+        },
+        {
+          "soc": 0.015,
+          "ocv": 3.138019,
+          "dischargeVoltage": 3.114902,
+          "chargeVoltage": 3.161135
+        },
+        {
+          "soc": 0.02,
+          "ocv": 3.195073,
+          "dischargeVoltage": 3.174652,
+          "chargeVoltage": 3.215494
+        },
+        {
+          "soc": 0.025,
+          "ocv": 3.241884,
+          "dischargeVoltage": 3.22337,
+          "chargeVoltage": 3.260399
+        },
+        {
+          "soc": 0.03,
+          "ocv": 3.281845,
+          "dischargeVoltage": 3.264618,
+          "chargeVoltage": 3.299071
+        },
+        {
+          "soc": 0.035,
+          "ocv": 3.316853,
+          "dischargeVoltage": 3.300754,
+          "chargeVoltage": 3.332952
+        },
+        {
+          "soc": 0.04,
+          "ocv": 3.347906,
+          "dischargeVoltage": 3.332476,
+          "chargeVoltage": 3.363337
+        },
+        {
+          "soc": 0.045,
+          "ocv": 3.376401,
+          "dischargeVoltage": 3.361486,
+          "chargeVoltage": 3.391317
+        },
+        {
+          "soc": 0.05,
+          "ocv": 3.40194,
+          "dischargeVoltage": 3.387284,
+          "chargeVoltage": 3.416597
+        },
+        {
+          "soc": 0.055,
+          "ocv": 3.425588,
+          "dischargeVoltage": 3.411158,
+          "chargeVoltage": 3.440017
+        },
+        {
+          "soc": 0.06,
+          "ocv": 3.447344,
+          "dischargeVoltage": 3.432846,
+          "chargeVoltage": 3.461842
+        },
+        {
+          "soc": 0.065,
+          "ocv": 3.467571,
+          "dischargeVoltage": 3.453132,
+          "chargeVoltage": 3.482009
+        },
+        {
+          "soc": 0.07,
+          "ocv": 3.486053,
+          "dischargeVoltage": 3.471697,
+          "chargeVoltage": 3.500409
+        },
+        {
+          "soc": 0.075,
+          "ocv": 3.5038,
+          "dischargeVoltage": 3.489419,
+          "chargeVoltage": 3.518182
+        },
+        {
+          "soc": 0.08,
+          "ocv": 3.520249,
+          "dischargeVoltage": 3.505932,
+          "chargeVoltage": 3.534566
+        },
+        {
+          "soc": 0.085,
+          "ocv": 3.535635,
+          "dischargeVoltage": 3.521363,
+          "chargeVoltage": 3.549906
+        },
+        {
+          "soc": 0.09,
+          "ocv": 3.550279,
+          "dischargeVoltage": 3.535968,
+          "chargeVoltage": 3.56459
+        },
+        {
+          "soc": 0.095,
+          "ocv": 3.563757,
+          "dischargeVoltage": 3.549091,
+          "chargeVoltage": 3.578423
+        },
+        {
+          "soc": 0.1,
+          "ocv": 3.576415,
+          "dischargeVoltage": 3.561245,
+          "chargeVoltage": 3.591586
+        },
+        {
+          "soc": 0.105,
+          "ocv": 3.588024,
+          "dischargeVoltage": 3.572489,
+          "chargeVoltage": 3.60356
+        },
+        {
+          "soc": 0.11,
+          "ocv": 3.598961,
+          "dischargeVoltage": 3.582953,
+          "chargeVoltage": 3.61497
+        },
+        {
+          "soc": 0.115,
+          "ocv": 3.60893,
+          "dischargeVoltage": 3.592612,
+          "chargeVoltage": 3.625248
+        },
+        {
+          "soc": 0.12,
+          "ocv": 3.618224,
+          "dischargeVoltage": 3.60164,
+          "chargeVoltage": 3.634808
+        },
+        {
+          "soc": 0.125,
+          "ocv": 3.626892,
+          "dischargeVoltage": 3.610234,
+          "chargeVoltage": 3.64355
+        },
+        {
+          "soc": 0.13,
+          "ocv": 3.634723,
+          "dischargeVoltage": 3.617704,
+          "chargeVoltage": 3.651742
+        },
+        {
+          "soc": 0.135,
+          "ocv": 3.641881,
+          "dischargeVoltage": 3.624819,
+          "chargeVoltage": 3.658943
+        },
+        {
+          "soc": 0.14,
+          "ocv": 3.648575,
+          "dischargeVoltage": 3.631349,
+          "chargeVoltage": 3.665802
+        },
+        {
+          "soc": 0.145,
+          "ocv": 3.654443,
+          "dischargeVoltage": 3.637118,
+          "chargeVoltage": 3.671768
+        },
+        {
+          "soc": 0.15,
+          "ocv": 3.659893,
+          "dischargeVoltage": 3.642566,
+          "chargeVoltage": 3.67722
+        },
+        {
+          "soc": 0.155,
+          "ocv": 3.664527,
+          "dischargeVoltage": 3.647072,
+          "chargeVoltage": 3.681982
+        },
+        {
+          "soc": 0.16,
+          "ocv": 3.668667,
+          "dischargeVoltage": 3.651215,
+          "chargeVoltage": 3.68612
+        },
+        {
+          "soc": 0.165,
+          "ocv": 3.672055,
+          "dischargeVoltage": 3.65459,
+          "chargeVoltage": 3.689519
+        },
+        {
+          "soc": 0.17,
+          "ocv": 3.675061,
+          "dischargeVoltage": 3.657513,
+          "chargeVoltage": 3.69261
+        },
+        {
+          "soc": 0.175,
+          "ocv": 3.677674,
+          "dischargeVoltage": 3.660143,
+          "chargeVoltage": 3.695206
+        },
+        {
+          "soc": 0.18,
+          "ocv": 3.679857,
+          "dischargeVoltage": 3.66234,
+          "chargeVoltage": 3.697374
+        },
+        {
+          "soc": 0.185,
+          "ocv": 3.682264,
+          "dischargeVoltage": 3.664868,
+          "chargeVoltage": 3.69966
+        },
+        {
+          "soc": 0.19,
+          "ocv": 3.684135,
+          "dischargeVoltage": 3.66676,
+          "chargeVoltage": 3.701509
+        },
+        {
+          "soc": 0.195,
+          "ocv": 3.686374,
+          "dischargeVoltage": 3.66923,
+          "chargeVoltage": 3.703518
+        },
+        {
+          "soc": 0.2,
+          "ocv": 3.688456,
+          "dischargeVoltage": 3.671418,
+          "chargeVoltage": 3.705495
+        },
+        {
+          "soc": 0.205,
+          "ocv": 3.690475,
+          "dischargeVoltage": 3.673818,
+          "chargeVoltage": 3.707132
+        },
+        {
+          "soc": 0.21,
+          "ocv": 3.693066,
+          "dischargeVoltage": 3.676511,
+          "chargeVoltage": 3.709621
+        },
+        {
+          "soc": 0.215,
+          "ocv": 3.69539,
+          "dischargeVoltage": 3.679164,
+          "chargeVoltage": 3.711616
+        },
+        {
+          "soc": 0.22,
+          "ocv": 3.697684,
+          "dischargeVoltage": 3.681616,
+          "chargeVoltage": 3.713753
+        },
+        {
+          "soc": 0.225,
+          "ocv": 3.699974,
+          "dischargeVoltage": 3.683961,
+          "chargeVoltage": 3.715986
+        },
+        {
+          "soc": 0.23,
+          "ocv": 3.702411,
+          "dischargeVoltage": 3.686314,
+          "chargeVoltage": 3.718508
+        },
+        {
+          "soc": 0.235,
+          "ocv": 3.704619,
+          "dischargeVoltage": 3.688336,
+          "chargeVoltage": 3.720901
+        },
+        {
+          "soc": 0.24,
+          "ocv": 3.706846,
+          "dischargeVoltage": 3.690398,
+          "chargeVoltage": 3.723293
+        },
+        {
+          "soc": 0.245,
+          "ocv": 3.709118,
+          "dischargeVoltage": 3.692447,
+          "chargeVoltage": 3.725789
+        },
+        {
+          "soc": 0.25,
+          "ocv": 3.711276,
+          "dischargeVoltage": 3.694267,
+          "chargeVoltage": 3.728284
+        },
+        {
+          "soc": 0.255,
+          "ocv": 3.713546,
+          "dischargeVoltage": 3.69621,
+          "chargeVoltage": 3.730882
+        },
+        {
+          "soc": 0.26,
+          "ocv": 3.715466,
+          "dischargeVoltage": 3.697865,
+          "chargeVoltage": 3.733068
+        },
+        {
+          "soc": 0.265,
+          "ocv": 3.717633,
+          "dischargeVoltage": 3.69965,
+          "chargeVoltage": 3.735615
+        },
+        {
+          "soc": 0.27,
+          "ocv": 3.719683,
+          "dischargeVoltage": 3.701366,
+          "chargeVoltage": 3.738
+        },
+        {
+          "soc": 0.275,
+          "ocv": 3.721839,
+          "dischargeVoltage": 3.703292,
+          "chargeVoltage": 3.740385
+        },
+        {
+          "soc": 0.28,
+          "ocv": 3.723924,
+          "dischargeVoltage": 3.704989,
+          "chargeVoltage": 3.742859
+        },
+        {
+          "soc": 0.285,
+          "ocv": 3.725824,
+          "dischargeVoltage": 3.70673,
+          "chargeVoltage": 3.744918
+        },
+        {
+          "soc": 0.29,
+          "ocv": 3.727862,
+          "dischargeVoltage": 3.708626,
+          "chargeVoltage": 3.747097
+        },
+        {
+          "soc": 0.295,
+          "ocv": 3.729772,
+          "dischargeVoltage": 3.710185,
+          "chargeVoltage": 3.74936
+        },
+        {
+          "soc": 0.3,
+          "ocv": 3.731528,
+          "dischargeVoltage": 3.7117,
+          "chargeVoltage": 3.751357
+        },
+        {
+          "soc": 0.305,
+          "ocv": 3.733322,
+          "dischargeVoltage": 3.713239,
+          "chargeVoltage": 3.753404
+        },
+        {
+          "soc": 0.31,
+          "ocv": 3.73513,
+          "dischargeVoltage": 3.714809,
+          "chargeVoltage": 3.755451
+        },
+        {
+          "soc": 0.315,
+          "ocv": 3.736807,
+          "dischargeVoltage": 3.716152,
+          "chargeVoltage": 3.757462
+        },
+        {
+          "soc": 0.32,
+          "ocv": 3.738739,
+          "dischargeVoltage": 3.71798,
+          "chargeVoltage": 3.759499
+        },
+        {
+          "soc": 0.325,
+          "ocv": 3.740447,
+          "dischargeVoltage": 3.71932,
+          "chargeVoltage": 3.761573
+        },
+        {
+          "soc": 0.33,
+          "ocv": 3.742131,
+          "dischargeVoltage": 3.720757,
+          "chargeVoltage": 3.763506
+        },
+        {
+          "soc": 0.335,
+          "ocv": 3.744169,
+          "dischargeVoltage": 3.722567,
+          "chargeVoltage": 3.76577
+        },
+        {
+          "soc": 0.34,
+          "ocv": 3.745982,
+          "dischargeVoltage": 3.724071,
+          "chargeVoltage": 3.767893
+        },
+        {
+          "soc": 0.345,
+          "ocv": 3.748022,
+          "dischargeVoltage": 3.726045,
+          "chargeVoltage": 3.769999
+        },
+        {
+          "soc": 0.35,
+          "ocv": 3.749998,
+          "dischargeVoltage": 3.727731,
+          "chargeVoltage": 3.772266
+        },
+        {
+          "soc": 0.355,
+          "ocv": 3.752105,
+          "dischargeVoltage": 3.72975,
+          "chargeVoltage": 3.774459
+        },
+        {
+          "soc": 0.36,
+          "ocv": 3.754201,
+          "dischargeVoltage": 3.731763,
+          "chargeVoltage": 3.776639
+        },
+        {
+          "soc": 0.365,
+          "ocv": 3.756343,
+          "dischargeVoltage": 3.733788,
+          "chargeVoltage": 3.778899
+        },
+        {
+          "soc": 0.37,
+          "ocv": 3.758473,
+          "dischargeVoltage": 3.735875,
+          "chargeVoltage": 3.781072
+        },
+        {
+          "soc": 0.375,
+          "ocv": 3.760765,
+          "dischargeVoltage": 3.738249,
+          "chargeVoltage": 3.783281
+        },
+        {
+          "soc": 0.38,
+          "ocv": 3.763008,
+          "dischargeVoltage": 3.740533,
+          "chargeVoltage": 3.785483
+        },
+        {
+          "soc": 0.385,
+          "ocv": 3.765254,
+          "dischargeVoltage": 3.742832,
+          "chargeVoltage": 3.787675
+        },
+        {
+          "soc": 0.39,
+          "ocv": 3.767505,
+          "dischargeVoltage": 3.74511,
+          "chargeVoltage": 3.789901
+        },
+        {
+          "soc": 0.395,
+          "ocv": 3.769971,
+          "dischargeVoltage": 3.747714,
+          "chargeVoltage": 3.792228
+        },
+        {
+          "soc": 0.4,
+          "ocv": 3.772165,
+          "dischargeVoltage": 3.750058,
+          "chargeVoltage": 3.794273
+        },
+        {
+          "soc": 0.405,
+          "ocv": 3.774535,
+          "dischargeVoltage": 3.752579,
+          "chargeVoltage": 3.796491
+        },
+        {
+          "soc": 0.41,
+          "ocv": 3.776947,
+          "dischargeVoltage": 3.755068,
+          "chargeVoltage": 3.798826
+        },
+        {
+          "soc": 0.415,
+          "ocv": 3.779203,
+          "dischargeVoltage": 3.757656,
+          "chargeVoltage": 3.80075
+        },
+        {
+          "soc": 0.42,
+          "ocv": 3.781679,
+          "dischargeVoltage": 3.760246,
+          "chargeVoltage": 3.803111
+        },
+        {
+          "soc": 0.425,
+          "ocv": 3.78422,
+          "dischargeVoltage": 3.76313,
+          "chargeVoltage": 3.805311
+        },
+        {
+          "soc": 0.43,
+          "ocv": 3.786715,
+          "dischargeVoltage": 3.765762,
+          "chargeVoltage": 3.807669
+        },
+        {
+          "soc": 0.435,
+          "ocv": 3.789231,
+          "dischargeVoltage": 3.768499,
+          "chargeVoltage": 3.809963
+        },
+        {
+          "soc": 0.44,
+          "ocv": 3.791971,
+          "dischargeVoltage": 3.771567,
+          "chargeVoltage": 3.812376
+        },
+        {
+          "soc": 0.445,
+          "ocv": 3.794593,
+          "dischargeVoltage": 3.774572,
+          "chargeVoltage": 3.814615
+        },
+        {
+          "soc": 0.45,
+          "ocv": 3.797274,
+          "dischargeVoltage": 3.777572,
+          "chargeVoltage": 3.816976
+        },
+        {
+          "soc": 0.455,
+          "ocv": 3.800059,
+          "dischargeVoltage": 3.780795,
+          "chargeVoltage": 3.819324
+        },
+        {
+          "soc": 0.46,
+          "ocv": 3.802704,
+          "dischargeVoltage": 3.783799,
+          "chargeVoltage": 3.821609
+        },
+        {
+          "soc": 0.465,
+          "ocv": 3.805473,
+          "dischargeVoltage": 3.786938,
+          "chargeVoltage": 3.824009
+        },
+        {
+          "soc": 0.47,
+          "ocv": 3.808141,
+          "dischargeVoltage": 3.789993,
+          "chargeVoltage": 3.826289
+        },
+        {
+          "soc": 0.475,
+          "ocv": 3.810942,
+          "dischargeVoltage": 3.793318,
+          "chargeVoltage": 3.828567
+        },
+        {
+          "soc": 0.48,
+          "ocv": 3.813815,
+          "dischargeVoltage": 3.796664,
+          "chargeVoltage": 3.830967
+        },
+        {
+          "soc": 0.485,
+          "ocv": 3.816465,
+          "dischargeVoltage": 3.79963,
+          "chargeVoltage": 3.833301
+        },
+        {
+          "soc": 0.49,
+          "ocv": 3.819159,
+          "dischargeVoltage": 3.802847,
+          "chargeVoltage": 3.83547
+        },
+        {
+          "soc": 0.495,
+          "ocv": 3.821942,
+          "dischargeVoltage": 3.805912,
+          "chargeVoltage": 3.837972
+        },
+        {
+          "soc": 0.5,
+          "ocv": 3.824683,
+          "dischargeVoltage": 3.808876,
+          "chargeVoltage": 3.840491
+        },
+        {
+          "soc": 0.505,
+          "ocv": 3.827166,
+          "dischargeVoltage": 3.811728,
+          "chargeVoltage": 3.842603
+        },
+        {
+          "soc": 0.51,
+          "ocv": 3.829874,
+          "dischargeVoltage": 3.814806,
+          "chargeVoltage": 3.844941
+        },
+        {
+          "soc": 0.515,
+          "ocv": 3.832539,
+          "dischargeVoltage": 3.817553,
+          "chargeVoltage": 3.847526
+        },
+        {
+          "soc": 0.52,
+          "ocv": 3.835187,
+          "dischargeVoltage": 3.82055,
+          "chargeVoltage": 3.849825
+        },
+        {
+          "soc": 0.525,
+          "ocv": 3.837678,
+          "dischargeVoltage": 3.823102,
+          "chargeVoltage": 3.852254
+        },
+        {
+          "soc": 0.53,
+          "ocv": 3.840452,
+          "dischargeVoltage": 3.82603,
+          "chargeVoltage": 3.854874
+        },
+        {
+          "soc": 0.535,
+          "ocv": 3.842905,
+          "dischargeVoltage": 3.828669,
+          "chargeVoltage": 3.85714
+        },
+        {
+          "soc": 0.54,
+          "ocv": 3.84543,
+          "dischargeVoltage": 3.831332,
+          "chargeVoltage": 3.859528
+        },
+        {
+          "soc": 0.545,
+          "ocv": 3.847986,
+          "dischargeVoltage": 3.834076,
+          "chargeVoltage": 3.861896
+        },
+        {
+          "soc": 0.55,
+          "ocv": 3.850617,
+          "dischargeVoltage": 3.836775,
+          "chargeVoltage": 3.86446
+        },
+        {
+          "soc": 0.555,
+          "ocv": 3.853172,
+          "dischargeVoltage": 3.8395,
+          "chargeVoltage": 3.866845
+        },
+        {
+          "soc": 0.56,
+          "ocv": 3.855698,
+          "dischargeVoltage": 3.842041,
+          "chargeVoltage": 3.869356
+        },
+        {
+          "soc": 0.565,
+          "ocv": 3.858186,
+          "dischargeVoltage": 3.844618,
+          "chargeVoltage": 3.871755
+        },
+        {
+          "soc": 0.57,
+          "ocv": 3.860927,
+          "dischargeVoltage": 3.847415,
+          "chargeVoltage": 3.874439
+        },
+        {
+          "soc": 0.575,
+          "ocv": 3.863327,
+          "dischargeVoltage": 3.849867,
+          "chargeVoltage": 3.876788
+        },
+        {
+          "soc": 0.58,
+          "ocv": 3.865824,
+          "dischargeVoltage": 3.852483,
+          "chargeVoltage": 3.879165
+        },
+        {
+          "soc": 0.585,
+          "ocv": 3.868449,
+          "dischargeVoltage": 3.855105,
+          "chargeVoltage": 3.881794
+        },
+        {
+          "soc": 0.59,
+          "ocv": 3.870998,
+          "dischargeVoltage": 3.857779,
+          "chargeVoltage": 3.884217
+        },
+        {
+          "soc": 0.595,
+          "ocv": 3.873753,
+          "dischargeVoltage": 3.860325,
+          "chargeVoltage": 3.887182
+        },
+        {
+          "soc": 0.6,
+          "ocv": 3.876267,
+          "dischargeVoltage": 3.862899,
+          "chargeVoltage": 3.889635
+        },
+        {
+          "soc": 0.605,
+          "ocv": 3.878905,
+          "dischargeVoltage": 3.865519,
+          "chargeVoltage": 3.892291
+        },
+        {
+          "soc": 0.61,
+          "ocv": 3.881557,
+          "dischargeVoltage": 3.868221,
+          "chargeVoltage": 3.894892
+        },
+        {
+          "soc": 0.615,
+          "ocv": 3.884274,
+          "dischargeVoltage": 3.870947,
+          "chargeVoltage": 3.897602
+        },
+        {
+          "soc": 0.62,
+          "ocv": 3.886939,
+          "dischargeVoltage": 3.873572,
+          "chargeVoltage": 3.900307
+        },
+        {
+          "soc": 0.625,
+          "ocv": 3.889575,
+          "dischargeVoltage": 3.8761,
+          "chargeVoltage": 3.903051
+        },
+        {
+          "soc": 0.63,
+          "ocv": 3.89255,
+          "dischargeVoltage": 3.879147,
+          "chargeVoltage": 3.905952
+        },
+        {
+          "soc": 0.635,
+          "ocv": 3.895186,
+          "dischargeVoltage": 3.881945,
+          "chargeVoltage": 3.908427
+        },
+        {
+          "soc": 0.64,
+          "ocv": 3.898062,
+          "dischargeVoltage": 3.884671,
+          "chargeVoltage": 3.911452
+        },
+        {
+          "soc": 0.645,
+          "ocv": 3.900956,
+          "dischargeVoltage": 3.887594,
+          "chargeVoltage": 3.914319
+        },
+        {
+          "soc": 0.65,
+          "ocv": 3.903951,
+          "dischargeVoltage": 3.890395,
+          "chargeVoltage": 3.917507
+        },
+        {
+          "soc": 0.655,
+          "ocv": 3.906676,
+          "dischargeVoltage": 3.893293,
+          "chargeVoltage": 3.920058
+        },
+        {
+          "soc": 0.66,
+          "ocv": 3.909732,
+          "dischargeVoltage": 3.89633,
+          "chargeVoltage": 3.923133
+        },
+        {
+          "soc": 0.665,
+          "ocv": 3.912487,
+          "dischargeVoltage": 3.898877,
+          "chargeVoltage": 3.926096
+        },
+        {
+          "soc": 0.67,
+          "ocv": 3.915577,
+          "dischargeVoltage": 3.902073,
+          "chargeVoltage": 3.929081
+        },
+        {
+          "soc": 0.675,
+          "ocv": 3.918591,
+          "dischargeVoltage": 3.905059,
+          "chargeVoltage": 3.932122
+        },
+        {
+          "soc": 0.68,
+          "ocv": 3.921709,
+          "dischargeVoltage": 3.90805,
+          "chargeVoltage": 3.935368
+        },
+        {
+          "soc": 0.685,
+          "ocv": 3.924668,
+          "dischargeVoltage": 3.910988,
+          "chargeVoltage": 3.938349
+        },
+        {
+          "soc": 0.69,
+          "ocv": 3.927918,
+          "dischargeVoltage": 3.914198,
+          "chargeVoltage": 3.941638
+        },
+        {
+          "soc": 0.695,
+          "ocv": 3.930977,
+          "dischargeVoltage": 3.917219,
+          "chargeVoltage": 3.944735
+        },
+        {
+          "soc": 0.7,
+          "ocv": 3.934151,
+          "dischargeVoltage": 3.92044,
+          "chargeVoltage": 3.947862
+        },
+        {
+          "soc": 0.705,
+          "ocv": 3.93745,
+          "dischargeVoltage": 3.923765,
+          "chargeVoltage": 3.951136
+        },
+        {
+          "soc": 0.71,
+          "ocv": 3.940662,
+          "dischargeVoltage": 3.926874,
+          "chargeVoltage": 3.95445
+        },
+        {
+          "soc": 0.715,
+          "ocv": 3.94407,
+          "dischargeVoltage": 3.930243,
+          "chargeVoltage": 3.957897
+        },
+        {
+          "soc": 0.72,
+          "ocv": 3.947261,
+          "dischargeVoltage": 3.933404,
+          "chargeVoltage": 3.961118
+        },
+        {
+          "soc": 0.725,
+          "ocv": 3.950557,
+          "dischargeVoltage": 3.936749,
+          "chargeVoltage": 3.964366
+        },
+        {
+          "soc": 0.73,
+          "ocv": 3.954031,
+          "dischargeVoltage": 3.940086,
+          "chargeVoltage": 3.967976
+        },
+        {
+          "soc": 0.735,
+          "ocv": 3.957396,
+          "dischargeVoltage": 3.9433,
+          "chargeVoltage": 3.971492
+        },
+        {
+          "soc": 0.74,
+          "ocv": 3.960978,
+          "dischargeVoltage": 3.946798,
+          "chargeVoltage": 3.975159
+        },
+        {
+          "soc": 0.745,
+          "ocv": 3.964287,
+          "dischargeVoltage": 3.950129,
+          "chargeVoltage": 3.978444
+        },
+        {
+          "soc": 0.75,
+          "ocv": 3.967633,
+          "dischargeVoltage": 3.953498,
+          "chargeVoltage": 3.981767
+        },
+        {
+          "soc": 0.755,
+          "ocv": 3.971169,
+          "dischargeVoltage": 3.95687,
+          "chargeVoltage": 3.985468
+        },
+        {
+          "soc": 0.76,
+          "ocv": 3.974786,
+          "dischargeVoltage": 3.960549,
+          "chargeVoltage": 3.989023
+        },
+        {
+          "soc": 0.765,
+          "ocv": 3.978295,
+          "dischargeVoltage": 3.964042,
+          "chargeVoltage": 3.992549
+        },
+        {
+          "soc": 0.77,
+          "ocv": 3.981929,
+          "dischargeVoltage": 3.967578,
+          "chargeVoltage": 3.996281
+        },
+        {
+          "soc": 0.775,
+          "ocv": 3.985508,
+          "dischargeVoltage": 3.971183,
+          "chargeVoltage": 3.999834
+        },
+        {
+          "soc": 0.78,
+          "ocv": 3.989285,
+          "dischargeVoltage": 3.974898,
+          "chargeVoltage": 4.003671
+        },
+        {
+          "soc": 0.785,
+          "ocv": 3.993107,
+          "dischargeVoltage": 3.97865,
+          "chargeVoltage": 4.007563
+        },
+        {
+          "soc": 0.79,
+          "ocv": 3.996849,
+          "dischargeVoltage": 3.982386,
+          "chargeVoltage": 4.011312
+        },
+        {
+          "soc": 0.795,
+          "ocv": 4.000685,
+          "dischargeVoltage": 3.986168,
+          "chargeVoltage": 4.015202
+        },
+        {
+          "soc": 0.8,
+          "ocv": 4.004725,
+          "dischargeVoltage": 3.990374,
+          "chargeVoltage": 4.019076
+        },
+        {
+          "soc": 0.805,
+          "ocv": 4.008577,
+          "dischargeVoltage": 3.994025,
+          "chargeVoltage": 4.023129
+        },
+        {
+          "soc": 0.81,
+          "ocv": 4.012436,
+          "dischargeVoltage": 3.997982,
+          "chargeVoltage": 4.02689
+        },
+        {
+          "soc": 0.815,
+          "ocv": 4.01618,
+          "dischargeVoltage": 4.001757,
+          "chargeVoltage": 4.030602
+        },
+        {
+          "soc": 0.82,
+          "ocv": 4.020256,
+          "dischargeVoltage": 4.005601,
+          "chargeVoltage": 4.034912
+        },
+        {
+          "soc": 0.825,
+          "ocv": 4.024045,
+          "dischargeVoltage": 4.009426,
+          "chargeVoltage": 4.038663
+        },
+        {
+          "soc": 0.83,
+          "ocv": 4.028017,
+          "dischargeVoltage": 4.013402,
+          "chargeVoltage": 4.042631
+        },
+        {
+          "soc": 0.835,
+          "ocv": 4.031767,
+          "dischargeVoltage": 4.017008,
+          "chargeVoltage": 4.046526
+        },
+        {
+          "soc": 0.84,
+          "ocv": 4.035596,
+          "dischargeVoltage": 4.02088,
+          "chargeVoltage": 4.050312
+        },
+        {
+          "soc": 0.845,
+          "ocv": 4.039317,
+          "dischargeVoltage": 4.024533,
+          "chargeVoltage": 4.0541
+        },
+        {
+          "soc": 0.85,
+          "ocv": 4.043312,
+          "dischargeVoltage": 4.028657,
+          "chargeVoltage": 4.057968
+        },
+        {
+          "soc": 0.855,
+          "ocv": 4.047197,
+          "dischargeVoltage": 4.032431,
+          "chargeVoltage": 4.061963
+        },
+        {
+          "soc": 0.86,
+          "ocv": 4.050937,
+          "dischargeVoltage": 4.036327,
+          "chargeVoltage": 4.065546
+        },
+        {
+          "soc": 0.865,
+          "ocv": 4.054862,
+          "dischargeVoltage": 4.040198,
+          "chargeVoltage": 4.069526
+        },
+        {
+          "soc": 0.87,
+          "ocv": 4.05864,
+          "dischargeVoltage": 4.043878,
+          "chargeVoltage": 4.073403
+        },
+        {
+          "soc": 0.875,
+          "ocv": 4.062634,
+          "dischargeVoltage": 4.047937,
+          "chargeVoltage": 4.077331
+        },
+        {
+          "soc": 0.88,
+          "ocv": 4.066504,
+          "dischargeVoltage": 4.051782,
+          "chargeVoltage": 4.081227
+        },
+        {
+          "soc": 0.885,
+          "ocv": 4.07058,
+          "dischargeVoltage": 4.055881,
+          "chargeVoltage": 4.085278
+        },
+        {
+          "soc": 0.89,
+          "ocv": 4.074597,
+          "dischargeVoltage": 4.05989,
+          "chargeVoltage": 4.089305
+        },
+        {
+          "soc": 0.895,
+          "ocv": 4.078787,
+          "dischargeVoltage": 4.064209,
+          "chargeVoltage": 4.093365
+        },
+        {
+          "soc": 0.9,
+          "ocv": 4.083034,
+          "dischargeVoltage": 4.068337,
+          "chargeVoltage": 4.097731
+        },
+        {
+          "soc": 0.905,
+          "ocv": 4.087296,
+          "dischargeVoltage": 4.072653,
+          "chargeVoltage": 4.101938
+        },
+        {
+          "soc": 0.91,
+          "ocv": 4.091633,
+          "dischargeVoltage": 4.077019,
+          "chargeVoltage": 4.106247
+        },
+        {
+          "soc": 0.915,
+          "ocv": 4.096184,
+          "dischargeVoltage": 4.08165,
+          "chargeVoltage": 4.110718
+        },
+        {
+          "soc": 0.92,
+          "ocv": 4.100704,
+          "dischargeVoltage": 4.08615,
+          "chargeVoltage": 4.115259
+        },
+        {
+          "soc": 0.925,
+          "ocv": 4.105557,
+          "dischargeVoltage": 4.09107,
+          "chargeVoltage": 4.120044
+        },
+        {
+          "soc": 0.93,
+          "ocv": 4.110408,
+          "dischargeVoltage": 4.096087,
+          "chargeVoltage": 4.12473
+        },
+        {
+          "soc": 0.935,
+          "ocv": 4.11519,
+          "dischargeVoltage": 4.100937,
+          "chargeVoltage": 4.129443
+        },
+        {
+          "soc": 0.94,
+          "ocv": 4.120218,
+          "dischargeVoltage": 4.106104,
+          "chargeVoltage": 4.134332
+        },
+        {
+          "soc": 0.945,
+          "ocv": 4.125458,
+          "dischargeVoltage": 4.111537,
+          "chargeVoltage": 4.139379
+        },
+        {
+          "soc": 0.95,
+          "ocv": 4.130755,
+          "dischargeVoltage": 4.11705,
+          "chargeVoltage": 4.14446
+        },
+        {
+          "soc": 0.955,
+          "ocv": 4.136315,
+          "dischargeVoltage": 4.122746,
+          "chargeVoltage": 4.149883
+        },
+        {
+          "soc": 0.96,
+          "ocv": 4.141796,
+          "dischargeVoltage": 4.128416,
+          "chargeVoltage": 4.155176
+        },
+        {
+          "soc": 0.965,
+          "ocv": 4.147634,
+          "dischargeVoltage": 4.13458,
+          "chargeVoltage": 4.160689
+        },
+        {
+          "soc": 0.97,
+          "ocv": 4.153429,
+          "dischargeVoltage": 4.140791,
+          "chargeVoltage": 4.166067
+        },
+        {
+          "soc": 0.975,
+          "ocv": 4.159396,
+          "dischargeVoltage": 4.147184,
+          "chargeVoltage": 4.171607
+        },
+        {
+          "soc": 0.98,
+          "ocv": 4.165327,
+          "dischargeVoltage": 4.153776,
+          "chargeVoltage": 4.176877
+        },
+        {
+          "soc": 0.985,
+          "ocv": 4.171553,
+          "dischargeVoltage": 4.160432,
+          "chargeVoltage": 4.182673
+        },
+        {
+          "soc": 0.99,
+          "ocv": 4.177951,
+          "dischargeVoltage": 4.167679,
+          "chargeVoltage": 4.188224
+        },
+        {
+          "soc": 0.995,
+          "ocv": 4.18449,
+          "dischargeVoltage": 4.174806,
+          "chargeVoltage": 4.194175
+        },
+        {
+          "soc": 1,
+          "ocv": 4.192531,
+          "dischargeVoltage": 4.185513,
+          "chargeVoltage": 4.199549
+        }
+      ]
+    }
+  ],
+  "allCheckpoints": [
+    {
+      "cycle": 0,
+      "measuredSoh": 100,
+      "dischargeCapacityAh": 0.739111
+    },
+    {
+      "cycle": 100,
+      "measuredSoh": 98.793419,
+      "dischargeCapacityAh": 0.730193
+    },
+    {
+      "cycle": 200,
+      "measuredSoh": 98.191857,
+      "dischargeCapacityAh": 0.725747
+    },
+    {
+      "cycle": 300,
+      "measuredSoh": 97.799015,
+      "dischargeCapacityAh": 0.722843
+    },
+    {
+      "cycle": 400,
+      "measuredSoh": 97.193381,
+      "dischargeCapacityAh": 0.718367
+    },
+    {
+      "cycle": 500,
+      "measuredSoh": 96.734966,
+      "dischargeCapacityAh": 0.714979
+    },
+    {
+      "cycle": 600,
+      "measuredSoh": 96.280597,
+      "dischargeCapacityAh": 0.71162
+    },
+    {
+      "cycle": 700,
+      "measuredSoh": 95.998056,
+      "dischargeCapacityAh": 0.709532
+    },
+    {
+      "cycle": 800,
+      "measuredSoh": 95.499605,
+      "dischargeCapacityAh": 0.705848
+    },
+    {
+      "cycle": 900,
+      "measuredSoh": 95.052712,
+      "dischargeCapacityAh": 0.702545
+    },
+    {
+      "cycle": 1000,
+      "measuredSoh": 94.629321,
+      "dischargeCapacityAh": 0.699416
+    },
+    {
+      "cycle": 1100,
+      "measuredSoh": 94.205561,
+      "dischargeCapacityAh": 0.696284
+    },
+    {
+      "cycle": 1200,
+      "measuredSoh": 93.797462,
+      "dischargeCapacityAh": 0.693267
+    },
+    {
+      "cycle": 1300,
+      "measuredSoh": 93.405303,
+      "dischargeCapacityAh": 0.690369
+    },
+    {
+      "cycle": 1400,
+      "measuredSoh": 93.033295,
+      "dischargeCapacityAh": 0.687619
+    },
+    {
+      "cycle": 1600,
+      "measuredSoh": 92.249525,
+      "dischargeCapacityAh": 0.681826
+    },
+    {
+      "cycle": 1800,
+      "measuredSoh": 91.445967,
+      "dischargeCapacityAh": 0.675887
+    },
+    {
+      "cycle": 1900,
+      "measuredSoh": 91.020612,
+      "dischargeCapacityAh": 0.672743
+    },
+    {
+      "cycle": 2000,
+      "measuredSoh": 90.613165,
+      "dischargeCapacityAh": 0.669732
+    },
+    {
+      "cycle": 2100,
+      "measuredSoh": 90.300179,
+      "dischargeCapacityAh": 0.667418
+    },
+    {
+      "cycle": 2200,
+      "measuredSoh": 89.831256,
+      "dischargeCapacityAh": 0.663953
+    },
+    {
+      "cycle": 2300,
+      "measuredSoh": 89.491251,
+      "dischargeCapacityAh": 0.66144
+    },
+    {
+      "cycle": 2400,
+      "measuredSoh": 89.05733,
+      "dischargeCapacityAh": 0.658232
+    },
+    {
+      "cycle": 2500,
+      "measuredSoh": 88.79614,
+      "dischargeCapacityAh": 0.656302
+    },
+    {
+      "cycle": 2600,
+      "measuredSoh": 88.319767,
+      "dischargeCapacityAh": 0.652781
+    },
+    {
+      "cycle": 2700,
+      "measuredSoh": 88.115904,
+      "dischargeCapacityAh": 0.651274
+    },
+    {
+      "cycle": 2800,
+      "measuredSoh": 87.78792,
+      "dischargeCapacityAh": 0.64885
+    },
+    {
+      "cycle": 2900,
+      "measuredSoh": 87.269965,
+      "dischargeCapacityAh": 0.645022
+    },
+    {
+      "cycle": 3000,
+      "measuredSoh": 87.154575,
+      "dischargeCapacityAh": 0.644169
+    },
+    {
+      "cycle": 3100,
+      "measuredSoh": 86.87318,
+      "dischargeCapacityAh": 0.642089
+    },
+    {
+      "cycle": 3200,
+      "measuredSoh": 86.424501,
+      "dischargeCapacityAh": 0.638773
+    },
+    {
+      "cycle": 3300,
+      "measuredSoh": 86.29547,
+      "dischargeCapacityAh": 0.637819
+    },
+    {
+      "cycle": 3500,
+      "measuredSoh": 85.535608,
+      "dischargeCapacityAh": 0.632203
+    },
+    {
+      "cycle": 3600,
+      "measuredSoh": 85.473571,
+      "dischargeCapacityAh": 0.631744
+    },
+    {
+      "cycle": 3700,
+      "measuredSoh": 85.17264,
+      "dischargeCapacityAh": 0.62952
+    },
+    {
+      "cycle": 3800,
+      "measuredSoh": 84.627462,
+      "dischargeCapacityAh": 0.625491
+    },
+    {
+      "cycle": 3900,
+      "measuredSoh": 84.596005,
+      "dischargeCapacityAh": 0.625258
+    },
+    {
+      "cycle": 4000,
+      "measuredSoh": 84.365303,
+      "dischargeCapacityAh": 0.623553
+    },
+    {
+      "cycle": 4100,
+      "measuredSoh": 83.949165,
+      "dischargeCapacityAh": 0.620477
+    },
+    {
+      "cycle": 4200,
+      "measuredSoh": 83.819444,
+      "dischargeCapacityAh": 0.619519
+    },
+    {
+      "cycle": 4300,
+      "measuredSoh": 83.560913,
+      "dischargeCapacityAh": 0.617608
+    },
+    {
+      "cycle": 4400,
+      "measuredSoh": 83.30633,
+      "dischargeCapacityAh": 0.615726
+    },
+    {
+      "cycle": 4500,
+      "measuredSoh": 82.902907,
+      "dischargeCapacityAh": 0.612744
+    },
+    {
+      "cycle": 4600,
+      "measuredSoh": 82.849488,
+      "dischargeCapacityAh": 0.61235
+    },
+    {
+      "cycle": 4800,
+      "measuredSoh": 82.37963,
+      "dischargeCapacityAh": 0.608877
+    },
+    {
+      "cycle": 5000,
+      "measuredSoh": 81.758627,
+      "dischargeCapacityAh": 0.604287
+    },
+    {
+      "cycle": 5100,
+      "measuredSoh": 81.61251,
+      "dischargeCapacityAh": 0.603207
+    },
+    {
+      "cycle": 5200,
+      "measuredSoh": 81.154788,
+      "dischargeCapacityAh": 0.599824
+    },
+    {
+      "cycle": 5300,
+      "measuredSoh": 81.159963,
+      "dischargeCapacityAh": 0.599862
+    },
+    {
+      "cycle": 5400,
+      "measuredSoh": 80.92949,
+      "dischargeCapacityAh": 0.598159
+    },
+    {
+      "cycle": 5500,
+      "measuredSoh": 80.404731,
+      "dischargeCapacityAh": 0.59428
+    },
+    {
+      "cycle": 5600,
+      "measuredSoh": 80.430089,
+      "dischargeCapacityAh": 0.594468
+    },
+    {
+      "cycle": 5700,
+      "measuredSoh": 80.21223,
+      "dischargeCapacityAh": 0.592857
+    },
+    {
+      "cycle": 5800,
+      "measuredSoh": 79.883188,
+      "dischargeCapacityAh": 0.590425
+    },
+    {
+      "cycle": 5900,
+      "measuredSoh": 79.750833,
+      "dischargeCapacityAh": 0.589447
+    },
+    {
+      "cycle": 6000,
+      "measuredSoh": 79.570913,
+      "dischargeCapacityAh": 0.588117
+    },
+    {
+      "cycle": 6100,
+      "measuredSoh": 79.224965,
+      "dischargeCapacityAh": 0.58556
+    },
+    {
+      "cycle": 6200,
+      "measuredSoh": 79.250132,
+      "dischargeCapacityAh": 0.585746
+    },
+    {
+      "cycle": 6300,
+      "measuredSoh": 79.034393,
+      "dischargeCapacityAh": 0.584152
+    },
+    {
+      "cycle": 6400,
+      "measuredSoh": 78.645268,
+      "dischargeCapacityAh": 0.581276
+    },
+    {
+      "cycle": 6500,
+      "measuredSoh": 78.696548,
+      "dischargeCapacityAh": 0.581655
+    },
+    {
+      "cycle": 6600,
+      "measuredSoh": 78.477184,
+      "dischargeCapacityAh": 0.580033
+    },
+    {
+      "cycle": 6700,
+      "measuredSoh": 78.152529,
+      "dischargeCapacityAh": 0.577634
+    },
+    {
+      "cycle": 6800,
+      "measuredSoh": 78.14651,
+      "dischargeCapacityAh": 0.577589
+    },
+    {
+      "cycle": 6900,
+      "measuredSoh": 77.987857,
+      "dischargeCapacityAh": 0.576417
+    },
+    {
+      "cycle": 7000,
+      "measuredSoh": 77.538832,
+      "dischargeCapacityAh": 0.573098
+    },
+    {
+      "cycle": 7100,
+      "measuredSoh": 77.538832,
+      "dischargeCapacityAh": 0.573098
+    },
+    {
+      "cycle": 7200,
+      "measuredSoh": 77.792311,
+      "dischargeCapacityAh": 0.574971
+    },
+    {
+      "cycle": 7300,
+      "measuredSoh": 77.395361,
+      "dischargeCapacityAh": 0.572038
+    },
+    {
+      "cycle": 7400,
+      "measuredSoh": 77.178752,
+      "dischargeCapacityAh": 0.570437
+    },
+    {
+      "cycle": 7500,
+      "measuredSoh": 76.885328,
+      "dischargeCapacityAh": 0.568268
+    },
+    {
+      "cycle": 7600,
+      "measuredSoh": 76.821069,
+      "dischargeCapacityAh": 0.567793
+    },
+    {
+      "cycle": 7700,
+      "measuredSoh": 76.680403,
+      "dischargeCapacityAh": 0.566753
+    },
+    {
+      "cycle": 7800,
+      "measuredSoh": 76.338552,
+      "dischargeCapacityAh": 0.564227
+    },
+    {
+      "cycle": 7900,
+      "measuredSoh": 76.350881,
+      "dischargeCapacityAh": 0.564318
+    },
+    {
+      "cycle": 8000,
+      "measuredSoh": 76.178884,
+      "dischargeCapacityAh": 0.563046
+    },
+    {
+      "cycle": 8100,
+      "measuredSoh": 75.768546,
+      "dischargeCapacityAh": 0.560014
+    },
+    {
+      "cycle": 8200,
+      "measuredSoh": 75.854593,
+      "dischargeCapacityAh": 0.56065
+    }
+  ]
+}
